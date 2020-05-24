@@ -18,6 +18,8 @@ Supports unidirectional, bidirectional, and dose-symmetric schemes.
 - runOnNavItem - if set to 1, does an initial realign to the selected navigator item
 - Debug - if set to 1, gives verbose output and does not suppress reports
 - shot - beam to use for tilt series data
+- multiStepTilt_StepSize (probably do not need to edit)
+    - Step size for multistep TiltTo function. Some stages cannot tilt by very large angles at once (e.g. -60 to +60). Therefore a multi-step TiltTo function is used in the Dose-Symmetric scheme. The step size can be set to a big value (like 200) to disable multi-step, which saves a few seconds when switching sides.
 
 ## Bidirectional Parameters
 - startAngleBi - starting angle

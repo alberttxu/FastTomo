@@ -38,14 +38,6 @@ endAngleUni = 60
 stepSizeUni = 3
 ###
 
-
-/*
-Step size for multistep TiltTo (probably do not need to edit)
-  Some stages cannot tilt by very large angles at once (e.g. -60 to +60).
-  Therefore a multi-step TiltTo function is used in the Dose-Symmetric scheme.
-  The step size can be set to a big value (like 200) to disable multi-step,
-    which saves a few seconds when switching sides.
-*/
 multiStepTilt_StepSize = 25
 
 ###
