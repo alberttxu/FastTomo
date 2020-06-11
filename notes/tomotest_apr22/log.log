@@ -1,0 +1,2548 @@
+Valves are now OPEN
+Refining eucentricity: Fit to 8 positions gives tilt axis Z displacement
+ of 2.36 microns and lateral displacement of -0.47 microns
+Refining eucentricity: Fit to 8 positions gives tilt axis Z displacement
+ of 0.11 microns and lateral displacement of 0.54 microns
+Refining eucentricity: Fit to 8 positions gives tilt axis Z displacement
+ of -0.02 microns and lateral displacement of 0.03 microns
+<<<< bi_eucentric >>>>
+checked = 1
+=============== starting get_IS_shifts_and_Z ===============
+Stage 158.65 -132.18 165.58
+--------------------------
+0.00 degrees
+Tilt-induced shift is  51.93, -41.26 unbinned pixels, unfiltered CCC is 0.0033
+The average drift between shots was    1.4,    0.0 unbinned pixels, 0.22 nm/sec
+Measured defocus = -4.51 microns
+--------------------------
+-2.99 degrees
+Tilt-induced shift is  51.34, -43.15 unbinned pixels, unfiltered CCC is 0.0044
+The average drift between shots was    0.4,    0.3 unbinned pixels, 0.08 nm/sec
+Measured defocus = -4.57 microns
+Image shift 0.014 0.000 IS units   23.0 10.7 unbinned pixels; need stage 0.006 -0.013 if reset
+--------------------------
+-5.99 degrees
+Tilt-induced shift is  51.37, -43.22 unbinned pixels, unfiltered CCC is 0.0045
+The average drift between shots was    0.4,    0.1 unbinned pixels, 0.06 nm/sec
+Measured defocus = -4.57 microns
+Image shift 0.033 -0.002 IS units   51.0 28.2 unbinned pixels; need stage 0.016 -0.028 if reset
+--------------------------
+-8.98 degrees
+Tilt-induced shift is  51.67, -43.45 unbinned pixels, unfiltered CCC is 0.0007
+The average drift between shots was    0.1,   -0.1 unbinned pixels, 0.02 nm/sec
+Measured defocus = -4.60 microns
+Image shift 0.060 0.001 IS units   94.9 43.8 unbinned pixels; need stage 0.024 -0.053 if reset
+--------------------------
+-11.98 degrees
+Tilt-induced shift is  51.91, -43.60 unbinned pixels, unfiltered CCC is 0.0006
+The average drift between shots was    0.3,   -0.2 unbinned pixels, 0.06 nm/sec
+Measured defocus = -4.61 microns
+Image shift 0.090 0.007 IS units   146.8 57.2 unbinned pixels; need stage 0.031 -0.083 if reset
+--------------------------
+-14.98 degrees
+Tilt-induced shift is  52.20, -43.89 unbinned pixels, unfiltered CCC is 0.0033
+The average drift between shots was    0.0,   -0.1 unbinned pixels, 0.02 nm/sec
+Measured defocus = -4.64 microns
+Image shift 0.114 0.011 IS units   188.2 69.2 unbinned pixels; need stage 0.038 -0.108 if reset
+--------------------------
+-17.97 degrees
+Tilt-induced shift is  52.19, -43.91 unbinned pixels, unfiltered CCC is 0.0017
+The average drift between shots was    0.2,   -0.2 unbinned pixels, 0.04 nm/sec
+Measured defocus = -4.64 microns
+Image shift 0.144 0.019 IS units   241.4 78.9 unbinned pixels; need stage 0.043 -0.141 if reset
+--------------------------
+-20.97 degrees
+Tilt-induced shift is  52.47, -44.03 unbinned pixels, unfiltered CCC is 0.0011
+The average drift between shots was    0.2,   -0.2 unbinned pixels, 0.04 nm/sec
+Measured defocus = -4.66 microns
+Image shift 0.169 0.025 IS units   285.3 88.8 unbinned pixels; need stage 0.048 -0.170 if reset
+--------------------------
+-23.96 degrees
+Tilt-induced shift is  52.34, -44.28 unbinned pixels, unfiltered CCC is 0.0036
+The average drift between shots was   -0.3,   -0.3 unbinned pixels, 0.07 nm/sec
+Measured defocus = -4.67 microns
+Image shift 0.202 0.037 IS units   347.1 96.3 unbinned pixels; need stage 0.052 -0.211 if reset
+--------------------------
+-26.96 degrees
+Tilt-induced shift is  53.01, -44.30 unbinned pixels, unfiltered CCC is 0.0017
+The average drift between shots was   -1.3,   -0.2 unbinned pixels, 0.21 nm/sec
+Measured defocus = -4.70 microns
+Image shift 0.222 0.049 IS units   386.1 92.4 unbinned pixels; need stage 0.049 -0.241 if reset
+--------------------------
+-29.95 degrees
+Tilt-induced shift is  53.02, -44.44 unbinned pixels, unfiltered CCC is 0.0057
+The average drift between shots was   -1.4,   -0.2 unbinned pixels, 0.22 nm/sec
+Measured defocus = -4.71 microns
+Image shift 0.231 0.065 IS units   412.9 74.1 unbinned pixels; need stage 0.039 -0.265 if reset
+--------------------------
+-32.95 degrees
+Tilt-induced shift is  53.25, -44.47 unbinned pixels, unfiltered CCC is 0.0017
+The average drift between shots was   -1.4,   -0.3 unbinned pixels, 0.23 nm/sec
+Measured defocus = -4.72 microns
+Image shift 0.235 0.092 IS units   438.3 35.6 unbinned pixels; need stage 0.017 -0.290 if reset
+--------------------------
+-35.94 degrees
+Tilt-induced shift is  53.05, -44.62 unbinned pixels, unfiltered CCC is 0.0032
+The average drift between shots was   -1.3,    0.0 unbinned pixels, 0.21 nm/sec
+Measured defocus = -4.72 microns
+Image shift 0.225 0.101 IS units   428.8 14.3 unbinned pixels; need stage 0.005 -0.294 if reset
+--------------------------
+-38.94 degrees
+Tilt-induced shift is  52.52, -44.42 unbinned pixels, unfiltered CCC is 0.0003
+The average drift between shots was   -0.9,    0.2 unbinned pixels, 0.15 nm/sec
+Measured defocus = -4.68 microns
+Image shift 0.226 0.103 IS units   432.8 12.7 unbinned pixels; need stage 0.004 -0.309 if reset
+--------------------------
+-41.93 degrees
+Tilt-induced shift is  52.22, -44.02 unbinned pixels, unfiltered CCC is 0.0003
+The average drift between shots was   -0.9,    0.2 unbinned pixels, 0.15 nm/sec
+Measured defocus = -4.65 microns
+Image shift 0.237 0.109 IS units   454.2 11.3 unbinned pixels; need stage 0.003 -0.339 if reset
+--------------------------
+-44.93 degrees
+Tilt-induced shift is  51.99, -44.08 unbinned pixels, unfiltered CCC is 0.0057
+The average drift between shots was   -1.0,    0.1 unbinned pixels, 0.15 nm/sec
+Measured defocus = -4.64 microns
+Image shift 0.260 0.121 IS units   499.4 9.3 unbinned pixels; need stage 0.002 -0.392 if reset
+--------------------------
+-47.92 degrees
+Tilt-induced shift is  51.77, -44.02 unbinned pixels, unfiltered CCC is 0.0024
+The average drift between shots was   -0.8,    0.1 unbinned pixels, 0.13 nm/sec
+Measured defocus = -4.63 microns
+Image shift 0.287 0.136 IS units   553.3 8.1 unbinned pixels; need stage 0.000 -0.459 if reset
+--------------------------
+-50.92 degrees
+Tilt-induced shift is  51.29, -43.82 unbinned pixels, unfiltered CCC is 0.0020
+The average drift between shots was   -0.7,    0.1 unbinned pixels, 0.12 nm/sec
+Measured defocus = -4.59 microns
+Image shift 0.324 0.155 IS units   624.9 5.1 unbinned pixels; need stage -0.002 -0.551 if reset
+--------------------------
+-53.91 degrees
+Tilt-induced shift is  51.26, -43.81 unbinned pixels, unfiltered CCC is 0.0027
+The average drift between shots was   -0.6,    0.0 unbinned pixels, 0.10 nm/sec
+Measured defocus = -4.59 microns
+Image shift 0.353 0.170 IS units   681.6 4.0 unbinned pixels; need stage -0.003 -0.643 if reset
+--------------------------
+-56.91 degrees
+Tilt-induced shift is  50.64, -43.59 unbinned pixels, unfiltered CCC is 0.0072
+The average drift between shots was   -0.5,    0.1 unbinned pixels, 0.09 nm/sec
+Measured defocus = -4.55 microns
+Image shift 0.389 0.190 IS units   753.5 1.5 unbinned pixels; need stage -0.005 -0.767 if reset
+--------------------------
+-59.91 degrees
+Tilt-induced shift is  50.47, -43.58 unbinned pixels, unfiltered CCC is 0.0090
+The average drift between shots was   -0.5,    0.2 unbinned pixels, 0.08 nm/sec
+Measured defocus = -4.54 microns
+Image shift 0.426 0.209 IS units   825.5 -1.0 unbinned pixels; need stage -0.007 -0.915 if reset
+--------------------------
+-0.00 degrees
+Tilt-induced shift is  50.55, -43.64 unbinned pixels, unfiltered CCC is 0.0036
+The average drift between shots was    1.7,   -0.5 unbinned pixels, 0.28 nm/sec
+Measured defocus = -4.55 microns
+--------------------------
+2.99 degrees
+Tilt-induced shift is  50.47, -43.15 unbinned pixels, unfiltered CCC is 0.0024
+The average drift between shots was    1.6,    0.1 unbinned pixels, 0.25 nm/sec
+Measured defocus = -4.52 microns
+Image shift 0.036 0.019 IS units   70.2 -1.6 unbinned pixels; need stage -0.001 -0.039 if reset
+--------------------------
+5.99 degrees
+Tilt-induced shift is  50.29, -42.82 unbinned pixels, unfiltered CCC is 0.0021
+The average drift between shots was    1.8,    0.2 unbinned pixels, 0.28 nm/sec
+Measured defocus = -4.50 microns
+Image shift 0.077 0.039 IS units   150.4 -2.7 unbinned pixels; need stage -0.003 -0.084 if reset
+--------------------------
+8.98 degrees
+Tilt-induced shift is  49.82, -42.53 unbinned pixels, unfiltered CCC is 0.0030
+The average drift between shots was    2.0,    0.2 unbinned pixels, 0.31 nm/sec
+Measured defocus = -4.46 microns
+Image shift 0.122 0.062 IS units   238.0 -4.4 unbinned pixels; need stage -0.004 -0.134 if reset
+--------------------------
+11.98 degrees
+Tilt-induced shift is  49.46, -42.16 unbinned pixels, unfiltered CCC is 0.0014
+The average drift between shots was    2.1,    0.2 unbinned pixels, 0.33 nm/sec
+Measured defocus = -4.42 microns
+Image shift 0.164 0.084 IS units   321.4 -6.2 unbinned pixels; need stage -0.006 -0.183 if reset
+--------------------------
+14.98 degrees
+Tilt-induced shift is  48.86, -41.67 unbinned pixels, unfiltered CCC is 0.0045
+The average drift between shots was    2.6,    0.2 unbinned pixels, 0.41 nm/sec
+Measured defocus = -4.37 microns
+Image shift 0.211 0.109 IS units   412.1 -8.3 unbinned pixels; need stage -0.008 -0.237 if reset
+--------------------------
+17.98 degrees
+Tilt-induced shift is  48.39, -41.25 unbinned pixels, unfiltered CCC is 0.0061
+The average drift between shots was    2.5,    0.0 unbinned pixels, 0.40 nm/sec
+Measured defocus = -4.33 microns
+Image shift 0.259 0.134 IS units   506.2 -10.8 unbinned pixels; need stage -0.010 -0.296 if reset
+--------------------------
+20.98 degrees
+Tilt-induced shift is  48.03, -41.02 unbinned pixels, unfiltered CCC is 0.0037
+The average drift between shots was    2.6,    0.1 unbinned pixels, 0.40 nm/sec
+Measured defocus = -4.30 microns
+Image shift 0.311 0.161 IS units   608.6 -13.9 unbinned pixels; need stage -0.012 -0.362 if reset
+--------------------------
+23.97 degrees
+Tilt-induced shift is  47.38, -40.51 unbinned pixels, unfiltered CCC is 0.0024
+The average drift between shots was    2.5,    0.2 unbinned pixels, 0.39 nm/sec
+Measured defocus = -4.24 microns
+Image shift 0.361 0.188 IS units   708.1 -16.6 unbinned pixels; need stage -0.015 -0.431 if reset
+--------------------------
+26.97 degrees
+Tilt-induced shift is  46.97, -40.22 unbinned pixels, unfiltered CCC is 0.0008
+The average drift between shots was    2.3,    0.1 unbinned pixels, 0.37 nm/sec
+Measured defocus = -4.21 microns
+Image shift 0.408 0.213 IS units   799.4 -20.2 unbinned pixels; need stage -0.017 -0.498 if reset
+--------------------------
+29.97 degrees
+Tilt-induced shift is  46.42, -39.89 unbinned pixels, unfiltered CCC is 0.0005
+The average drift between shots was    2.3,    0.1 unbinned pixels, 0.37 nm/sec
+Measured defocus = -4.17 microns
+Image shift 0.451 0.237 IS units   885.9 -24.2 unbinned pixels; need stage -0.020 -0.568 if reset
+--------------------------
+32.97 degrees
+Tilt-induced shift is  45.94, -39.46 unbinned pixels, unfiltered CCC is 0.0039
+The average drift between shots was    2.2,    0.1 unbinned pixels, 0.35 nm/sec
+Measured defocus = -4.12 microns
+Image shift 0.491 0.259 IS units   964.4 -29.2 unbinned pixels; need stage -0.024 -0.639 if reset
+--------------------------
+35.97 degrees
+Tilt-induced shift is  45.37, -39.06 unbinned pixels, unfiltered CCC is 0.0050
+The average drift between shots was    2.2,    0.1 unbinned pixels, 0.35 nm/sec
+Measured defocus = -4.07 microns
+Image shift 0.534 0.283 IS units   1051.2 -33.8 unbinned pixels; need stage -0.027 -0.722 if reset
+--------------------------
+38.96 degrees
+Tilt-induced shift is  44.91, -38.71 unbinned pixels, unfiltered CCC is 0.0017
+The average drift between shots was    2.1,    0.2 unbinned pixels, 0.34 nm/sec
+Measured defocus = -4.03 microns
+Image shift 0.574 0.307 IS units   1130.1 -40.1 unbinned pixels; need stage -0.031 -0.808 if reset
+--------------------------
+41.96 degrees
+Tilt-induced shift is  44.24, -38.15 unbinned pixels, unfiltered CCC is 0.0057
+The average drift between shots was    1.6,    0.2 unbinned pixels, 0.26 nm/sec
+Measured defocus = -3.97 microns
+Image shift 0.612 0.330 IS units   1206.9 -46.6 unbinned pixels; need stage -0.035 -0.902 if reset
+--------------------------
+44.96 degrees
+Tilt-induced shift is  43.31, -37.38 unbinned pixels, unfiltered CCC is 0.0021
+The average drift between shots was    1.6,    0.1 unbinned pixels, 0.25 nm/sec
+Measured defocus = -3.89 microns
+Image shift 0.641 0.349 IS units   1267.8 -53.5 unbinned pixels; need stage -0.040 -0.996 if reset
+--------------------------
+47.96 degrees
+Tilt-induced shift is  42.63, -36.91 unbinned pixels, unfiltered CCC is 0.0053
+The average drift between shots was    1.5,    0.2 unbinned pixels, 0.24 nm/sec
+Measured defocus = -3.84 microns
+Image shift 0.666 0.366 IS units   1318.9 -62.4 unbinned pixels; need stage -0.045 -1.094 if reset
+--------------------------
+50.95 degrees
+Tilt-induced shift is  42.09, -36.65 unbinned pixels, unfiltered CCC is 0.0072
+The average drift between shots was    1.3,    0.1 unbinned pixels, 0.21 nm/sec
+Measured defocus = -3.80 microns
+Image shift 0.687 0.382 IS units   1364.1 -70.8 unbinned pixels; need stage -0.050 -1.203 if reset
+--------------------------
+53.95 degrees
+Tilt-induced shift is  41.74, -36.16 unbinned pixels, unfiltered CCC is 0.0132
+The average drift between shots was    1.0,    0.1 unbinned pixels, 0.16 nm/sec
+Measured defocus = -3.76 microns
+Image shift 0.707 0.397 IS units   1406.6 -78.8 unbinned pixels; need stage -0.055 -1.328 if reset
+--------------------------
+56.95 degrees
+Tilt-induced shift is  41.10, -35.77 unbinned pixels, unfiltered CCC is 0.0185
+The average drift between shots was    0.5,    0.3 unbinned pixels, 0.10 nm/sec
+Measured defocus = -3.71 microns
+Image shift 0.720 0.409 IS units   1436.3 -87.7 unbinned pixels; need stage -0.060 -1.463 if reset
+--------------------------
+59.94 degrees
+Tilt-induced shift is  40.69, -35.43 unbinned pixels, unfiltered CCC is 0.0246
+The average drift between shots was    0.3,    0.3 unbinned pixels, 0.06 nm/sec
+Measured defocus = -3.67 microns
+Image shift 0.728 0.421 IS units   1457.1 -100.4 unbinned pixels; need stage -0.067 -1.617 if reset
+<<<< bi_zm2 >>>>
+checked = 1
+=============== starting get_IS_shifts_and_Z ===============
+Stage 158.65 -132.27 163.58
+--------------------------
+0.01 degrees
+Tilt-induced shift is  67.02, -56.02 unbinned pixels, unfiltered CCC is 0.0043
+The average drift between shots was   -2.6,   -0.2 unbinned pixels, 0.42 nm/sec
+Measured defocus = -5.95 microns
+--------------------------
+-2.99 degrees
+Tilt-induced shift is  67.21, -56.01 unbinned pixels, unfiltered CCC is 0.0048
+The average drift between shots was   -2.2,   -0.4 unbinned pixels, 0.36 nm/sec
+Measured defocus = -5.96 microns
+Image shift -0.109 -0.062 IS units   -216.9 13.4 unbinned pixels; need stage 0.009 0.121 if reset
+--------------------------
+-5.99 degrees
+Tilt-induced shift is  67.33, -56.11 unbinned pixels, unfiltered CCC is 0.0026
+The average drift between shots was   -2.4,   -0.4 unbinned pixels, 0.38 nm/sec
+Measured defocus = -5.97 microns
+Image shift -0.189 -0.102 IS units   -373.4 13.9 unbinned pixels; need stage 0.011 0.209 if reset
+--------------------------
+-8.98 degrees
+Tilt-induced shift is  67.55, -56.07 unbinned pixels, unfiltered CCC is 0.0027
+The average drift between shots was   -2.2,   -0.4 unbinned pixels, 0.36 nm/sec
+Measured defocus = -5.98 microns
+Image shift -0.265 -0.140 IS units   -520.5 15.8 unbinned pixels; need stage 0.013 0.293 if reset
+--------------------------
+-11.98 degrees
+Tilt-induced shift is  67.42, -56.02 unbinned pixels, unfiltered CCC is 0.0009
+The average drift between shots was   -2.5,   -0.4 unbinned pixels, 0.39 nm/sec
+Measured defocus = -5.97 microns
+Image shift -0.334 -0.175 IS units   -655.6 17.7 unbinned pixels; need stage 0.015 0.372 if reset
+--------------------------
+-14.97 degrees
+Tilt-induced shift is  67.10, -55.97 unbinned pixels, unfiltered CCC is 0.0017
+The average drift between shots was   -2.0,   -0.3 unbinned pixels, 0.33 nm/sec
+Measured defocus = -5.95 microns
+Image shift -0.410 -0.215 IS units   -805.5 21.5 unbinned pixels; need stage 0.018 0.463 if reset
+--------------------------
+-17.97 degrees
+Tilt-induced shift is  66.68, -55.55 unbinned pixels, unfiltered CCC is 0.0054
+The average drift between shots was   -2.1,   -0.5 unbinned pixels, 0.34 nm/sec
+Measured defocus = -5.91 microns
+Image shift -0.468 -0.242 IS units   -916.2 19.5 unbinned pixels; need stage 0.018 0.535 if reset
+--------------------------
+-20.96 degrees
+Tilt-induced shift is  66.33, -55.18 unbinned pixels, unfiltered CCC is 0.0045
+The average drift between shots was   -2.2,   -0.5 unbinned pixels, 0.35 nm/sec
+Measured defocus = -5.88 microns
+Image shift -0.525 -0.270 IS units   -1026.7 19.7 unbinned pixels; need stage 0.019 0.611 if reset
+--------------------------
+-23.96 degrees
+Tilt-induced shift is  65.80, -54.71 unbinned pixels, unfiltered CCC is 0.0019
+The average drift between shots was   -2.2,   -0.4 unbinned pixels, 0.35 nm/sec
+Measured defocus = -5.83 microns
+Image shift -0.570 -0.291 IS units   -1112.3 18.2 unbinned pixels; need stage 0.019 0.676 if reset
+--------------------------
+-26.96 degrees
+Tilt-induced shift is  65.21, -54.12 unbinned pixels, unfiltered CCC is 0.0036
+The average drift between shots was   -1.8,   -0.4 unbinned pixels, 0.30 nm/sec
+Measured defocus = -5.77 microns
+Image shift -0.605 -0.302 IS units   -1176.7 8.9 unbinned pixels; need stage 0.014 0.733 if reset
+--------------------------
+-29.95 degrees
+Tilt-induced shift is  64.36, -53.59 unbinned pixels, unfiltered CCC is 0.0007
+The average drift between shots was   -1.6,   -0.3 unbinned pixels, 0.26 nm/sec
+Measured defocus = -5.70 microns
+Image shift -0.638 -0.305 IS units   -1231.9 -11.4 unbinned pixels; need stage 0.003 0.790 if reset
+--------------------------
+-32.95 degrees
+Tilt-induced shift is  63.81, -52.99 unbinned pixels, unfiltered CCC is 0.0008
+The average drift between shots was   -2.1,   -0.1 unbinned pixels, 0.33 nm/sec
+Measured defocus = -5.65 microns
+Image shift -0.681 -0.304 IS units   -1298.5 -45.2 unbinned pixels; need stage -0.016 0.860 if reset
+--------------------------
+-35.94 degrees
+Tilt-induced shift is  62.68, -52.43 unbinned pixels, unfiltered CCC is 0.0014
+The average drift between shots was   -1.5,    0.1 unbinned pixels, 0.23 nm/sec
+Measured defocus = -5.57 microns
+Image shift -0.731 -0.319 IS units   -1388.0 -60.0 unbinned pixels; need stage -0.023 0.953 if reset
+--------------------------
+-38.94 degrees
+Tilt-induced shift is  61.50, -51.57 unbinned pixels, unfiltered CCC is -0.0022
+The average drift between shots was   -1.3,    0.1 unbinned pixels, 0.21 nm/sec
+Measured defocus = -5.47 microns
+Image shift -0.764 -0.334 IS units   -1450.8 -61.6 unbinned pixels; need stage -0.024 1.036 if reset
+--------------------------
+-41.93 degrees
+Tilt-induced shift is  60.20, -50.83 unbinned pixels, unfiltered CCC is -0.0030
+The average drift between shots was   -1.0,    0.2 unbinned pixels, 0.17 nm/sec
+Measured defocus = -5.36 microns
+Image shift -0.780 -0.341 IS units   -1482.1 -62.6 unbinned pixels; need stage -0.024 1.107 if reset
+--------------------------
+-44.92 degrees
+Tilt-induced shift is  59.15, -49.84 unbinned pixels, unfiltered CCC is -0.0043
+The average drift between shots was   -1.3,    0.3 unbinned pixels, 0.21 nm/sec
+Measured defocus = -5.27 microns
+Image shift -0.782 -0.342 IS units   -1485.8 -63.4 unbinned pixels; need stage -0.025 1.166 if reset
+--------------------------
+-47.92 degrees
+Tilt-induced shift is  58.13, -49.07 unbinned pixels, unfiltered CCC is 0.0005
+The average drift between shots was   -1.4,    0.4 unbinned pixels, 0.23 nm/sec
+Measured defocus = -5.18 microns
+Image shift -0.777 -0.340 IS units   -1476.4 -63.3 unbinned pixels; need stage -0.025 1.224 if reset
+--------------------------
+-50.92 degrees
+Tilt-induced shift is  57.07, -48.22 unbinned pixels, unfiltered CCC is -0.0016
+The average drift between shots was   -1.4,    0.3 unbinned pixels, 0.22 nm/sec
+Measured defocus = -5.09 microns
+Image shift -0.764 -0.333 IS units   -1451.6 -63.5 unbinned pixels; need stage -0.025 1.279 if reset
+--------------------------
+-53.91 degrees
+Tilt-induced shift is  55.84, -47.41 unbinned pixels, unfiltered CCC is 0.0037
+The average drift between shots was   -1.0,    0.2 unbinned pixels, 0.16 nm/sec
+Measured defocus = -4.99 microns
+Image shift -0.749 -0.325 IS units   -1421.7 -64.4 unbinned pixels; need stage -0.026 1.341 if reset
+--------------------------
+-56.91 degrees
+Tilt-induced shift is  54.38, -46.36 unbinned pixels, unfiltered CCC is 0.0079
+The average drift between shots was   -1.3,    0.5 unbinned pixels, 0.23 nm/sec
+Measured defocus = -4.87 microns
+Image shift -0.729 -0.314 IS units   -1381.4 -65.3 unbinned pixels; need stage -0.026 1.406 if reset
+--------------------------
+-59.91 degrees
+Tilt-induced shift is  53.25, -45.47 unbinned pixels, unfiltered CCC is 0.0038
+The average drift between shots was   -1.1,    0.7 unbinned pixels, 0.20 nm/sec
+Measured defocus = -4.77 microns
+Image shift -0.704 -0.302 IS units   -1333.5 -66.6 unbinned pixels; need stage -0.028 1.478 if reset
+--------------------------
+-0.00 degrees
+Tilt-induced shift is  66.63, -56.46 unbinned pixels, unfiltered CCC is 0.0094
+The average drift between shots was    1.4,   -0.0 unbinned pixels, 0.23 nm/sec
+Measured defocus = -5.95 microns
+--------------------------
+3.00 degrees
+Tilt-induced shift is  66.40, -56.24 unbinned pixels, unfiltered CCC is 0.0058
+The average drift between shots was    1.7,    0.1 unbinned pixels, 0.28 nm/sec
+Measured defocus = -5.93 microns
+Image shift 0.090 0.047 IS units   175.5 -4.3 unbinned pixels; need stage -0.004 -0.098 if reset
+--------------------------
+6.00 degrees
+Tilt-induced shift is  66.20, -56.02 unbinned pixels, unfiltered CCC is 0.0048
+The average drift between shots was    2.3,    0.2 unbinned pixels, 0.37 nm/sec
+Measured defocus = -5.91 microns
+Image shift 0.185 0.096 IS units   362.2 -8.0 unbinned pixels; need stage -0.007 -0.202 if reset
+--------------------------
+8.99 degrees
+Tilt-induced shift is  65.94, -55.72 unbinned pixels, unfiltered CCC is 0.0075
+The average drift between shots was    1.7,    0.2 unbinned pixels, 0.28 nm/sec
+Measured defocus = -5.88 microns
+Image shift 0.285 0.146 IS units   556.7 -10.5 unbinned pixels; need stage -0.010 -0.313 if reset
+--------------------------
+11.99 degrees
+Tilt-induced shift is  65.17, -55.34 unbinned pixels, unfiltered CCC is 0.0097
+The average drift between shots was    2.6,    0.1 unbinned pixels, 0.41 nm/sec
+Measured defocus = -5.82 microns
+Image shift 0.383 0.197 IS units   749.1 -15.3 unbinned pixels; need stage -0.014 -0.426 if reset
+--------------------------
+14.99 degrees
+Tilt-induced shift is  64.61, -54.85 unbinned pixels, unfiltered CCC is 0.0093
+The average drift between shots was    3.2,    0.1 unbinned pixels, 0.51 nm/sec
+Measured defocus = -5.77 microns
+Image shift 0.482 0.248 IS units   942.9 -19.3 unbinned pixels; need stage -0.018 -0.542 if reset
+--------------------------
+17.98 degrees
+Tilt-induced shift is  64.12, -54.42 unbinned pixels, unfiltered CCC is 0.0108
+The average drift between shots was    2.7,    0.1 unbinned pixels, 0.43 nm/sec
+Measured defocus = -5.73 microns
+Image shift 0.583 0.300 IS units   1140.6 -23.2 unbinned pixels; need stage -0.022 -0.666 if reset
+--------------------------
+20.98 degrees
+Tilt-induced shift is  63.31, -53.75 unbinned pixels, unfiltered CCC is 0.0108
+The average drift between shots was    2.4,    0.3 unbinned pixels, 0.38 nm/sec
+Measured defocus = -5.66 microns
+Image shift 0.688 0.355 IS units   1345.2 -27.8 unbinned pixels; need stage -0.026 -0.801 if reset
+--------------------------
+23.98 degrees
+Tilt-induced shift is  62.50, -53.05 unbinned pixels, unfiltered CCC is 0.0084
+The average drift between shots was    2.3,    0.2 unbinned pixels, 0.37 nm/sec
+Measured defocus = -5.58 microns
+Image shift 0.790 0.407 IS units   1545.4 -32.2 unbinned pixels; need stage -0.030 -0.940 if reset
+--------------------------
+26.97 degrees
+Tilt-induced shift is  61.77, -52.43 unbinned pixels, unfiltered CCC is 0.0083
+The average drift between shots was    2.2,    0.1 unbinned pixels, 0.35 nm/sec
+Measured defocus = -5.52 microns
+Image shift 0.887 0.459 IS units   1736.9 -38.0 unbinned pixels; need stage -0.034 -1.083 if reset
+--------------------------
+29.97 degrees
+Tilt-induced shift is  60.89, -51.79 unbinned pixels, unfiltered CCC is 0.0081
+The average drift between shots was    2.2,    0.2 unbinned pixels, 0.35 nm/sec
+Measured defocus = -5.44 microns
+Image shift 0.979 0.507 IS units   1916.9 -43.9 unbinned pixels; need stage -0.039 -1.230 if reset
+--------------------------
+32.97 degrees
+Tilt-induced shift is  59.70, -50.94 unbinned pixels, unfiltered CCC is 0.0095
+The average drift between shots was    2.2,    0.1 unbinned pixels, 0.35 nm/sec
+Measured defocus = -5.34 microns
+Image shift 1.065 0.554 IS units   2087.2 -50.4 unbinned pixels; need stage -0.044 -1.382 if reset
+--------------------------
+35.97 degrees
+Tilt-induced shift is  58.61, -50.11 unbinned pixels, unfiltered CCC is 0.0104
+The average drift between shots was    1.9,    0.2 unbinned pixels, 0.31 nm/sec
+Measured defocus = -5.25 microns
+Image shift 1.153 0.601 IS units   2261.5 -57.0 unbinned pixels; need stage -0.049 -1.553 if reset
+--------------------------
+38.96 degrees
+Tilt-induced shift is  57.71, -49.22 unbinned pixels, unfiltered CCC is 0.0117
+The average drift between shots was    2.0,    0.2 unbinned pixels, 0.32 nm/sec
+Measured defocus = -5.16 microns
+Image shift 1.237 0.647 IS units   2426.6 -64.9 unbinned pixels; need stage -0.055 -1.734 if reset
+--------------------------
+41.96 degrees
+Tilt-induced shift is  56.63, -48.36 unbinned pixels, unfiltered CCC is 0.0110
+The average drift between shots was    1.8,    0.1 unbinned pixels, 0.28 nm/sec
+Measured defocus = -5.07 microns
+Image shift 1.316 0.691 IS units   2583.1 -72.2 unbinned pixels; need stage -0.060 -1.930 if reset
+--------------------------
+44.96 degrees
+Tilt-induced shift is  55.37, -47.50 unbinned pixels, unfiltered CCC is 0.0195
+The average drift between shots was    1.3,    0.1 unbinned pixels, 0.21 nm/sec
+Measured defocus = -4.97 microns
+Image shift 1.387 0.731 IS units   2724.8 -80.7 unbinned pixels; need stage -0.066 -2.140 if reset
+--------------------------
+47.96 degrees
+Tilt-induced shift is  54.07, -46.50 unbinned pixels, unfiltered CCC is 0.0246
+The average drift between shots was    1.4,    0.2 unbinned pixels, 0.23 nm/sec
+Measured defocus = -4.85 microns
+Image shift 1.447 0.766 IS units   2845.6 -89.9 unbinned pixels; need stage -0.072 -2.361 if reset
+--------------------------
+50.95 degrees
+Tilt-induced shift is  52.84, -45.32 unbinned pixels, unfiltered CCC is 0.0284
+The average drift between shots was    1.0,    0.2 unbinned pixels, 0.17 nm/sec
+Measured defocus = -4.74 microns
+Image shift 1.504 0.801 IS units   2961.3 -100.2 unbinned pixels; need stage -0.078 -2.612 if reset
+--------------------------
+53.95 degrees
+Tilt-induced shift is  51.73, -44.45 unbinned pixels, unfiltered CCC is 0.0275
+The average drift between shots was    0.7,    0.2 unbinned pixels, 0.11 nm/sec
+Measured defocus = -4.64 microns
+Image shift 1.557 0.833 IS units   3069.1 -109.2 unbinned pixels; need stage -0.084 -2.898 if reset
+--------------------------
+56.95 degrees
+Tilt-induced shift is  50.68, -43.76 unbinned pixels, unfiltered CCC is 0.0243
+The average drift between shots was    0.5,    0.2 unbinned pixels, 0.08 nm/sec
+Measured defocus = -4.56 microns
+Image shift 1.602 0.862 IS units   3159.8 -120.1 unbinned pixels; need stage -0.091 -3.219 if reset
+--------------------------
+59.95 degrees
+Tilt-induced shift is  49.48, -42.66 unbinned pixels, unfiltered CCC is 0.0237
+The average drift between shots was    0.1,    0.3 unbinned pixels, 0.05 nm/sec
+Measured defocus = -4.45 microns
+Image shift 1.639 0.888 IS units   3237.3 -132.2 unbinned pixels; need stage -0.098 -3.592 if reset
+<<<< bi_zm1.5 >>>>
+checked = 1
+=============== starting get_IS_shifts_and_Z ===============
+Stage 158.52 -133.89 164.07
+--------------------------
+0.01 degrees
+Tilt-induced shift is  66.34, -55.59 unbinned pixels, unfiltered CCC is 0.0195
+The average drift between shots was   -1.7,   -0.1 unbinned pixels, 0.27 nm/sec
+Measured defocus = -5.89 microns
+--------------------------
+-2.99 degrees
+Tilt-induced shift is  66.46, -55.57 unbinned pixels, unfiltered CCC is 0.0202
+The average drift between shots was   -1.9,   -0.2 unbinned pixels, 0.31 nm/sec
+Measured defocus = -5.90 microns
+Image shift -0.098 -0.055 IS units   -194.9 11.0 unbinned pixels; need stage 0.008 0.108 if reset
+--------------------------
+-5.99 degrees
+Tilt-induced shift is  66.57, -55.55 unbinned pixels, unfiltered CCC is 0.0220
+The average drift between shots was   -2.1,   -0.4 unbinned pixels, 0.35 nm/sec
+Measured defocus = -5.91 microns
+Image shift -0.170 -0.092 IS units   -335.6 12.7 unbinned pixels; need stage 0.010 0.187 if reset
+--------------------------
+-8.98 degrees
+Tilt-induced shift is  66.68, -55.61 unbinned pixels, unfiltered CCC is 0.0236
+The average drift between shots was   -2.1,   -0.3 unbinned pixels, 0.34 nm/sec
+Measured defocus = -5.91 microns
+Image shift -0.243 -0.129 IS units   -478.5 16.1 unbinned pixels; need stage 0.013 0.269 if reset
+--------------------------
+-11.98 degrees
+Tilt-induced shift is  66.74, -55.56 unbinned pixels, unfiltered CCC is 0.0258
+The average drift between shots was   -2.3,   -0.4 unbinned pixels, 0.37 nm/sec
+Measured defocus = -5.91 microns
+Image shift -0.309 -0.162 IS units   -606.3 17.3 unbinned pixels; need stage 0.014 0.344 if reset
+--------------------------
+-14.97 degrees
+Tilt-induced shift is  66.53, -55.49 unbinned pixels, unfiltered CCC is 0.0303
+The average drift between shots was   -2.1,   -0.3 unbinned pixels, 0.34 nm/sec
+Measured defocus = -5.90 microns
+Image shift -0.381 -0.201 IS units   -749.0 21.5 unbinned pixels; need stage 0.018 0.431 if reset
+--------------------------
+-17.97 degrees
+Tilt-induced shift is  66.08, -55.04 unbinned pixels, unfiltered CCC is 0.0329
+The average drift between shots was   -2.1,   -0.5 unbinned pixels, 0.34 nm/sec
+Measured defocus = -5.86 microns
+Image shift -0.437 -0.227 IS units   -857.2 20.5 unbinned pixels; need stage 0.018 0.501 if reset
+--------------------------
+-20.96 degrees
+Tilt-induced shift is  65.81, -54.77 unbinned pixels, unfiltered CCC is 0.0279
+The average drift between shots was   -2.0,   -0.4 unbinned pixels, 0.32 nm/sec
+Measured defocus = -5.83 microns
+Image shift -0.494 -0.256 IS units   -967.9 21.4 unbinned pixels; need stage 0.019 0.576 if reset
+--------------------------
+-23.96 degrees
+Tilt-induced shift is  65.30, -54.25 unbinned pixels, unfiltered CCC is 0.0303
+The average drift between shots was   -2.1,   -0.6 unbinned pixels, 0.35 nm/sec
+Measured defocus = -5.78 microns
+Image shift -0.534 -0.274 IS units   -1044.0 19.0 unbinned pixels; need stage 0.018 0.635 if reset
+--------------------------
+-26.95 degrees
+Tilt-induced shift is  64.62, -53.68 unbinned pixels, unfiltered CCC is 0.0281
+The average drift between shots was   -1.8,   -0.3 unbinned pixels, 0.29 nm/sec
+Measured defocus = -5.72 microns
+Image shift -0.568 -0.284 IS units   -1104.8 8.7 unbinned pixels; need stage 0.013 0.689 if reset
+--------------------------
+-29.94 degrees
+Tilt-induced shift is  63.71, -53.18 unbinned pixels, unfiltered CCC is 0.0293
+The average drift between shots was   -1.4,   -0.3 unbinned pixels, 0.23 nm/sec
+Measured defocus = -5.65 microns
+Image shift -0.602 -0.288 IS units   -1162.1 -11.3 unbinned pixels; need stage 0.002 0.745 if reset
+--------------------------
+-32.94 degrees
+Tilt-induced shift is  62.99, -52.64 unbinned pixels, unfiltered CCC is 0.0287
+The average drift between shots was   -1.5,   -0.1 unbinned pixels, 0.25 nm/sec
+Measured defocus = -5.59 microns
+Image shift -0.641 -0.284 IS units   -1220.8 -45.6 unbinned pixels; need stage -0.017 0.808 if reset
+--------------------------
+-35.93 degrees
+Tilt-induced shift is  62.30, -52.17 unbinned pixels, unfiltered CCC is 0.0280
+The average drift between shots was   -1.6,    0.1 unbinned pixels, 0.25 nm/sec
+Measured defocus = -5.53 microns
+Image shift -0.688 -0.297 IS units   -1304.9 -61.6 unbinned pixels; need stage -0.025 0.895 if reset
+--------------------------
+-38.93 degrees
+Tilt-induced shift is  61.01, -51.40 unbinned pixels, unfiltered CCC is 0.0284
+The average drift between shots was   -1.2,    0.2 unbinned pixels, 0.18 nm/sec
+Measured defocus = -5.43 microns
+Image shift -0.717 -0.310 IS units   -1359.9 -63.4 unbinned pixels; need stage -0.026 0.971 if reset
+--------------------------
+-41.92 degrees
+Tilt-induced shift is  59.91, -50.44 unbinned pixels, unfiltered CCC is 0.0281
+The average drift between shots was   -1.2,    0.2 unbinned pixels, 0.19 nm/sec
+Measured defocus = -5.33 microns
+Image shift -0.732 -0.317 IS units   -1388.7 -64.8 unbinned pixels; need stage -0.026 1.037 if reset
+--------------------------
+-44.92 degrees
+Tilt-induced shift is  58.82, -49.57 unbinned pixels, unfiltered CCC is 0.0285
+The average drift between shots was   -1.3,    0.3 unbinned pixels, 0.21 nm/sec
+Measured defocus = -5.24 microns
+Image shift -0.735 -0.318 IS units   -1393.8 -65.3 unbinned pixels; need stage -0.026 1.094 if reset
+--------------------------
+-47.91 degrees
+Tilt-induced shift is  57.85, -48.79 unbinned pixels, unfiltered CCC is 0.0299
+The average drift between shots was   -1.3,    0.2 unbinned pixels, 0.21 nm/sec
+Measured defocus = -5.15 microns
+Image shift -0.729 -0.314 IS units   -1381.3 -65.5 unbinned pixels; need stage -0.027 1.145 if reset
+--------------------------
+-50.91 degrees
+Tilt-induced shift is  56.62, -47.86 unbinned pixels, unfiltered CCC is 0.0229
+The average drift between shots was   -1.1,    0.1 unbinned pixels, 0.17 nm/sec
+Measured defocus = -5.05 microns
+Image shift -0.713 -0.306 IS units   -1349.9 -66.0 unbinned pixels; need stage -0.027 1.189 if reset
+--------------------------
+-53.90 degrees
+Tilt-induced shift is  55.56, -47.23 unbinned pixels, unfiltered CCC is 0.0269
+The average drift between shots was   -1.0,    0.2 unbinned pixels, 0.16 nm/sec
+Measured defocus = -4.96 microns
+Image shift -0.698 -0.299 IS units   -1320.9 -66.4 unbinned pixels; need stage -0.028 1.246 if reset
+--------------------------
+-56.90 degrees
+Tilt-induced shift is  54.05, -46.06 unbinned pixels, unfiltered CCC is 0.0237
+The average drift between shots was   -1.2,    0.4 unbinned pixels, 0.21 nm/sec
+Measured defocus = -4.83 microns
+Image shift -0.675 -0.287 IS units   -1276.8 -66.9 unbinned pixels; need stage -0.028 1.299 if reset
+--------------------------
+-59.89 degrees
+Tilt-induced shift is  52.90, -45.26 unbinned pixels, unfiltered CCC is 0.0198
+The average drift between shots was   -1.1,    0.5 unbinned pixels, 0.19 nm/sec
+Measured defocus = -4.74 microns
+Image shift -0.653 -0.276 IS units   -1234.4 -67.0 unbinned pixels; need stage -0.029 1.367 if reset
+--------------------------
+-0.00 degrees
+Tilt-induced shift is  65.82, -55.82 unbinned pixels, unfiltered CCC is 0.0291
+The average drift between shots was    1.6,   -0.0 unbinned pixels, 0.25 nm/sec
+Measured defocus = -5.88 microns
+--------------------------
+2.99 degrees
+Tilt-induced shift is  65.88, -55.73 unbinned pixels, unfiltered CCC is 0.0249
+The average drift between shots was    1.6,    0.1 unbinned pixels, 0.26 nm/sec
+Measured defocus = -5.88 microns
+Image shift 0.088 0.046 IS units   172.5 -5.0 unbinned pixels; need stage -0.004 -0.096 if reset
+--------------------------
+5.99 degrees
+Tilt-induced shift is  65.65, -55.48 unbinned pixels, unfiltered CCC is 0.0226
+The average drift between shots was    1.7,    0.2 unbinned pixels, 0.27 nm/sec
+Measured defocus = -5.85 microns
+Image shift 0.181 0.094 IS units   354.9 -8.9 unbinned pixels; need stage -0.008 -0.198 if reset
+--------------------------
+8.99 degrees
+Tilt-induced shift is  65.28, -55.14 unbinned pixels, unfiltered CCC is 0.0246
+The average drift between shots was    1.7,    0.2 unbinned pixels, 0.27 nm/sec
+Measured defocus = -5.82 microns
+Image shift 0.278 0.143 IS units   543.7 -11.4 unbinned pixels; need stage -0.010 -0.306 if reset
+--------------------------
+11.98 degrees
+Tilt-induced shift is  64.67, -54.82 unbinned pixels, unfiltered CCC is 0.0268
+The average drift between shots was    2.1,    0.2 unbinned pixels, 0.34 nm/sec
+Measured defocus = -5.77 microns
+Image shift 0.374 0.193 IS units   731.7 -16.2 unbinned pixels; need stage -0.015 -0.416 if reset
+--------------------------
+14.98 degrees
+Tilt-induced shift is  64.06, -54.26 unbinned pixels, unfiltered CCC is 0.0290
+The average drift between shots was    2.2,    0.2 unbinned pixels, 0.35 nm/sec
+Measured defocus = -5.72 microns
+Image shift 0.471 0.244 IS units   921.6 -20.3 unbinned pixels; need stage -0.018 -0.530 if reset
+--------------------------
+17.98 degrees
+Tilt-induced shift is  63.22, -53.59 unbinned pixels, unfiltered CCC is 0.0292
+The average drift between shots was    2.2,    0.2 unbinned pixels, 0.35 nm/sec
+Measured defocus = -5.64 microns
+Image shift 0.570 0.295 IS units   1116.1 -24.4 unbinned pixels; need stage -0.022 -0.652 if reset
+--------------------------
+20.98 degrees
+Tilt-induced shift is  62.55, -53.11 unbinned pixels, unfiltered CCC is 0.0338
+The average drift between shots was    2.5,    0.1 unbinned pixels, 0.40 nm/sec
+Measured defocus = -5.59 microns
+Image shift 0.671 0.347 IS units   1313.7 -29.3 unbinned pixels; need stage -0.026 -0.782 if reset
+--------------------------
+23.97 degrees
+Tilt-induced shift is  61.90, -52.47 unbinned pixels, unfiltered CCC is 0.0313
+The average drift between shots was    2.5,    0.1 unbinned pixels, 0.40 nm/sec
+Measured defocus = -5.53 microns
+Image shift 0.770 0.399 IS units   1508.4 -34.1 unbinned pixels; need stage -0.030 -0.917 if reset
+--------------------------
+26.97 degrees
+Tilt-induced shift is  61.08, -51.98 unbinned pixels, unfiltered CCC is 0.0323
+The average drift between shots was    2.4,    0.1 unbinned pixels, 0.38 nm/sec
+Measured defocus = -5.46 microns
+Image shift 0.865 0.450 IS units   1695.5 -40.2 unbinned pixels; need stage -0.035 -1.057 if reset
+--------------------------
+29.97 degrees
+Tilt-induced shift is  60.05, -51.32 unbinned pixels, unfiltered CCC is 0.0383
+The average drift between shots was    2.3,    0.1 unbinned pixels, 0.37 nm/sec
+Measured defocus = -5.38 microns
+Image shift 0.954 0.497 IS units   1870.7 -46.1 unbinned pixels; need stage -0.040 -1.200 if reset
+--------------------------
+32.97 degrees
+Tilt-induced shift is  59.03, -50.53 unbinned pixels, unfiltered CCC is 0.0388
+The average drift between shots was    2.3,    0.1 unbinned pixels, 0.36 nm/sec
+Measured defocus = -5.29 microns
+Image shift 1.039 0.543 IS units   2039.0 -53.0 unbinned pixels; need stage -0.045 -1.350 if reset
+--------------------------
+35.97 degrees
+Tilt-induced shift is  58.12, -49.55 unbinned pixels, unfiltered CCC is 0.0455
+The average drift between shots was    1.9,    0.2 unbinned pixels, 0.31 nm/sec
+Measured defocus = -5.20 microns
+Image shift 1.126 0.589 IS units   2209.5 -59.0 unbinned pixels; need stage -0.050 -1.517 if reset
+--------------------------
+38.96 degrees
+Tilt-induced shift is  57.27, -48.88 unbinned pixels, unfiltered CCC is 0.0444
+The average drift between shots was    2.0,    0.1 unbinned pixels, 0.31 nm/sec
+Measured defocus = -5.13 microns
+Image shift 1.208 0.635 IS units   2371.2 -67.1 unbinned pixels; need stage -0.055 -1.695 if reset
+--------------------------
+41.96 degrees
+Tilt-induced shift is  56.04, -48.04 unbinned pixels, unfiltered CCC is 0.0463
+The average drift between shots was    1.4,    0.2 unbinned pixels, 0.22 nm/sec
+Measured defocus = -5.02 microns
+Image shift 1.285 0.677 IS units   2523.9 -74.0 unbinned pixels; need stage -0.060 -1.886 if reset
+--------------------------
+44.96 degrees
+Tilt-induced shift is  54.75, -47.22 unbinned pixels, unfiltered CCC is 0.0441
+The average drift between shots was    1.4,    0.0 unbinned pixels, 0.22 nm/sec
+Measured defocus = -4.92 microns
+Image shift 1.353 0.716 IS units   2659.9 -83.1 unbinned pixels; need stage -0.067 -2.089 if reset
+--------------------------
+47.96 degrees
+Tilt-induced shift is  53.62, -46.06 unbinned pixels, unfiltered CCC is 0.0384
+The average drift between shots was    1.2,    0.1 unbinned pixels, 0.19 nm/sec
+Measured defocus = -4.81 microns
+Image shift 1.411 0.750 IS units   2777.4 -92.2 unbinned pixels; need stage -0.072 -2.305 if reset
+--------------------------
+50.96 degrees
+Tilt-induced shift is  52.34, -45.01 unbinned pixels, unfiltered CCC is 0.0386
+The average drift between shots was    0.9,    0.2 unbinned pixels, 0.15 nm/sec
+Measured defocus = -4.70 microns
+Image shift 1.466 0.784 IS units   2887.9 -102.0 unbinned pixels; need stage -0.079 -2.548 if reset
+--------------------------
+53.96 degrees
+Tilt-induced shift is  51.32, -44.21 unbinned pixels, unfiltered CCC is 0.0413
+The average drift between shots was    0.6,    0.2 unbinned pixels, 0.09 nm/sec
+Measured defocus = -4.61 microns
+Image shift 1.517 0.814 IS units   2991.0 -110.7 unbinned pixels; need stage -0.084 -2.825 if reset
+--------------------------
+56.95 degrees
+Tilt-induced shift is  50.01, -43.59 unbinned pixels, unfiltered CCC is 0.0510
+The average drift between shots was    0.6,    0.5 unbinned pixels, 0.12 nm/sec
+Measured defocus = -4.51 microns
+Image shift 1.560 0.842 IS units   3078.4 -120.7 unbinned pixels; need stage -0.091 -3.137 if reset
+--------------------------
+59.95 degrees
+Tilt-induced shift is  49.03, -42.39 unbinned pixels, unfiltered CCC is 0.0556
+The average drift between shots was   -0.0,    0.3 unbinned pixels, 0.04 nm/sec
+Measured defocus = -4.41 microns
+Image shift 1.595 0.866 IS units   3152.2 -132.2 unbinned pixels; need stage -0.098 -3.498 if reset
+<<<< bi_zm1 >>>>
+checked = 1
+=============== starting get_IS_shifts_and_Z ===============
+Stage 158.43 -135.40 164.56
+--------------------------
+0.00 degrees
+Tilt-induced shift is  64.63, -53.97 unbinned pixels, unfiltered CCC is 0.0496
+The average drift between shots was   -2.7,   -0.3 unbinned pixels, 0.43 nm/sec
+Measured defocus = -5.73 microns
+--------------------------
+-2.99 degrees
+Tilt-induced shift is  64.91, -53.99 unbinned pixels, unfiltered CCC is 0.0593
+The average drift between shots was   -2.1,   -0.5 unbinned pixels, 0.35 nm/sec
+Measured defocus = -5.75 microns
+Image shift -0.094 -0.053 IS units   -187.8 10.7 unbinned pixels; need stage 0.007 0.104 if reset
+--------------------------
+-5.99 degrees
+Tilt-induced shift is  65.12, -54.01 unbinned pixels, unfiltered CCC is 0.0656
+The average drift between shots was   -2.2,   -0.6 unbinned pixels, 0.36 nm/sec
+Measured defocus = -5.76 microns
+Image shift -0.161 -0.087 IS units   -317.0 12.8 unbinned pixels; need stage 0.010 0.177 if reset
+--------------------------
+-8.98 degrees
+Tilt-induced shift is  65.25, -54.03 unbinned pixels, unfiltered CCC is 0.0696
+The average drift between shots was   -2.4,   -0.6 unbinned pixels, 0.40 nm/sec
+Measured defocus = -5.77 microns
+Image shift -0.224 -0.119 IS units   -441.6 14.7 unbinned pixels; need stage 0.012 0.248 if reset
+--------------------------
+-11.98 degrees
+Tilt-induced shift is  65.24, -53.99 unbinned pixels, unfiltered CCC is 0.0709
+The average drift between shots was   -2.4,   -0.5 unbinned pixels, 0.40 nm/sec
+Measured defocus = -5.77 microns
+Image shift -0.285 -0.150 IS units   -559.8 16.1 unbinned pixels; need stage 0.013 0.318 if reset
+--------------------------
+-14.98 degrees
+Tilt-induced shift is  65.11, -53.99 unbinned pixels, unfiltered CCC is 0.0725
+The average drift between shots was   -2.4,   -0.6 unbinned pixels, 0.40 nm/sec
+Measured defocus = -5.76 microns
+Image shift -0.349 -0.183 IS units   -684.9 18.4 unbinned pixels; need stage 0.015 0.394 if reset
+--------------------------
+-17.97 degrees
+Tilt-induced shift is  64.61, -53.40 unbinned pixels, unfiltered CCC is 0.0732
+The average drift between shots was   -2.1,   -0.6 unbinned pixels, 0.35 nm/sec
+Measured defocus = -5.71 microns
+Image shift -0.401 -0.208 IS units   -785.5 18.7 unbinned pixels; need stage 0.016 0.459 if reset
+--------------------------
+-20.97 degrees
+Tilt-induced shift is  64.16, -53.17 unbinned pixels, unfiltered CCC is 0.0700
+The average drift between shots was   -2.3,   -0.6 unbinned pixels, 0.38 nm/sec
+Measured defocus = -5.68 microns
+Image shift -0.449 -0.232 IS units   -879.3 19.3 unbinned pixels; need stage 0.017 0.523 if reset
+--------------------------
+-23.96 degrees
+Tilt-induced shift is  63.51, -52.79 unbinned pixels, unfiltered CCC is 0.0717
+The average drift between shots was   -2.2,   -0.4 unbinned pixels, 0.35 nm/sec
+Measured defocus = -5.62 microns
+Image shift -0.485 -0.249 IS units   -948.5 17.9 unbinned pixels; need stage 0.017 0.577 if reset
+--------------------------
+-26.96 degrees
+Tilt-induced shift is  62.80, -52.38 unbinned pixels, unfiltered CCC is 0.0694
+The average drift between shots was   -1.9,   -0.3 unbinned pixels, 0.31 nm/sec
+Measured defocus = -5.57 microns
+Image shift -0.512 -0.255 IS units   -994.4 6.2 unbinned pixels; need stage 0.011 0.620 if reset
+--------------------------
+-29.96 degrees
+Tilt-induced shift is  62.22, -51.95 unbinned pixels, unfiltered CCC is 0.0686
+The average drift between shots was   -1.7,   -0.4 unbinned pixels, 0.29 nm/sec
+Measured defocus = -5.52 microns
+Image shift -0.538 -0.254 IS units   -1035.6 -15.0 unbinned pixels; need stage -0.001 0.664 if reset
+--------------------------
+-32.95 degrees
+Tilt-induced shift is  61.75, -51.62 unbinned pixels, unfiltered CCC is 0.0665
+The average drift between shots was   -1.7,   -0.2 unbinned pixels, 0.28 nm/sec
+Measured defocus = -5.48 microns
+Image shift -0.572 -0.248 IS units   -1085.1 -49.6 unbinned pixels; need stage -0.020 0.718 if reset
+--------------------------
+-35.94 degrees
+Tilt-induced shift is  60.96, -51.16 unbinned pixels, unfiltered CCC is 0.0628
+The average drift between shots was   -1.5,    0.1 unbinned pixels, 0.25 nm/sec
+Measured defocus = -5.42 microns
+Image shift -0.614 -0.259 IS units   -1159.1 -64.9 unbinned pixels; need stage -0.028 0.795 if reset
+--------------------------
+-38.94 degrees
+Tilt-induced shift is  59.59, -50.22 unbinned pixels, unfiltered CCC is 0.0606
+The average drift between shots was   -1.2,    0.1 unbinned pixels, 0.19 nm/sec
+Measured defocus = -5.31 microns
+Image shift -0.637 -0.269 IS units   -1203.7 -67.0 unbinned pixels; need stage -0.029 0.860 if reset
+--------------------------
+-41.93 degrees
+Tilt-induced shift is  58.55, -49.27 unbinned pixels, unfiltered CCC is 0.0577
+The average drift between shots was   -1.4,    0.1 unbinned pixels, 0.23 nm/sec
+Measured defocus = -5.21 microns
+Image shift -0.645 -0.271 IS units   -1217.1 -68.8 unbinned pixels; need stage -0.030 0.909 if reset
+--------------------------
+-44.93 degrees
+Tilt-induced shift is  57.57, -48.59 unbinned pixels, unfiltered CCC is 0.0497
+The average drift between shots was   -1.3,    0.1 unbinned pixels, 0.21 nm/sec
+Measured defocus = -5.13 microns
+Image shift -0.643 -0.270 IS units   -1212.5 -69.6 unbinned pixels; need stage -0.030 0.951 if reset
+--------------------------
+-47.93 degrees
+Tilt-induced shift is  56.66, -48.01 unbinned pixels, unfiltered CCC is 0.0450
+The average drift between shots was   -1.1,    0.1 unbinned pixels, 0.18 nm/sec
+Measured defocus = -5.06 microns
+Image shift -0.631 -0.263 IS units   -1189.7 -70.7 unbinned pixels; need stage -0.031 0.986 if reset
+--------------------------
+-50.92 degrees
+Tilt-induced shift is  55.49, -47.30 unbinned pixels, unfiltered CCC is 0.0396
+The average drift between shots was   -1.0,    0.1 unbinned pixels, 0.16 nm/sec
+Measured defocus = -4.96 microns
+Image shift -0.611 -0.253 IS units   -1150.8 -71.4 unbinned pixels; need stage -0.032 1.014 if reset
+--------------------------
+-53.92 degrees
+Tilt-induced shift is  54.40, -46.42 unbinned pixels, unfiltered CCC is 0.0350
+The average drift between shots was   -1.1,    0.3 unbinned pixels, 0.18 nm/sec
+Measured defocus = -4.87 microns
+Image shift -0.589 -0.241 IS units   -1107.9 -73.3 unbinned pixels; need stage -0.033 1.045 if reset
+--------------------------
+-56.91 degrees
+Tilt-induced shift is  53.22, -45.41 unbinned pixels, unfiltered CCC is 0.0315
+The average drift between shots was   -1.2,    0.3 unbinned pixels, 0.19 nm/sec
+Measured defocus = -4.76 microns
+Image shift -0.564 -0.228 IS units   -1057.1 -74.7 unbinned pixels; need stage -0.034 1.076 if reset
+--------------------------
+-59.91 degrees
+Tilt-induced shift is  51.92, -44.53 unbinned pixels, unfiltered CCC is 0.0307
+The average drift between shots was   -0.7,    0.1 unbinned pixels, 0.11 nm/sec
+Measured defocus = -4.66 microns
+Image shift -0.531 -0.211 IS units   -993.8 -76.5 unbinned pixels; need stage -0.036 1.101 if reset
+--------------------------
+-0.00 degrees
+Tilt-induced shift is  63.91, -54.37 unbinned pixels, unfiltered CCC is 0.0522
+The average drift between shots was    1.5,   -0.1 unbinned pixels, 0.24 nm/sec
+Measured defocus = -5.71 microns
+--------------------------
+3.00 degrees
+Tilt-induced shift is  63.68, -54.18 unbinned pixels, unfiltered CCC is 0.0617
+The average drift between shots was    1.9,    0.1 unbinned pixels, 0.30 nm/sec
+Measured defocus = -5.69 microns
+Image shift 0.080 0.043 IS units   158.2 -4.8 unbinned pixels; need stage -0.004 -0.088 if reset
+--------------------------
+6.00 degrees
+Tilt-induced shift is  63.51, -53.89 unbinned pixels, unfiltered CCC is 0.0702
+The average drift between shots was    2.7,    0.2 unbinned pixels, 0.41 nm/sec
+Measured defocus = -5.67 microns
+Image shift 0.166 0.087 IS units   326.4 -8.1 unbinned pixels; need stage -0.007 -0.182 if reset
+--------------------------
+8.99 degrees
+Tilt-induced shift is  63.16, -53.40 unbinned pixels, unfiltered CCC is 0.0719
+The average drift between shots was    2.7,    0.1 unbinned pixels, 0.44 nm/sec
+Measured defocus = -5.63 microns
+Image shift 0.256 0.132 IS units   500.7 -10.7 unbinned pixels; need stage -0.010 -0.282 if reset
+--------------------------
+11.99 degrees
+Tilt-induced shift is  62.69, -53.00 unbinned pixels, unfiltered CCC is 0.0749
+The average drift between shots was    2.3,    0.1 unbinned pixels, 0.37 nm/sec
+Measured defocus = -5.59 microns
+Image shift 0.343 0.177 IS units   672.0 -14.3 unbinned pixels; need stage -0.013 -0.382 if reset
+--------------------------
+14.99 degrees
+Tilt-induced shift is  62.19, -52.62 unbinned pixels, unfiltered CCC is 0.0744
+The average drift between shots was    2.6,    0.1 unbinned pixels, 0.40 nm/sec
+Measured defocus = -5.55 microns
+Image shift 0.433 0.224 IS units   847.6 -18.5 unbinned pixels; need stage -0.017 -0.488 if reset
+--------------------------
+17.99 degrees
+Tilt-induced shift is  61.58, -52.23 unbinned pixels, unfiltered CCC is 0.0721
+The average drift between shots was    2.4,    0.1 unbinned pixels, 0.37 nm/sec
+Measured defocus = -5.50 microns
+Image shift 0.527 0.273 IS units   1032.6 -22.6 unbinned pixels; need stage -0.020 -0.603 if reset
+--------------------------
+20.99 degrees
+Tilt-induced shift is  61.00, -51.81 unbinned pixels, unfiltered CCC is 0.0750
+The average drift between shots was    2.6,    0.1 unbinned pixels, 0.41 nm/sec
+Measured defocus = -5.45 microns
+Image shift 0.621 0.322 IS units   1216.0 -27.5 unbinned pixels; need stage -0.025 -0.724 if reset
+--------------------------
+23.98 degrees
+Tilt-induced shift is  60.13, -51.28 unbinned pixels, unfiltered CCC is 0.0783
+The average drift between shots was    2.9,    0.1 unbinned pixels, 0.46 nm/sec
+Measured defocus = -5.38 microns
+Image shift 0.713 0.371 IS units   1397.9 -33.4 unbinned pixels; need stage -0.029 -0.850 if reset
+--------------------------
+26.98 degrees
+Tilt-induced shift is  59.26, -50.67 unbinned pixels, unfiltered CCC is 0.0755
+The average drift between shots was    2.4,    0.1 unbinned pixels, 0.39 nm/sec
+Measured defocus = -5.31 microns
+Image shift 0.801 0.417 IS units   1570.5 -38.2 unbinned pixels; need stage -0.033 -0.979 if reset
+--------------------------
+29.98 degrees
+Tilt-induced shift is  58.38, -49.89 unbinned pixels, unfiltered CCC is 0.0694
+The average drift between shots was    2.3,    0.2 unbinned pixels, 0.37 nm/sec
+Measured defocus = -5.23 microns
+Image shift 0.884 0.461 IS units   1734.4 -43.7 unbinned pixels; need stage -0.038 -1.113 if reset
+--------------------------
+32.98 degrees
+Tilt-induced shift is  57.59, -49.03 unbinned pixels, unfiltered CCC is 0.0708
+The average drift between shots was    2.2,    0.2 unbinned pixels, 0.35 nm/sec
+Measured defocus = -5.15 microns
+Image shift 0.964 0.504 IS units   1890.3 -49.6 unbinned pixels; need stage -0.042 -1.252 if reset
+--------------------------
+35.97 degrees
+Tilt-induced shift is  56.78, -48.36 unbinned pixels, unfiltered CCC is 0.0656
+The average drift between shots was    1.9,    0.1 unbinned pixels, 0.30 nm/sec
+Measured defocus = -5.08 microns
+Image shift 1.044 0.548 IS units   2049.2 -56.9 unbinned pixels; need stage -0.047 -1.407 if reset
+--------------------------
+38.97 degrees
+Tilt-induced shift is  55.56, -47.72 unbinned pixels, unfiltered CCC is 0.0674
+The average drift between shots was    1.9,    0.1 unbinned pixels, 0.30 nm/sec
+Measured defocus = -4.99 microns
+Image shift 1.119 0.589 IS units   2197.7 -63.8 unbinned pixels; need stage -0.052 -1.571 if reset
+--------------------------
+41.97 degrees
+Tilt-induced shift is  54.65, -46.99 unbinned pixels, unfiltered CCC is 0.0626
+The average drift between shots was    1.6,    0.2 unbinned pixels, 0.26 nm/sec
+Measured defocus = -4.91 microns
+Image shift 1.190 0.629 IS units   2339.9 -72.1 unbinned pixels; need stage -0.058 -1.749 if reset
+--------------------------
+44.96 degrees
+Tilt-induced shift is  53.51, -46.06 unbinned pixels, unfiltered CCC is 0.0576
+The average drift between shots was    1.5,    0.1 unbinned pixels, 0.24 nm/sec
+Measured defocus = -4.81 microns
+Image shift 1.252 0.665 IS units   2464.1 -80.6 unbinned pixels; need stage -0.064 -1.935 if reset
+--------------------------
+47.96 degrees
+Tilt-induced shift is  52.41, -45.01 unbinned pixels, unfiltered CCC is 0.0514
+The average drift between shots was    1.2,    0.1 unbinned pixels, 0.13 nm/sec
+Measured defocus = -4.70 microns
+Image shift 1.306 0.698 IS units   2573.2 -91.2 unbinned pixels; need stage -0.070 -2.135 if reset
+--------------------------
+50.96 degrees
+Tilt-induced shift is  51.25, -44.27 unbinned pixels, unfiltered CCC is 0.0493
+The average drift between shots was    1.0,    0.2 unbinned pixels, 0.16 nm/sec
+Measured defocus = -4.61 microns
+Image shift 1.356 0.729 IS units   2673.8 -100.8 unbinned pixels; need stage -0.077 -2.359 if reset
+--------------------------
+53.96 degrees
+Tilt-induced shift is  50.33, -43.48 unbinned pixels, unfiltered CCC is 0.0521
+The average drift between shots was    0.7,    0.1 unbinned pixels, 0.11 nm/sec
+Measured defocus = -4.53 microns
+Image shift 1.402 0.758 IS units   2768.5 -109.8 unbinned pixels; need stage -0.082 -2.615 if reset
+--------------------------
+56.95 degrees
+Tilt-induced shift is  49.16, -42.54 unbinned pixels, unfiltered CCC is 0.0525
+The average drift between shots was    0.5,    0.3 unbinned pixels, 0.09 nm/sec
+Measured defocus = -4.42 microns
+Image shift 1.441 0.783 IS units   2848.0 -119.9 unbinned pixels; need stage -0.089 -2.902 if reset
+--------------------------
+59.95 degrees
+Tilt-induced shift is  48.09, -41.72 unbinned pixels, unfiltered CCC is 0.0499
+The average drift between shots was    0.1,    0.2 unbinned pixels, 0.04 nm/sec
+Measured defocus = -4.33 microns
+Image shift 1.471 0.806 IS units   2913.1 -133.1 unbinned pixels; need stage -0.097 -3.233 if reset
+<<<< bi_zm0.5 >>>>
+checked = 1
+=============== starting get_IS_shifts_and_Z ===============
+Stage 158.32 -136.77 165.03
+--------------------------
+0.01 degrees
+Tilt-induced shift is  58.40, -48.96 unbinned pixels, unfiltered CCC is 0.0381
+The average drift between shots was   -1.8,   -0.0 unbinned pixels, 0.29 nm/sec
+Measured defocus = -5.19 microns
+--------------------------
+-2.99 degrees
+Tilt-induced shift is  58.64, -48.84 unbinned pixels, unfiltered CCC is 0.0316
+The average drift between shots was   -2.1,   -0.3 unbinned pixels, 0.34 nm/sec
+Measured defocus = -5.20 microns
+Image shift -0.065 -0.035 IS units   -127.6 4.9 unbinned pixels; need stage 0.004 0.071 if reset
+--------------------------
+-5.98 degrees
+Tilt-induced shift is  58.93, -48.92 unbinned pixels, unfiltered CCC is 0.0347
+The average drift between shots was   -2.1,   -0.4 unbinned pixels, 0.34 nm/sec
+Measured defocus = -5.22 microns
+Image shift -0.111 -0.060 IS units   -219.3 8.4 unbinned pixels; need stage 0.006 0.123 if reset
+--------------------------
+-8.98 degrees
+Tilt-induced shift is  58.99, -48.93 unbinned pixels, unfiltered CCC is 0.0407
+The average drift between shots was   -2.3,   -0.4 unbinned pixels, 0.37 nm/sec
+Measured defocus = -5.22 microns
+Image shift -0.155 -0.082 IS units   -303.9 9.1 unbinned pixels; need stage 0.007 0.171 if reset
+--------------------------
+-11.98 degrees
+Tilt-induced shift is  58.97, -48.93 unbinned pixels, unfiltered CCC is 0.0461
+The average drift between shots was   -2.4,   -0.4 unbinned pixels, 0.39 nm/sec
+Measured defocus = -5.22 microns
+Image shift -0.196 -0.102 IS units   -383.5 8.8 unbinned pixels; need stage 0.008 0.218 if reset
+--------------------------
+-14.97 degrees
+Tilt-induced shift is  59.05, -48.84 unbinned pixels, unfiltered CCC is 0.0463
+The average drift between shots was   -2.4,   -0.5 unbinned pixels, 0.39 nm/sec
+Measured defocus = -5.22 microns
+Image shift -0.240 -0.124 IS units   -470.2 9.9 unbinned pixels; need stage 0.009 0.270 if reset
+--------------------------
+-17.97 degrees
+Tilt-induced shift is  58.60, -48.65 unbinned pixels, unfiltered CCC is 0.0491
+The average drift between shots was   -2.4,   -0.6 unbinned pixels, 0.39 nm/sec
+Measured defocus = -5.19 microns
+Image shift -0.273 -0.138 IS units   -531.9 7.8 unbinned pixels; need stage 0.008 0.311 if reset
+--------------------------
+-20.97 degrees
+Tilt-induced shift is  58.32, -48.44 unbinned pixels, unfiltered CCC is 0.0515
+The average drift between shots was   -2.2,   -0.5 unbinned pixels, 0.36 nm/sec
+Measured defocus = -5.16 microns
+Image shift -0.304 -0.155 IS units   -593.4 9.1 unbinned pixels; need stage 0.010 0.353 if reset
+--------------------------
+-23.96 degrees
+Tilt-induced shift is  57.91, -48.12 unbinned pixels, unfiltered CCC is 0.0564
+The average drift between shots was   -2.1,   -0.4 unbinned pixels, 0.34 nm/sec
+Measured defocus = -5.13 microns
+Image shift -0.323 -0.162 IS units   -628.3 6.6 unbinned pixels; need stage 0.008 0.382 if reset
+--------------------------
+-26.96 degrees
+Tilt-induced shift is  57.36, -47.83 unbinned pixels, unfiltered CCC is 0.0562
+The average drift between shots was   -1.9,   -0.3 unbinned pixels, 0.30 nm/sec
+Measured defocus = -5.09 microns
+Image shift -0.332 -0.160 IS units   -642.0 -4.8 unbinned pixels; need stage 0.002 0.400 if reset
+--------------------------
+-29.95 degrees
+Tilt-induced shift is  56.75, -47.55 unbinned pixels, unfiltered CCC is 0.0565
+The average drift between shots was   -1.4,   -0.2 unbinned pixels, 0.23 nm/sec
+Measured defocus = -5.04 microns
+Image shift -0.343 -0.151 IS units   -652.8 -26.4 unbinned pixels; need stage -0.010 0.419 if reset
+--------------------------
+-32.94 degrees
+Tilt-induced shift is  56.30, -47.18 unbinned pixels, unfiltered CCC is 0.0597
+The average drift between shots was   -1.5,   -0.2 unbinned pixels, 0.24 nm/sec
+Measured defocus = -5.00 microns
+Image shift -0.359 -0.135 IS units   -665.6 -62.3 unbinned pixels; need stage -0.030 0.441 if reset
+--------------------------
+-35.94 degrees
+Tilt-induced shift is  55.59, -46.83 unbinned pixels, unfiltered CCC is 0.0581
+The average drift between shots was   -1.4,    0.0 unbinned pixels, 0.23 nm/sec
+Measured defocus = -4.95 microns
+Image shift -0.385 -0.136 IS units   -708.7 -81.2 unbinned pixels; need stage -0.040 0.486 if reset
+--------------------------
+-38.93 degrees
+Tilt-induced shift is  54.48, -45.84 unbinned pixels, unfiltered CCC is 0.0637
+The average drift between shots was   -1.5,    0.2 unbinned pixels, 0.24 nm/sec
+Measured defocus = -4.85 microns
+Image shift -0.389 -0.135 IS units   -713.3 -85.1 unbinned pixels; need stage -0.043 0.509 if reset
+--------------------------
+-41.92 degrees
+Tilt-induced shift is  53.73, -45.24 unbinned pixels, unfiltered CCC is 0.0660
+The average drift between shots was   -1.4,    0.1 unbinned pixels, 0.22 nm/sec
+Measured defocus = -4.78 microns
+Image shift -0.386 -0.133 IS units   -707.2 -87.1 unbinned pixels; need stage -0.044 0.528 if reset
+--------------------------
+-44.92 degrees
+Tilt-induced shift is  52.87, -44.66 unbinned pixels, unfiltered CCC is 0.0681
+The average drift between shots was   -1.1,    0.2 unbinned pixels, 0.19 nm/sec
+Measured defocus = -4.71 microns
+Image shift -0.370 -0.124 IS units   -675.1 -88.6 unbinned pixels; need stage -0.045 0.530 if reset
+--------------------------
+-47.92 degrees
+Tilt-induced shift is  52.07, -44.13 unbinned pixels, unfiltered CCC is 0.0678
+The average drift between shots was   -1.0,    0.1 unbinned pixels, 0.17 nm/sec
+Measured defocus = -4.65 microns
+Image shift -0.343 -0.109 IS units   -623.0 -90.7 unbinned pixels; need stage -0.046 0.516 if reset
+--------------------------
+-50.91 degrees
+Tilt-induced shift is  51.22, -43.54 unbinned pixels, unfiltered CCC is 0.0639
+The average drift between shots was   -1.0,    0.1 unbinned pixels, 0.16 nm/sec
+Measured defocus = -4.58 microns
+Image shift -0.311 -0.092 IS units   -559.1 -92.6 unbinned pixels; need stage -0.048 0.493 if reset
+--------------------------
+-53.91 degrees
+Tilt-induced shift is  50.34, -42.96 unbinned pixels, unfiltered CCC is 0.0673
+The average drift between shots was   -1.0,    0.2 unbinned pixels, 0.16 nm/sec
+Measured defocus = -4.50 microns
+Image shift -0.277 -0.074 IS units   -492.7 -95.0 unbinned pixels; need stage -0.050 0.465 if reset
+--------------------------
+-56.91 degrees
+Tilt-induced shift is  49.40, -42.17 unbinned pixels, unfiltered CCC is 0.0571
+The average drift between shots was   -1.1,    0.3 unbinned pixels, 0.18 nm/sec
+Measured defocus = -4.42 microns
+Image shift -0.239 -0.054 IS units   -417.6 -97.2 unbinned pixels; need stage -0.052 0.425 if reset
+--------------------------
+-59.90 degrees
+Tilt-induced shift is  48.44, -41.34 unbinned pixels, unfiltered CCC is 0.0539
+The average drift between shots was   -0.8,    0.1 unbinned pixels, 0.12 nm/sec
+Measured defocus = -4.33 microns
+Image shift -0.198 -0.033 IS units   -338.0 -99.3 unbinned pixels; need stage -0.053 0.374 if reset
+--------------------------
+-0.00 degrees
+Tilt-induced shift is  57.80, -49.13 unbinned pixels, unfiltered CCC is 0.0005
+The average drift between shots was    1.7,   -0.1 unbinned pixels, 0.27 nm/sec
+Measured defocus = -5.16 microns
+--------------------------
+3.00 degrees
+Tilt-induced shift is  57.87, -48.96 unbinned pixels, unfiltered CCC is -0.0004
+The average drift between shots was    1.7,    0.1 unbinned pixels, 0.27 nm/sec
+Measured defocus = -5.16 microns
+Image shift 0.060 0.032 IS units   118.1 -3.4 unbinned pixels; need stage -0.003 -0.066 if reset
+--------------------------
+5.99 degrees
+Tilt-induced shift is  57.63, -48.63 unbinned pixels, unfiltered CCC is -0.0004
+The average drift between shots was    1.8,    0.2 unbinned pixels, 0.28 nm/sec
+Measured defocus = -5.13 microns
+Image shift 0.126 0.066 IS units   247.2 -6.3 unbinned pixels; need stage -0.005 -0.138 if reset
+--------------------------
+8.99 degrees
+Tilt-induced shift is  56.46, -48.31 unbinned pixels, unfiltered CCC is -0.0029
+The average drift between shots was    2.7,    0.1 unbinned pixels, 0.43 nm/sec
+Measured defocus = -5.06 microns
+Image shift 0.195 0.101 IS units   382.9 -8.8 unbinned pixels; need stage -0.008 -0.215 if reset
+--------------------------
+11.99 degrees
+Tilt-induced shift is  56.66, -48.07 unbinned pixels, unfiltered CCC is -0.0028
+The average drift between shots was    2.1,    0.2 unbinned pixels, 0.34 nm/sec
+Measured defocus = -5.06 microns
+Image shift 0.264 0.137 IS units   517.7 -11.6 unbinned pixels; need stage -0.010 -0.294 if reset
+--------------------------
+14.98 degrees
+Tilt-induced shift is  56.08, -47.69 unbinned pixels, unfiltered CCC is -0.0006
+The average drift between shots was    2.4,    0.1 unbinned pixels, 0.38 nm/sec
+Measured defocus = -5.01 microns
+Image shift 0.334 0.173 IS units   653.8 -14.9 unbinned pixels; need stage -0.013 -0.376 if reset
+--------------------------
+17.98 degrees
+Tilt-induced shift is  55.55, -47.35 unbinned pixels, unfiltered CCC is 0.0000
+The average drift between shots was    2.3,    0.1 unbinned pixels, 0.37 nm/sec
+Measured defocus = -4.97 microns
+Image shift 0.407 0.212 IS units   798.3 -18.9 unbinned pixels; need stage -0.017 -0.466 if reset
+--------------------------
+20.98 degrees
+Tilt-induced shift is  54.97, -47.00 unbinned pixels, unfiltered CCC is -0.0016
+The average drift between shots was    2.4,    0.2 unbinned pixels, 0.38 nm/sec
+Measured defocus = -4.92 microns
+Image shift 0.482 0.251 IS units   945.5 -23.2 unbinned pixels; need stage -0.020 -0.563 if reset
+--------------------------
+23.97 degrees
+Tilt-induced shift is  54.38, -46.45 unbinned pixels, unfiltered CCC is -0.0032
+The average drift between shots was    2.5,    0.2 unbinned pixels, 0.40 nm/sec
+Measured defocus = -4.87 microns
+Image shift 0.556 0.290 IS units   1089.9 -28.3 unbinned pixels; need stage -0.024 -0.663 if reset
+--------------------------
+26.97 degrees
+Tilt-induced shift is  53.64, -45.74 unbinned pixels, unfiltered CCC is -0.0027
+The average drift between shots was    2.4,    0.1 unbinned pixels, 0.39 nm/sec
+Measured defocus = -4.80 microns
+Image shift 0.626 0.328 IS units   1228.4 -33.5 unbinned pixels; need stage -0.028 -0.766 if reset
+--------------------------
+29.97 degrees
+Tilt-induced shift is  52.94, -45.19 unbinned pixels, unfiltered CCC is -0.0017
+The average drift between shots was    2.3,    0.0 unbinned pixels, 0.37 nm/sec
+Measured defocus = -4.74 microns
+Image shift 0.691 0.363 IS units   1356.5 -39.0 unbinned pixels; need stage -0.032 -0.870 if reset
+--------------------------
+32.97 degrees
+Tilt-induced shift is  52.13, -44.60 unbinned pixels, unfiltered CCC is -0.0022
+The average drift between shots was    2.3,    0.0 unbinned pixels, 0.37 nm/sec
+Measured defocus = -4.67 microns
+Image shift 0.752 0.398 IS units   1479.3 -45.2 unbinned pixels; need stage -0.036 -0.980 if reset
+--------------------------
+35.97 degrees
+Tilt-induced shift is  51.29, -44.01 unbinned pixels, unfiltered CCC is -0.0006
+The average drift between shots was    2.0,    0.1 unbinned pixels, 0.31 nm/sec
+Measured defocus = -4.60 microns
+Image shift 0.816 0.433 IS units   1605.1 -51.8 unbinned pixels; need stage -0.041 -1.102 if reset
+--------------------------
+38.97 degrees
+Tilt-induced shift is  50.57, -43.56 unbinned pixels, unfiltered CCC is 0.0029
+The average drift between shots was    2.0,    0.1 unbinned pixels, 0.31 nm/sec
+Measured defocus = -4.54 microns
+Image shift 0.876 0.466 IS units   1723.7 -57.7 unbinned pixels; need stage -0.045 -1.232 if reset
+--------------------------
+41.96 degrees
+Tilt-induced shift is  49.90, -43.03 unbinned pixels, unfiltered CCC is 0.0008
+The average drift between shots was    1.7,    0.1 unbinned pixels, 0.27 nm/sec
+Measured defocus = -4.48 microns
+Image shift 0.932 0.499 IS units   1837.4 -66.1 unbinned pixels; need stage -0.051 -1.373 if reset
+--------------------------
+44.96 degrees
+Tilt-induced shift is  49.05, -42.24 unbinned pixels, unfiltered CCC is 0.0017
+The average drift between shots was    1.4,    0.1 unbinned pixels, 0.23 nm/sec
+Measured defocus = -4.41 microns
+Image shift 0.981 0.528 IS units   1934.8 -73.8 unbinned pixels; need stage -0.056 -1.519 if reset
+--------------------------
+47.96 degrees
+Tilt-induced shift is  48.01, -41.29 unbinned pixels, unfiltered CCC is -0.0044
+The average drift between shots was    1.0,    0.1 unbinned pixels, 0.17 nm/sec
+Measured defocus = -4.31 microns
+Image shift 1.021 0.554 IS units   2017.3 -83.1 unbinned pixels; need stage -0.062 -1.674 if reset
+--------------------------
+50.96 degrees
+Tilt-induced shift is  47.23, -40.79 unbinned pixels, unfiltered CCC is -0.0057
+The average drift between shots was    1.0,    0.2 unbinned pixels, 0.17 nm/sec
+Measured defocus = -4.25 microns
+Image shift 1.058 0.578 IS units   2093.4 -92.1 unbinned pixels; need stage -0.067 -1.847 if reset
+--------------------------
+53.95 degrees
+Tilt-induced shift is  46.70, -40.32 unbinned pixels, unfiltered CCC is 0.0010
+The average drift between shots was    0.6,    0.2 unbinned pixels, 0.10 nm/sec
+Measured defocus = -4.20 microns
+Image shift 1.093 0.600 IS units   2165.0 -100.7 unbinned pixels; need stage -0.073 -2.044 if reset
+--------------------------
+56.95 degrees
+Tilt-induced shift is  45.88, -39.75 unbinned pixels, unfiltered CCC is 0.0171
+The average drift between shots was    0.5,    0.0 unbinned pixels, 0.08 nm/sec
+Measured defocus = -4.13 microns
+Image shift 1.120 0.621 IS units   2223.1 -111.6 unbinned pixels; need stage -0.079 -2.265 if reset
+--------------------------
+59.95 degrees
+Tilt-induced shift is  45.05, -39.16 unbinned pixels, unfiltered CCC is 0.0308
+The average drift between shots was    0.1,    0.2 unbinned pixels, 0.04 nm/sec
+Measured defocus = -4.06 microns
+Image shift 1.140 0.638 IS units   2267.1 -123.2 unbinned pixels; need stage -0.086 -2.516 if reset
+<<<< bi_z0 >>>>
+checked = 1
+=============== starting get_IS_shifts_and_Z ===============
+Stage 158.25 -137.77 165.52
+--------------------------
+0.01 degrees
+Tilt-induced shift is  51.94, -43.85 unbinned pixels, unfiltered CCC is -0.0017
+The average drift between shots was   -1.8,   -0.1 unbinned pixels, 0.28 nm/sec
+Measured defocus = -4.63 microns
+--------------------------
+-2.99 degrees
+Tilt-induced shift is  52.27, -43.79 unbinned pixels, unfiltered CCC is 0.0014
+The average drift between shots was   -1.8,   -0.3 unbinned pixels, 0.30 nm/sec
+Measured defocus = -4.64 microns
+Image shift -0.049 -0.027 IS units   -96.8 5.1 unbinned pixels; need stage 0.004 0.054 if reset
+--------------------------
+-5.98 degrees
+Tilt-induced shift is  52.52, -43.80 unbinned pixels, unfiltered CCC is 0.0013
+The average drift between shots was   -2.3,   -0.4 unbinned pixels, 0.37 nm/sec
+Measured defocus = -4.66 microns
+Image shift -0.073 -0.039 IS units   -143.5 5.3 unbinned pixels; need stage 0.004 0.080 if reset
+--------------------------
+-8.98 degrees
+Tilt-induced shift is  52.81, -43.84 unbinned pixels, unfiltered CCC is 0.0045
+The average drift between shots was   -2.4,   -0.4 unbinned pixels, 0.40 nm/sec
+Measured defocus = -4.67 microns
+Image shift -0.096 -0.050 IS units   -187.9 5.1 unbinned pixels; need stage 0.004 0.106 if reset
+--------------------------
+-11.98 degrees
+Tilt-induced shift is  52.80, -43.89 unbinned pixels, unfiltered CCC is 0.0017
+The average drift between shots was   -2.5,   -0.4 unbinned pixels, 0.41 nm/sec
+Measured defocus = -4.67 microns
+Image shift -0.115 -0.059 IS units   -225.3 4.2 unbinned pixels; need stage 0.004 0.128 if reset
+--------------------------
+-14.97 degrees
+Tilt-induced shift is  52.80, -43.86 unbinned pixels, unfiltered CCC is 0.0044
+The average drift between shots was   -2.5,   -0.4 unbinned pixels, 0.40 nm/sec
+Measured defocus = -4.67 microns
+Image shift -0.138 -0.070 IS units   -270.1 4.0 unbinned pixels; need stage 0.004 0.155 if reset
+--------------------------
+-17.97 degrees
+Tilt-induced shift is  52.61, -43.64 unbinned pixels, unfiltered CCC is 0.0016
+The average drift between shots was   -2.4,   -0.5 unbinned pixels, 0.40 nm/sec
+Measured defocus = -4.65 microns
+Image shift -0.150 -0.075 IS units   -292.3 2.8 unbinned pixels; need stage 0.004 0.171 if reset
+--------------------------
+-20.97 degrees
+Tilt-induced shift is  52.27, -43.59 unbinned pixels, unfiltered CCC is 0.0009
+The average drift between shots was   -2.5,   -0.5 unbinned pixels, 0.36 nm/sec
+Measured defocus = -4.63 microns
+Image shift -0.160 -0.080 IS units   -311.8 2.0 unbinned pixels; need stage 0.003 0.186 if reset
+--------------------------
+-23.96 degrees
+Tilt-induced shift is  51.87, -43.33 unbinned pixels, unfiltered CCC is 0.0029
+The average drift between shots was   -2.3,   -0.4 unbinned pixels, 0.38 nm/sec
+Measured defocus = -4.60 microns
+Image shift -0.160 -0.078 IS units   -308.9 -0.3 unbinned pixels; need stage 0.002 0.188 if reset
+--------------------------
+-26.96 degrees
+Tilt-induced shift is  51.37, -43.11 unbinned pixels, unfiltered CCC is 0.0006
+The average drift between shots was   -2.0,   -0.3 unbinned pixels, 0.33 nm/sec
+Measured defocus = -4.57 microns
+Image shift -0.150 -0.065 IS units   -283.7 -12.9 unbinned pixels; need stage -0.005 0.177 if reset
+--------------------------
+-29.95 degrees
+Tilt-induced shift is  50.98, -42.98 unbinned pixels, unfiltered CCC is -0.0009
+The average drift between shots was   -1.9,   -0.3 unbinned pixels, 0.30 nm/sec
+Measured defocus = -4.54 microns
+Image shift -0.138 -0.044 IS units   -250.2 -36.5 unbinned pixels; need stage -0.019 0.160 if reset
+--------------------------
+-32.94 degrees
+Tilt-induced shift is  50.75, -42.76 unbinned pixels, unfiltered CCC is -0.0009
+The average drift between shots was   -1.7,   -0.2 unbinned pixels, 0.27 nm/sec
+Measured defocus = -4.52 microns
+Image shift -0.137 -0.021 IS units   -232.4 -72.2 unbinned pixels; need stage -0.039 0.154 if reset
+--------------------------
+-35.94 degrees
+Tilt-induced shift is  50.28, -42.44 unbinned pixels, unfiltered CCC is -0.0004
+The average drift between shots was   -1.5,    0.0 unbinned pixels, 0.25 nm/sec
+Measured defocus = -4.48 microns
+Image shift -0.146 -0.013 IS units   -240.1 -90.3 unbinned pixels; need stage -0.049 0.165 if reset
+--------------------------
+-38.93 degrees
+Tilt-induced shift is  49.48, -41.74 unbinned pixels, unfiltered CCC is -0.0006
+The average drift between shots was   -1.5,    0.2 unbinned pixels, 0.24 nm/sec
+Measured defocus = -4.41 microns
+Image shift -0.132 -0.003 IS units   -211.6 -94.7 unbinned pixels; need stage -0.052 0.151 if reset
+--------------------------
+-41.93 degrees
+Tilt-induced shift is  48.83, -41.29 unbinned pixels, unfiltered CCC is 0.0018
+The average drift between shots was   -1.2,    0.2 unbinned pixels, 0.18 nm/sec
+Measured defocus = -4.35 microns
+Image shift -0.115 0.006 IS units   -177.0 -96.8 unbinned pixels; need stage -0.053 0.132 if reset
+--------------------------
+-44.93 degrees
+Tilt-induced shift is  48.16, -40.80 unbinned pixels, unfiltered CCC is -0.0002
+The average drift between shots was   -1.1,    0.1 unbinned pixels, 0.18 nm/sec
+Measured defocus = -4.30 microns
+Image shift -0.079 0.025 IS units   -107.3 -98.5 unbinned pixels; need stage -0.055 0.084 if reset
+--------------------------
+-47.92 degrees
+Tilt-induced shift is  47.69, -40.60 unbinned pixels, unfiltered CCC is -0.0025
+The average drift between shots was   -1.1,    0.1 unbinned pixels, 0.17 nm/sec
+Measured defocus = -4.26 microns
+Image shift -0.038 0.047 IS units   -26.0 -101.3 unbinned pixels; need stage -0.057 0.021 if reset
+--------------------------
+-50.92 degrees
+Tilt-induced shift is  47.12, -40.29 unbinned pixels, unfiltered CCC is -0.0055
+The average drift between shots was   -1.0,    0.1 unbinned pixels, 0.16 nm/sec
+Measured defocus = -4.22 microns
+Image shift 0.008 0.071 IS units   64.9 -103.7 unbinned pixels; need stage -0.059 -0.057 if reset
+--------------------------
+-53.92 degrees
+Tilt-induced shift is  46.43, -39.74 unbinned pixels, unfiltered CCC is -0.0087
+The average drift between shots was   -1.0,    0.3 unbinned pixels, 0.16 nm/sec
+Measured defocus = -4.16 microns
+Image shift 0.056 0.096 IS units   158.1 -105.8 unbinned pixels; need stage -0.061 -0.149 if reset
+--------------------------
+-56.91 degrees
+Tilt-induced shift is  45.74, -39.42 unbinned pixels, unfiltered CCC is -0.0044
+The average drift between shots was   -1.0,    0.3 unbinned pixels, 0.17 nm/sec
+Measured defocus = -4.11 microns
+Image shift 0.107 0.123 IS units   257.5 -108.8 unbinned pixels; need stage -0.063 -0.262 if reset
+--------------------------
+-59.91 degrees
+Tilt-induced shift is  45.15, -38.78 unbinned pixels, unfiltered CCC is 0.0065
+The average drift between shots was   -0.8,    0.2 unbinned pixels, 0.11 nm/sec
+Measured defocus = -4.05 microns
+Image shift 0.158 0.150 IS units   359.2 -112.1 unbinned pixels; need stage -0.066 -0.398 if reset
+--------------------------
+-0.00 degrees
+Tilt-induced shift is  51.27, -43.98 unbinned pixels, unfiltered CCC is 0.0008
+The average drift between shots was    1.5,   -0.1 unbinned pixels, 0.23 nm/sec
+Measured defocus = -4.60 microns
+--------------------------
+2.99 degrees
+Tilt-induced shift is  51.42, -43.80 unbinned pixels, unfiltered CCC is 0.0002
+The average drift between shots was    1.6,    0.0 unbinned pixels, 0.25 nm/sec
+Measured defocus = -4.60 microns
+Image shift 0.038 0.020 IS units   75.4 -2.6 unbinned pixels; need stage -0.002 -0.042 if reset
+--------------------------
+5.99 degrees
+Tilt-induced shift is  51.03, -43.55 unbinned pixels, unfiltered CCC is -0.0006
+The average drift between shots was    1.7,    0.1 unbinned pixels, 0.27 nm/sec
+Measured defocus = -4.57 microns
+Image shift 0.082 0.043 IS units   161.2 -4.5 unbinned pixels; need stage -0.004 -0.090 if reset
+--------------------------
+8.99 degrees
+Tilt-induced shift is  50.80, -43.32 unbinned pixels, unfiltered CCC is 0.0003
+The average drift between shots was    1.8,    0.1 unbinned pixels, 0.28 nm/sec
+Measured defocus = -4.54 microns
+Image shift 0.130 0.068 IS units   254.8 -6.6 unbinned pixels; need stage -0.006 -0.143 if reset
+--------------------------
+11.98 degrees
+Tilt-induced shift is  50.36, -43.00 unbinned pixels, unfiltered CCC is -0.0000
+The average drift between shots was    2.1,    0.1 unbinned pixels, 0.33 nm/sec
+Measured defocus = -4.51 microns
+Image shift 0.177 0.092 IS units   347.7 -8.7 unbinned pixels; need stage -0.007 -0.197 if reset
+--------------------------
+14.98 degrees
+Tilt-induced shift is  49.96, -42.57 unbinned pixels, unfiltered CCC is -0.0001
+The average drift between shots was    2.4,    0.1 unbinned pixels, 0.38 nm/sec
+Measured defocus = -4.47 microns
+Image shift 0.225 0.118 IS units   442.4 -11.9 unbinned pixels; need stage -0.010 -0.254 if reset
+--------------------------
+17.98 degrees
+Tilt-induced shift is  49.63, -42.39 unbinned pixels, unfiltered CCC is 0.0019
+The average drift between shots was    2.3,    0.1 unbinned pixels, 0.36 nm/sec
+Measured defocus = -4.44 microns
+Image shift 0.279 0.146 IS units   546.9 -14.7 unbinned pixels; need stage -0.012 -0.319 if reset
+--------------------------
+20.98 degrees
+Tilt-induced shift is  49.15, -41.98 unbinned pixels, unfiltered CCC is 0.0006
+The average drift between shots was    2.4,    0.2 unbinned pixels, 0.39 nm/sec
+Measured defocus = -4.40 microns
+Image shift 0.334 0.175 IS units   655.5 -18.3 unbinned pixels; need stage -0.015 -0.390 if reset
+--------------------------
+23.97 degrees
+Tilt-induced shift is  48.51, -41.45 unbinned pixels, unfiltered CCC is 0.0017
+The average drift between shots was    2.6,    0.0 unbinned pixels, 0.42 nm/sec
+Measured defocus = -4.34 microns
+Image shift 0.387 0.204 IS units   760.3 -22.6 unbinned pixels; need stage -0.018 -0.462 if reset
+--------------------------
+26.97 degrees
+Tilt-induced shift is  47.83, -41.04 unbinned pixels, unfiltered CCC is 0.0036
+The average drift between shots was    2.6,    0.0 unbinned pixels, 0.41 nm/sec
+Measured defocus = -4.29 microns
+Image shift 0.437 0.231 IS units   860.2 -26.7 unbinned pixels; need stage -0.021 -0.536 if reset
+--------------------------
+29.97 degrees
+Tilt-induced shift is  47.13, -40.52 unbinned pixels, unfiltered CCC is 0.0034
+The average drift between shots was    2.4,    0.0 unbinned pixels, 0.39 nm/sec
+Measured defocus = -4.23 microns
+Image shift 0.484 0.257 IS units   952.9 -30.4 unbinned pixels; need stage -0.024 -0.611 if reset
+--------------------------
+32.97 degrees
+Tilt-induced shift is  46.65, -40.14 unbinned pixels, unfiltered CCC is 0.0063
+The average drift between shots was    2.1,    0.1 unbinned pixels, 0.33 nm/sec
+Measured defocus = -4.19 microns
+Image shift 0.528 0.281 IS units   1040.1 -35.4 unbinned pixels; need stage -0.028 -0.689 if reset
+--------------------------
+35.97 degrees
+Tilt-induced shift is  46.18, -39.73 unbinned pixels, unfiltered CCC is 0.0058
+The average drift between shots was    2.0,    0.0 unbinned pixels, 0.31 nm/sec
+Measured defocus = -4.15 microns
+Image shift 0.573 0.308 IS units   1130.2 -41.9 unbinned pixels; need stage -0.032 -0.776 if reset
+--------------------------
+38.96 degrees
+Tilt-induced shift is  45.67, -39.39 unbinned pixels, unfiltered CCC is 0.0062
+The average drift between shots was    1.9,    0.0 unbinned pixels, 0.30 nm/sec
+Measured defocus = -4.10 microns
+Image shift 0.616 0.332 IS units   1215.9 -47.1 unbinned pixels; need stage -0.036 -0.869 if reset
+--------------------------
+41.96 degrees
+Tilt-induced shift is  45.09, -38.95 unbinned pixels, unfiltered CCC is 0.0041
+The average drift between shots was    1.7,    0.0 unbinned pixels, 0.27 nm/sec
+Measured defocus = -4.05 microns
+Image shift 0.657 0.356 IS units   1297.6 -54.0 unbinned pixels; need stage -0.040 -0.970 if reset
+--------------------------
+44.96 degrees
+Tilt-induced shift is  44.36, -38.28 unbinned pixels, unfiltered CCC is 0.0060
+The average drift between shots was    1.3,    0.1 unbinned pixels, 0.21 nm/sec
+Measured defocus = -3.99 microns
+Image shift 0.690 0.377 IS units   1365.1 -61.1 unbinned pixels; need stage -0.045 -1.072 if reset
+--------------------------
+47.96 degrees
+Tilt-induced shift is  43.50, -37.63 unbinned pixels, unfiltered CCC is 0.0033
+The average drift between shots was    1.2,    0.1 unbinned pixels, 0.18 nm/sec
+Measured defocus = -3.91 microns
+Image shift 0.715 0.394 IS units   1417.1 -68.9 unbinned pixels; need stage -0.049 -1.176 if reset
+--------------------------
+50.96 degrees
+Tilt-induced shift is  43.00, -37.06 unbinned pixels, unfiltered CCC is 0.0053
+The average drift between shots was    1.1,    0.0 unbinned pixels, 0.17 nm/sec
+Measured defocus = -3.86 microns
+Image shift 0.739 0.412 IS units   1467.4 -77.4 unbinned pixels; need stage -0.054 -1.294 if reset
+--------------------------
+53.95 degrees
+Tilt-induced shift is  42.47, -36.70 unbinned pixels, unfiltered CCC is 0.0048
+The average drift between shots was    0.7,    0.1 unbinned pixels, 0.11 nm/sec
+Measured defocus = -3.82 microns
+Image shift 0.761 0.428 IS units   1513.6 -85.3 unbinned pixels; need stage -0.059 -1.429 if reset
+--------------------------
+56.95 degrees
+Tilt-induced shift is  41.92, -36.30 unbinned pixels, unfiltered CCC is 0.0072
+The average drift between shots was    0.4,    0.0 unbinned pixels, 0.07 nm/sec
+Measured defocus = -3.77 microns
+Image shift 0.776 0.442 IS units   1548.1 -95.4 unbinned pixels; need stage -0.065 -1.577 if reset
+--------------------------
+59.95 degrees
+Tilt-induced shift is  41.29, -35.86 unbinned pixels, unfiltered CCC is 0.0040
+The average drift between shots was    0.2,    0.2 unbinned pixels, 0.03 nm/sec
+Measured defocus = -3.72 microns
+Image shift 0.785 0.453 IS units   1570.5 -106.9 unbinned pixels; need stage -0.072 -1.743 if reset
+<<<< bi_zp0.5 >>>>
+checked = 1
+=============== starting get_IS_shifts_and_Z ===============
+Stage 158.17 -138.40 166.00
+--------------------------
+0.01 degrees
+Tilt-induced shift is  45.78, -38.93 unbinned pixels, unfiltered CCC is 0.0094
+The average drift between shots was   -1.7,   -0.2 unbinned pixels, 0.27 nm/sec
+Measured defocus = -4.09 microns
+--------------------------
+-2.99 degrees
+Tilt-induced shift is  46.28, -38.73 unbinned pixels, unfiltered CCC is 0.0107
+The average drift between shots was   -2.2,   -0.5 unbinned pixels, 0.35 nm/sec
+Measured defocus = -4.11 microns
+Image shift -0.025 -0.013 IS units   -48.6 1.7 unbinned pixels; need stage 0.001 0.027 if reset
+--------------------------
+-5.99 degrees
+Tilt-induced shift is  46.40, -38.84 unbinned pixels, unfiltered CCC is 0.0113
+The average drift between shots was   -2.3,   -0.4 unbinned pixels, 0.37 nm/sec
+Measured defocus = -4.12 microns
+Image shift -0.033 -0.017 IS units   -64.5 1.7 unbinned pixels; need stage 0.001 0.036 if reset
+--------------------------
+-8.98 degrees
+Tilt-induced shift is  46.50, -38.86 unbinned pixels, unfiltered CCC is 0.0093
+The average drift between shots was   -2.4,   -0.5 unbinned pixels, 0.37 nm/sec
+Measured defocus = -4.12 microns
+Image shift -0.037 -0.019 IS units   -72.8 0.7 unbinned pixels; need stage 0.001 0.041 if reset
+--------------------------
+-11.98 degrees
+Tilt-induced shift is  46.56, -38.99 unbinned pixels, unfiltered CCC is 0.0106
+The average drift between shots was   -2.3,   -0.4 unbinned pixels, 0.37 nm/sec
+Measured defocus = -4.13 microns
+Image shift -0.040 -0.020 IS units   -77.7 1.2 unbinned pixels; need stage 0.001 0.044 if reset
+--------------------------
+-14.97 degrees
+Tilt-induced shift is  46.62, -39.03 unbinned pixels, unfiltered CCC is 0.0145
+The average drift between shots was   -2.4,   -0.4 unbinned pixels, 0.39 nm/sec
+Measured defocus = -4.14 microns
+Image shift -0.041 -0.020 IS units   -79.6 -0.7 unbinned pixels; need stage 0.000 0.046 if reset
+--------------------------
+-17.97 degrees
+Tilt-induced shift is  46.43, -38.77 unbinned pixels, unfiltered CCC is 0.0133
+The average drift between shots was   -2.2,   -0.6 unbinned pixels, 0.36 nm/sec
+Measured defocus = -4.12 microns
+Image shift -0.034 -0.014 IS units   -63.5 -3.3 unbinned pixels; need stage -0.001 0.037 if reset
+--------------------------
+-20.96 degrees
+Tilt-induced shift is  46.26, -38.80 unbinned pixels, unfiltered CCC is 0.0100
+The average drift between shots was   -2.0,   -0.4 unbinned pixels, 0.32 nm/sec
+Measured defocus = -4.11 microns
+Image shift -0.026 -0.010 IS units   -48.7 -4.0 unbinned pixels; need stage -0.002 0.029 if reset
+--------------------------
+-23.96 degrees
+Tilt-induced shift is  46.02, -38.57 unbinned pixels, unfiltered CCC is 0.0090
+The average drift between shots was   -2.1,   -0.5 unbinned pixels, 0.34 nm/sec
+Measured defocus = -4.09 microns
+Image shift -0.003 0.004 IS units   -2.1 -9.3 unbinned pixels; need stage -0.005 0.001 if reset
+--------------------------
+-26.95 degrees
+Tilt-induced shift is  45.87, -38.48 unbinned pixels, unfiltered CCC is 0.0119
+The average drift between shots was   -1.7,   -0.3 unbinned pixels, 0.27 nm/sec
+Measured defocus = -4.07 microns
+Image shift 0.024 0.026 IS units   56.8 -21.7 unbinned pixels; need stage -0.013 -0.035 if reset
+--------------------------
+-29.95 degrees
+Tilt-induced shift is  45.66, -38.33 unbinned pixels, unfiltered CCC is 0.0093
+The average drift between shots was   -1.8,   -0.3 unbinned pixels, 0.29 nm/sec
+Measured defocus = -4.06 microns
+Image shift 0.055 0.057 IS units   128.8 -46.1 unbinned pixels; need stage -0.027 -0.083 if reset
+--------------------------
+-32.94 degrees
+Tilt-induced shift is  45.59, -38.26 unbinned pixels, unfiltered CCC is 0.0101
+The average drift between shots was   -1.8,   -0.3 unbinned pixels, 0.29 nm/sec
+Measured defocus = -4.05 microns
+Image shift 0.075 0.090 IS units   183.8 -83.0 unbinned pixels; need stage -0.048 -0.122 if reset
+--------------------------
+-35.94 degrees
+Tilt-induced shift is  45.36, -38.25 unbinned pixels, unfiltered CCC is 0.0115
+The average drift between shots was   -1.7,    0.0 unbinned pixels, 0.27 nm/sec
+Measured defocus = -4.04 microns
+Image shift 0.084 0.107 IS units   211.1 -101.4 unbinned pixels; need stage -0.059 -0.145 if reset
+--------------------------
+-38.93 degrees
+Tilt-induced shift is  44.36, -37.61 unbinned pixels, unfiltered CCC is 0.0113
+The average drift between shots was   -1.1,    0.1 unbinned pixels, 0.18 nm/sec
+Measured defocus = -3.96 microns
+Image shift 0.110 0.121 IS units   261.7 -104.5 unbinned pixels; need stage -0.061 -0.187 if reset
+--------------------------
+-41.92 degrees
+Tilt-induced shift is  43.90, -37.33 unbinned pixels, unfiltered CCC is 0.0057
+The average drift between shots was   -1.1,    0.1 unbinned pixels, 0.17 nm/sec
+Measured defocus = -3.92 microns
+Image shift 0.146 0.141 IS units   333.0 -107.9 unbinned pixels; need stage -0.063 -0.249 if reset
+--------------------------
+-44.92 degrees
+Tilt-induced shift is  43.66, -37.07 unbinned pixels, unfiltered CCC is 0.0074
+The average drift between shots was   -1.1,    0.2 unbinned pixels, 0.17 nm/sec
+Measured defocus = -3.90 microns
+Image shift 0.197 0.168 IS units   433.5 -111.4 unbinned pixels; need stage -0.066 -0.340 if reset
+--------------------------
+-47.92 degrees
+Tilt-induced shift is  43.32, -37.07 unbinned pixels, unfiltered CCC is 0.0044
+The average drift between shots was   -1.1,    0.1 unbinned pixels, 0.17 nm/sec
+Measured defocus = -3.88 microns
+Image shift 0.252 0.197 IS units   541.4 -113.9 unbinned pixels; need stage -0.068 -0.449 if reset
+--------------------------
+-50.91 degrees
+Tilt-induced shift is  42.94, -36.70 unbinned pixels, unfiltered CCC is 0.0026
+The average drift between shots was   -1.1,    0.3 unbinned pixels, 0.17 nm/sec
+Measured defocus = -3.84 microns
+Image shift 0.312 0.228 IS units   659.7 -116.6 unbinned pixels; need stage -0.071 -0.581 if reset
+--------------------------
+-53.91 degrees
+Tilt-induced shift is  42.58, -36.52 unbinned pixels, unfiltered CCC is 0.0018
+The average drift between shots was   -1.0,    0.2 unbinned pixels, 0.16 nm/sec
+Measured defocus = -3.82 microns
+Image shift 0.372 0.259 IS units   776.4 -119.0 unbinned pixels; need stage -0.073 -0.733 if reset
+--------------------------
+-56.90 degrees
+Tilt-induced shift is  42.01, -36.37 unbinned pixels, unfiltered CCC is 0.0060
+The average drift between shots was   -1.0,    0.3 unbinned pixels, 0.17 nm/sec
+Measured defocus = -3.78 microns
+Image shift 0.435 0.293 IS units   901.2 -122.7 unbinned pixels; need stage -0.076 -0.917 if reset
+--------------------------
+-59.90 degrees
+Tilt-induced shift is  41.71, -36.27 unbinned pixels, unfiltered CCC is 0.0107
+The average drift between shots was   -0.9,    0.3 unbinned pixels, 0.15 nm/sec
+Measured defocus = -3.76 microns
+Image shift 0.499 0.326 IS units   1025.2 -125.9 unbinned pixels; need stage -0.078 -1.136 if reset
+--------------------------
+-0.00 degrees
+Tilt-induced shift is  45.43, -39.15 unbinned pixels, unfiltered CCC is 0.0004
+The average drift between shots was    1.7,   -0.1 unbinned pixels, 0.28 nm/sec
+Measured defocus = -4.08 microns
+--------------------------
+3.00 degrees
+Tilt-induced shift is  45.53, -38.98 unbinned pixels, unfiltered CCC is 0.0014
+The average drift between shots was    1.6,    0.1 unbinned pixels, 0.24 nm/sec
+Measured defocus = -4.08 microns
+Image shift 0.017 0.010 IS units   34.5 -1.6 unbinned pixels; need stage -0.001 -0.019 if reset
+--------------------------
+6.00 degrees
+Tilt-induced shift is  44.99, -38.70 unbinned pixels, unfiltered CCC is -0.0014
+The average drift between shots was    2.5,    0.2 unbinned pixels, 0.38 nm/sec
+Measured defocus = -4.04 microns
+Image shift 0.041 0.022 IS units   81.2 -2.8 unbinned pixels; need stage -0.002 -0.045 if reset
+--------------------------
+8.99 degrees
+Tilt-induced shift is  44.85, -38.34 unbinned pixels, unfiltered CCC is 0.0011
+The average drift between shots was    2.3,    0.2 unbinned pixels, 0.36 nm/sec
+Measured defocus = -4.02 microns
+Image shift 0.069 0.036 IS units   135.1 -4.1 unbinned pixels; need stage -0.003 -0.076 if reset
+--------------------------
+11.99 degrees
+Tilt-induced shift is  44.23, -37.79 unbinned pixels, unfiltered CCC is 0.0000
+The average drift between shots was    2.9,    0.2 unbinned pixels, 0.46 nm/sec
+Measured defocus = -3.96 microns
+Image shift 0.096 0.051 IS units   187.9 -5.9 unbinned pixels; need stage -0.005 -0.107 if reset
+--------------------------
+14.99 degrees
+Tilt-induced shift is  43.83, -37.59 unbinned pixels, unfiltered CCC is -0.0019
+The average drift between shots was    2.4,    0.2 unbinned pixels, 0.38 nm/sec
+Measured defocus = -3.93 microns
+Image shift 0.124 0.066 IS units   244.6 -7.7 unbinned pixels; need stage -0.006 -0.141 if reset
+--------------------------
+17.99 degrees
+Tilt-induced shift is  43.47, -37.29 unbinned pixels, unfiltered CCC is -0.0006
+The average drift between shots was    2.8,    0.1 unbinned pixels, 0.44 nm/sec
+Measured defocus = -3.90 microns
+Image shift 0.157 0.083 IS units   308.6 -9.8 unbinned pixels; need stage -0.008 -0.180 if reset
+--------------------------
+20.99 degrees
+Tilt-induced shift is  43.21, -37.03 unbinned pixels, unfiltered CCC is 0.0013
+The average drift between shots was    2.5,    0.1 unbinned pixels, 0.39 nm/sec
+Measured defocus = -3.87 microns
+Image shift 0.193 0.103 IS units   380.0 -12.6 unbinned pixels; need stage -0.010 -0.226 if reset
+--------------------------
+23.98 degrees
+Tilt-induced shift is  42.67, -36.69 unbinned pixels, unfiltered CCC is 0.0003
+The average drift between shots was    2.7,    0.2 unbinned pixels, 0.42 nm/sec
+Measured defocus = -3.83 microns
+Image shift 0.228 0.122 IS units   449.6 -16.3 unbinned pixels; need stage -0.013 -0.273 if reset
+--------------------------
+26.98 degrees
+Tilt-induced shift is  42.36, -36.45 unbinned pixels, unfiltered CCC is 0.0023
+The average drift between shots was    2.4,    0.1 unbinned pixels, 0.37 nm/sec
+Measured defocus = -3.80 microns
+Image shift 0.259 0.140 IS units   511.2 -19.7 unbinned pixels; need stage -0.015 -0.319 if reset
+--------------------------
+29.98 degrees
+Tilt-induced shift is  41.93, -36.12 unbinned pixels, unfiltered CCC is 0.0031
+The average drift between shots was    2.2,    0.1 unbinned pixels, 0.35 nm/sec
+Measured defocus = -3.77 microns
+Image shift 0.287 0.155 IS units   567.0 -22.8 unbinned pixels; need stage -0.017 -0.364 if reset
+--------------------------
+32.97 degrees
+Tilt-induced shift is  41.59, -35.81 unbinned pixels, unfiltered CCC is 0.0013
+The average drift between shots was    2.1,    0.1 unbinned pixels, 0.33 nm/sec
+Measured defocus = -3.73 microns
+Image shift 0.313 0.171 IS units   619.8 -28.1 unbinned pixels; need stage -0.020 -0.411 if reset
+--------------------------
+35.97 degrees
+Tilt-induced shift is  41.19, -35.67 unbinned pixels, unfiltered CCC is 0.0024
+The average drift between shots was    2.0,    0.1 unbinned pixels, 0.32 nm/sec
+Measured defocus = -3.71 microns
+Image shift 0.341 0.189 IS units   676.2 -34.0 unbinned pixels; need stage -0.024 -0.464 if reset
+--------------------------
+38.97 degrees
+Tilt-induced shift is  40.76, -35.36 unbinned pixels, unfiltered CCC is 0.0077
+The average drift between shots was    1.9,    0.1 unbinned pixels, 0.29 nm/sec
+Measured defocus = -3.67 microns
+Image shift 0.367 0.204 IS units   728.6 -38.6 unbinned pixels; need stage -0.027 -0.521 if reset
+--------------------------
+41.96 degrees
+Tilt-induced shift is  40.42, -35.08 unbinned pixels, unfiltered CCC is 0.0079
+The average drift between shots was    1.6,    0.0 unbinned pixels, 0.25 nm/sec
+Measured defocus = -3.64 microns
+Image shift 0.391 0.220 IS units   778.3 -44.9 unbinned pixels; need stage -0.031 -0.582 if reset
+--------------------------
+44.96 degrees
+Tilt-induced shift is  39.87, -34.64 unbinned pixels, unfiltered CCC is 0.0054
+The average drift between shots was    1.4,    0.1 unbinned pixels, 0.22 nm/sec
+Measured defocus = -3.59 microns
+Image shift 0.408 0.233 IS units   815.7 -51.8 unbinned pixels; need stage -0.035 -0.641 if reset
+--------------------------
+47.96 degrees
+Tilt-induced shift is  39.36, -34.20 unbinned pixels, unfiltered CCC is 0.0062
+The average drift between shots was    1.2,    0.2 unbinned pixels, 0.19 nm/sec
+Measured defocus = -3.55 microns
+Image shift 0.420 0.244 IS units   840.9 -59.5 unbinned pixels; need stage -0.040 -0.698 if reset
+--------------------------
+50.96 degrees
+Tilt-induced shift is  38.87, -33.76 unbinned pixels, unfiltered CCC is 0.0078
+The average drift between shots was    1.1,    0.1 unbinned pixels, 0.18 nm/sec
+Measured defocus = -3.50 microns
+Image shift 0.428 0.253 IS units   861.8 -67.6 unbinned pixels; need stage -0.044 -0.760 if reset
+--------------------------
+53.96 degrees
+Tilt-induced shift is  38.79, -33.66 unbinned pixels, unfiltered CCC is 0.0096
+The average drift between shots was    0.6,    0.2 unbinned pixels, 0.09 nm/sec
+Measured defocus = -3.49 microns
+Image shift 0.438 0.263 IS units   883.1 -75.3 unbinned pixels; need stage -0.049 -0.834 if reset
+--------------------------
+56.95 degrees
+Tilt-induced shift is  38.52, -33.55 unbinned pixels, unfiltered CCC is 0.0085
+The average drift between shots was    0.4,    0.3 unbinned pixels, 0.08 nm/sec
+Measured defocus = -3.47 microns
+Image shift 0.441 0.270 IS units   894.0 -84.4 unbinned pixels; need stage -0.054 -0.911 if reset
+--------------------------
+59.95 degrees
+Tilt-induced shift is  38.19, -33.23 unbinned pixels, unfiltered CCC is 0.0089
+The average drift between shots was    0.2,    0.1 unbinned pixels, 0.03 nm/sec
+Measured defocus = -3.44 microns
+Image shift 0.439 0.276 IS units   895.0 -95.2 unbinned pixels; need stage -0.060 -0.993 if reset
+<<<< bi_zp1 >>>>
+checked = 1
+=============== starting get_IS_shifts_and_Z ===============
+Stage 158.10 -138.65 166.50
+--------------------------
+0.01 degrees
+Tilt-induced shift is  39.55, -33.53 unbinned pixels, unfiltered CCC is 0.0214
+The average drift between shots was   -1.5,   -0.2 unbinned pixels, 0.24 nm/sec
+Measured defocus = -3.53 microns
+--------------------------
+-2.99 degrees
+Tilt-induced shift is  39.94, -33.39 unbinned pixels, unfiltered CCC is 0.0181
+The average drift between shots was   -2.3,   -0.4 unbinned pixels, 0.36 nm/sec
+Measured defocus = -3.54 microns
+Image shift -0.015 -0.008 IS units   -28.7 0.8 unbinned pixels; need stage 0.001 0.016 if reset
+--------------------------
+-5.98 degrees
+Tilt-induced shift is  40.18, -33.45 unbinned pixels, unfiltered CCC is 0.0223
+The average drift between shots was   -2.5,   -0.6 unbinned pixels, 0.40 nm/sec
+Measured defocus = -3.56 microns
+Image shift -0.003 -0.000 IS units   -4.8 -1.7 unbinned pixels; need stage -0.001 0.003 if reset
+--------------------------
+-8.98 degrees
+Tilt-induced shift is  40.26, -33.57 unbinned pixels, unfiltered CCC is 0.0243
+The average drift between shots was   -2.6,   -0.6 unbinned pixels, 0.41 nm/sec
+Measured defocus = -3.57 microns
+Image shift 0.011 0.008 IS units   23.3 -3.0 unbinned pixels; need stage -0.002 -0.013 if reset
+--------------------------
+-11.98 degrees
+Tilt-induced shift is  40.49, -33.70 unbinned pixels, unfiltered CCC is 0.0278
+The average drift between shots was   -2.6,   -0.6 unbinned pixels, 0.41 nm/sec
+Measured defocus = -3.58 microns
+Image shift 0.032 0.019 IS units   65.2 -5.1 unbinned pixels; need stage -0.003 -0.037 if reset
+--------------------------
+-14.97 degrees
+Tilt-induced shift is  40.70, -33.74 unbinned pixels, unfiltered CCC is 0.0301
+The average drift between shots was   -2.5,   -0.6 unbinned pixels, 0.41 nm/sec
+Measured defocus = -3.60 microns
+Image shift 0.050 0.029 IS units   100.8 -7.0 unbinned pixels; need stage -0.005 -0.058 if reset
+--------------------------
+-17.97 degrees
+Tilt-induced shift is  40.59, -33.52 unbinned pixels, unfiltered CCC is 0.0326
+The average drift between shots was   -2.4,   -0.7 unbinned pixels, 0.39 nm/sec
+Measured defocus = -3.58 microns
+Image shift 0.079 0.046 IS units   158.6 -11.1 unbinned pixels; need stage -0.007 -0.093 if reset
+--------------------------
+-20.96 degrees
+Tilt-induced shift is  40.41, -33.66 unbinned pixels, unfiltered CCC is 0.0284
+The average drift between shots was   -2.4,   -0.6 unbinned pixels, 0.39 nm/sec
+Measured defocus = -3.58 microns
+Image shift 0.108 0.061 IS units   215.1 -12.9 unbinned pixels; need stage -0.009 -0.128 if reset
+--------------------------
+-23.96 degrees
+Tilt-induced shift is  40.15, -33.57 unbinned pixels, unfiltered CCC is 0.0273
+The average drift between shots was   -2.3,   -0.6 unbinned pixels, 0.38 nm/sec
+Measured defocus = -3.56 microns
+Image shift 0.149 0.085 IS units   297.5 -18.6 unbinned pixels; need stage -0.013 -0.181 if reset
+--------------------------
+-26.96 degrees
+Tilt-induced shift is  39.83, -33.43 unbinned pixels, unfiltered CCC is 0.0291
+The average drift between shots was   -1.7,   -0.4 unbinned pixels, 0.27 nm/sec
+Measured defocus = -3.54 microns
+Image shift 0.198 0.117 IS units   397.4 -31.1 unbinned pixels; need stage -0.020 -0.248 if reset
+--------------------------
+-29.95 degrees
+Tilt-induced shift is  39.78, -33.48 unbinned pixels, unfiltered CCC is 0.0277
+The average drift between shots was   -1.5,   -0.3 unbinned pixels, 0.24 nm/sec
+Measured defocus = -3.54 microns
+Image shift 0.245 0.155 IS units   500.5 -54.9 unbinned pixels; need stage -0.035 -0.321 if reset
+--------------------------
+-32.94 degrees
+Tilt-induced shift is  39.83, -33.55 unbinned pixels, unfiltered CCC is 0.0211
+The average drift between shots was   -1.8,   -0.2 unbinned pixels, 0.28 nm/sec
+Measured defocus = -3.54 microns
+Image shift 0.285 0.200 IS units   595.9 -93.3 unbinned pixels; need stage -0.057 -0.395 if reset
+--------------------------
+-35.94 degrees
+Tilt-induced shift is  39.62, -33.51 unbinned pixels, unfiltered CCC is 0.0263
+The average drift between shots was   -1.6,    0.1 unbinned pixels, 0.25 nm/sec
+Measured defocus = -3.53 microns
+Image shift 0.313 0.225 IS units   659.3 -111.1 unbinned pixels; need stage -0.067 -0.453 if reset
+--------------------------
+-38.93 degrees
+Tilt-induced shift is  39.10, -33.17 unbinned pixels, unfiltered CCC is 0.0237
+The average drift between shots was   -1.3,    0.1 unbinned pixels, 0.20 nm/sec
+Measured defocus = -3.49 microns
+Image shift 0.356 0.249 IS units   744.1 -115.8 unbinned pixels; need stage -0.071 -0.532 if reset
+--------------------------
+-41.93 degrees
+Tilt-induced shift is  38.77, -33.10 unbinned pixels, unfiltered CCC is 0.0255
+The average drift between shots was   -1.3,    0.2 unbinned pixels, 0.20 nm/sec
+Measured defocus = -3.47 microns
+Image shift 0.411 0.279 IS units   853.4 -120.7 unbinned pixels; need stage -0.074 -0.638 if reset
+--------------------------
+-44.92 degrees
+Tilt-induced shift is  38.72, -33.10 unbinned pixels, unfiltered CCC is 0.0239
+The average drift between shots was   -1.3,    0.2 unbinned pixels, 0.20 nm/sec
+Measured defocus = -3.47 microns
+Image shift 0.475 0.313 IS units   978.1 -123.9 unbinned pixels; need stage -0.077 -0.768 if reset
+--------------------------
+-47.92 degrees
+Tilt-induced shift is  38.65, -33.08 unbinned pixels, unfiltered CCC is 0.0201
+The average drift between shots was   -1.2,    0.2 unbinned pixels, 0.19 nm/sec
+Measured defocus = -3.46 microns
+Image shift 0.546 0.350 IS units   1118.1 -127.7 unbinned pixels; need stage -0.080 -0.927 if reset
+--------------------------
+-50.92 degrees
+Tilt-induced shift is  38.49, -33.12 unbinned pixels, unfiltered CCC is 0.0203
+The average drift between shots was   -1.1,    0.2 unbinned pixels, 0.17 nm/sec
+Measured defocus = -3.45 microns
+Image shift 0.622 0.389 IS units   1265.5 -130.7 unbinned pixels; need stage -0.083 -1.116 if reset
+--------------------------
+-53.91 degrees
+Tilt-induced shift is  38.35, -33.10 unbinned pixels, unfiltered CCC is 0.0214
+The average drift between shots was   -1.1,    0.2 unbinned pixels, 0.17 nm/sec
+Measured defocus = -3.45 microns
+Image shift 0.694 0.427 IS units   1407.2 -134.8 unbinned pixels; need stage -0.086 -1.328 if reset
+--------------------------
+-56.91 degrees
+Tilt-induced shift is  38.10, -33.03 unbinned pixels, unfiltered CCC is 0.0197
+The average drift between shots was   -1.1,    0.3 unbinned pixels, 0.17 nm/sec
+Measured defocus = -3.43 microns
+Image shift 0.770 0.466 IS units   1555.7 -137.5 unbinned pixels; need stage -0.089 -1.583 if reset
+--------------------------
+-59.90 degrees
+Tilt-induced shift is  38.01, -33.14 unbinned pixels, unfiltered CCC is 0.0168
+The average drift between shots was   -1.0,    0.4 unbinned pixels, 0.17 nm/sec
+Measured defocus = -3.43 microns
+Image shift 0.844 0.505 IS units   1702.7 -141.8 unbinned pixels; need stage -0.092 -1.887 if reset
+--------------------------
+-0.00 degrees
+Tilt-induced shift is  38.94, -33.74 unbinned pixels, unfiltered CCC is 0.0011
+The average drift between shots was    1.6,   -0.1 unbinned pixels, 0.26 nm/sec
+Measured defocus = -3.50 microns
+--------------------------
+3.00 degrees
+Tilt-induced shift is  39.07, -33.50 unbinned pixels, unfiltered CCC is -0.0028
+The average drift between shots was    1.6,    0.2 unbinned pixels, 0.25 nm/sec
+Measured defocus = -3.50 microns
+Image shift -0.005 -0.002 IS units   -9.2 -0.7 unbinned pixels; need stage -0.000 0.005 if reset
+--------------------------
+5.99 degrees
+Tilt-induced shift is  38.85, -33.25 unbinned pixels, unfiltered CCC is -0.0034
+The average drift between shots was    1.7,    0.2 unbinned pixels, 0.27 nm/sec
+Measured defocus = -3.48 microns
+Image shift -0.003 -0.001 IS units   -4.9 -1.2 unbinned pixels; need stage -0.001 0.003 if reset
+--------------------------
+8.99 degrees
+Tilt-induced shift is  38.01, -32.95 unbinned pixels, unfiltered CCC is -0.0015
+The average drift between shots was    2.5,    0.1 unbinned pixels, 0.39 nm/sec
+Measured defocus = -3.42 microns
+Image shift 0.004 0.003 IS units   7.9 -1.6 unbinned pixels; need stage -0.001 -0.004 if reset
+--------------------------
+11.99 degrees
+Tilt-induced shift is  38.25, -32.76 unbinned pixels, unfiltered CCC is -0.0024
+The average drift between shots was    1.8,    0.2 unbinned pixels, 0.29 nm/sec
+Measured defocus = -3.43 microns
+Image shift 0.009 0.006 IS units   19.1 -1.8 unbinned pixels; need stage -0.001 -0.011 if reset
+--------------------------
+14.98 degrees
+Tilt-induced shift is  37.86, -32.54 unbinned pixels, unfiltered CCC is -0.0033
+The average drift between shots was    2.1,    0.1 unbinned pixels, 0.34 nm/sec
+Measured defocus = -3.40 microns
+Image shift 0.020 0.012 IS units   40.7 -2.7 unbinned pixels; need stage -0.002 -0.023 if reset
+--------------------------
+17.98 degrees
+Tilt-induced shift is  37.77, -32.32 unbinned pixels, unfiltered CCC is -0.0043
+The average drift between shots was    2.3,    0.2 unbinned pixels, 0.35 nm/sec
+Measured defocus = -3.38 microns
+Image shift 0.031 0.018 IS units   61.9 -4.0 unbinned pixels; need stage -0.003 -0.036 if reset
+--------------------------
+20.98 degrees
+Tilt-induced shift is  37.48, -32.27 unbinned pixels, unfiltered CCC is -0.0028
+The average drift between shots was    2.5,    0.1 unbinned pixels, 0.39 nm/sec
+Measured defocus = -3.36 microns
+Image shift 0.047 0.027 IS units   93.4 -6.6 unbinned pixels; need stage -0.004 -0.056 if reset
+--------------------------
+23.97 degrees
+Tilt-induced shift is  37.05, -32.13 unbinned pixels, unfiltered CCC is -0.0008
+The average drift between shots was    2.5,    0.1 unbinned pixels, 0.40 nm/sec
+Measured defocus = -3.34 microns
+Image shift 0.061 0.036 IS units   122.8 -9.6 unbinned pixels; need stage -0.006 -0.075 if reset
+--------------------------
+26.97 degrees
+Tilt-induced shift is  36.78, -31.87 unbinned pixels, unfiltered CCC is -0.0032
+The average drift between shots was    2.4,    0.0 unbinned pixels, 0.39 nm/sec
+Measured defocus = -3.31 microns
+Image shift 0.073 0.044 IS units   147.4 -12.9 unbinned pixels; need stage -0.008 -0.092 if reset
+--------------------------
+29.97 degrees
+Tilt-induced shift is  36.34, -31.67 unbinned pixels, unfiltered CCC is -0.0008
+The average drift between shots was    2.5,    0.1 unbinned pixels, 0.39 nm/sec
+Measured defocus = -3.28 microns
+Image shift 0.083 0.050 IS units   167.4 -15.2 unbinned pixels; need stage -0.010 -0.107 if reset
+--------------------------
+32.97 degrees
+Tilt-induced shift is  36.08, -31.43 unbinned pixels, unfiltered CCC is -0.0035
+The average drift between shots was    2.3,    0.0 unbinned pixels, 0.36 nm/sec
+Measured defocus = -3.25 microns
+Image shift 0.090 0.057 IS units   184.2 -19.6 unbinned pixels; need stage -0.012 -0.122 if reset
+--------------------------
+35.97 degrees
+Tilt-induced shift is  35.92, -31.46 unbinned pixels, unfiltered CCC is -0.0032
+The average drift between shots was    1.9,    0.1 unbinned pixels, 0.30 nm/sec
+Measured defocus = -3.25 microns
+Image shift 0.101 0.065 IS units   207.0 -24.0 unbinned pixels; need stage -0.015 -0.142 if reset
+--------------------------
+38.96 degrees
+Tilt-induced shift is  35.63, -31.17 unbinned pixels, unfiltered CCC is -0.0022
+The average drift between shots was    1.9,    0.0 unbinned pixels, 0.30 nm/sec
+Measured defocus = -3.22 microns
+Image shift 0.110 0.072 IS units   226.2 -28.9 unbinned pixels; need stage -0.018 -0.162 if reset
+--------------------------
+41.96 degrees
+Tilt-induced shift is  35.32, -31.06 unbinned pixels, unfiltered CCC is 0.0011
+The average drift between shots was    1.7,    0.1 unbinned pixels, 0.26 nm/sec
+Measured defocus = -3.20 microns
+Image shift 0.117 0.080 IS units   243.7 -35.3 unbinned pixels; need stage -0.022 -0.182 if reset
+--------------------------
+44.96 degrees
+Tilt-induced shift is  35.16, -30.68 unbinned pixels, unfiltered CCC is 0.0067
+The average drift between shots was    1.6,    0.1 unbinned pixels, 0.26 nm/sec
+Measured defocus = -3.17 microns
+Image shift 0.119 0.085 IS units   249.9 -42.0 unbinned pixels; need stage -0.026 -0.196 if reset
+--------------------------
+47.96 degrees
+Tilt-induced shift is  35.03, -30.69 unbinned pixels, unfiltered CCC is 0.0098
+The average drift between shots was    1.3,    0.2 unbinned pixels, 0.20 nm/sec
+Measured defocus = -3.17 microns
+Image shift 0.115 0.088 IS units   245.8 -49.3 unbinned pixels; need stage -0.030 -0.204 if reset
+--------------------------
+50.96 degrees
+Tilt-induced shift is  34.91, -30.52 unbinned pixels, unfiltered CCC is 0.0145
+The average drift between shots was    1.1,    0.2 unbinned pixels, 0.17 nm/sec
+Measured defocus = -3.15 microns
+Image shift 0.111 0.091 IS units   242.3 -56.5 unbinned pixels; need stage -0.034 -0.214 if reset
+--------------------------
+53.95 degrees
+Tilt-induced shift is  34.83, -30.68 unbinned pixels, unfiltered CCC is 0.0222
+The average drift between shots was    0.7,    0.2 unbinned pixels, 0.11 nm/sec
+Measured defocus = -3.16 microns
+Image shift 0.107 0.094 IS units   237.8 -63.3 unbinned pixels; need stage -0.037 -0.225 if reset
+--------------------------
+56.95 degrees
+Tilt-induced shift is  34.93, -30.54 unbinned pixels, unfiltered CCC is 0.0224
+The average drift between shots was    0.5,    0.4 unbinned pixels, 0.09 nm/sec
+Measured defocus = -3.15 microns
+Image shift 0.099 0.095 IS units   226.1 -71.7 unbinned pixels; need stage -0.042 -0.231 if reset
+--------------------------
+59.95 degrees
+Tilt-induced shift is  35.00, -30.63 unbinned pixels, unfiltered CCC is 0.0187
+The average drift between shots was    0.1,    0.2 unbinned pixels, 0.04 nm/sec
+Measured defocus = -3.16 microns
+Image shift 0.086 0.095 IS units   205.5 -82.1 unbinned pixels; need stage -0.048 -0.228 if reset
+<<<< bi_zp1.5 >>>>
+checked = 1
+=============== starting get_IS_shifts_and_Z ===============
+Stage 158.06 -138.50 167.00
+--------------------------
+0.01 degrees
+Tilt-induced shift is  33.17, -28.27 unbinned pixels, unfiltered CCC is 0.0313
+The average drift between shots was   -1.7,   -0.2 unbinned pixels, 0.27 nm/sec
+Measured defocus = -2.96 microns
+--------------------------
+-2.99 degrees
+Tilt-induced shift is  33.71, -28.13 unbinned pixels, unfiltered CCC is 0.0282
+The average drift between shots was   -2.4,   -0.4 unbinned pixels, 0.38 nm/sec
+Measured defocus = -2.99 microns
+Image shift 0.011 0.010 IS units   25.0 -6.6 unbinned pixels; need stage -0.004 -0.014 if reset
+--------------------------
+-5.99 degrees
+Tilt-induced shift is  33.92, -28.17 unbinned pixels, unfiltered CCC is 0.0412
+The average drift between shots was   -2.4,   -0.3 unbinned pixels, 0.38 nm/sec
+Measured defocus = -3.00 microns
+Image shift 0.040 0.026 IS units   82.5 -9.6 unbinned pixels; need stage -0.006 -0.046 if reset
+--------------------------
+-8.98 degrees
+Tilt-induced shift is  33.96, -28.34 unbinned pixels, unfiltered CCC is 0.0360
+The average drift between shots was   -2.3,   -0.4 unbinned pixels, 0.37 nm/sec
+Measured defocus = -3.01 microns
+Image shift 0.075 0.044 IS units   149.9 -11.7 unbinned pixels; need stage -0.008 -0.084 if reset
+--------------------------
+-11.98 degrees
+Tilt-induced shift is  34.12, -28.45 unbinned pixels, unfiltered CCC is 0.0398
+The average drift between shots was   -2.3,   -0.4 unbinned pixels, 0.37 nm/sec
+Measured defocus = -3.02 microns
+Image shift 0.116 0.066 IS units   230.8 -14.5 unbinned pixels; need stage -0.010 -0.131 if reset
+--------------------------
+-14.97 degrees
+Tilt-induced shift is  34.19, -28.58 unbinned pixels, unfiltered CCC is 0.0404
+The average drift between shots was   -2.3,   -0.5 unbinned pixels, 0.37 nm/sec
+Measured defocus = -3.03 microns
+Image shift 0.156 0.087 IS units   310.4 -17.1 unbinned pixels; need stage -0.012 -0.179 if reset
+--------------------------
+-17.97 degrees
+Tilt-induced shift is  34.33, -28.59 unbinned pixels, unfiltered CCC is 0.0455
+The average drift between shots was   -2.3,   -0.5 unbinned pixels, 0.37 nm/sec
+Measured defocus = -3.04 microns
+Image shift 0.206 0.115 IS units   408.5 -21.7 unbinned pixels; need stage -0.015 -0.239 if reset
+--------------------------
+-20.96 degrees
+Tilt-induced shift is  34.26, -28.70 unbinned pixels, unfiltered CCC is 0.0421
+The average drift between shots was   -2.2,   -0.5 unbinned pixels, 0.36 nm/sec
+Measured defocus = -3.04 microns
+Image shift 0.256 0.141 IS units   507.6 -24.7 unbinned pixels; need stage -0.018 -0.302 if reset
+--------------------------
+-23.96 degrees
+Tilt-induced shift is  34.20, -28.66 unbinned pixels, unfiltered CCC is 0.0401
+The average drift between shots was   -2.2,   -0.5 unbinned pixels, 0.36 nm/sec
+Measured defocus = -3.03 microns
+Image shift 0.317 0.175 IS units   628.9 -30.7 unbinned pixels; need stage -0.022 -0.382 if reset
+--------------------------
+-26.96 degrees
+Tilt-induced shift is  34.18, -28.70 unbinned pixels, unfiltered CCC is 0.0409
+The average drift between shots was   -1.9,   -0.3 unbinned pixels, 0.30 nm/sec
+Measured defocus = -3.04 microns
+Image shift 0.386 0.218 IS units   768.4 -45.5 unbinned pixels; need stage -0.031 -0.479 if reset
+--------------------------
+-29.95 degrees
+Tilt-induced shift is  34.12, -28.93 unbinned pixels, unfiltered CCC is 0.0410
+The average drift between shots was   -1.8,   -0.4 unbinned pixels, 0.28 nm/sec
+Measured defocus = -3.04 microns
+Image shift 0.453 0.267 IS units   910.1 -70.0 unbinned pixels; need stage -0.046 -0.584 if reset
+--------------------------
+-32.94 degrees
+Tilt-induced shift is  34.30, -29.09 unbinned pixels, unfiltered CCC is 0.0403
+The average drift between shots was   -1.8,   -0.3 unbinned pixels, 0.29 nm/sec
+Measured defocus = -3.06 microns
+Image shift 0.509 0.319 IS units   1037.7 -108.0 unbinned pixels; need stage -0.068 -0.687 if reset
+--------------------------
+-35.94 degrees
+Tilt-induced shift is  34.33, -29.13 unbinned pixels, unfiltered CCC is 0.0414
+The average drift between shots was   -1.6,    0.0 unbinned pixels, 0.26 nm/sec
+Measured defocus = -3.06 microns
+Image shift 0.556 0.355 IS units   1137.2 -127.7 unbinned pixels; need stage -0.080 -0.781 if reset
+--------------------------
+-38.94 degrees
+Tilt-induced shift is  33.99, -29.03 unbinned pixels, unfiltered CCC is 0.0389
+The average drift between shots was   -1.6,    0.1 unbinned pixels, 0.24 nm/sec
+Measured defocus = -3.04 microns
+Image shift 0.619 0.389 IS units   1261.6 -133.8 unbinned pixels; need stage -0.085 -0.901 if reset
+--------------------------
+-41.93 degrees
+Tilt-induced shift is  33.97, -29.10 unbinned pixels, unfiltered CCC is 0.0366
+The average drift between shots was   -1.4,    0.2 unbinned pixels, 0.23 nm/sec
+Measured defocus = -3.04 microns
+Image shift 0.690 0.427 IS units   1401.5 -138.5 unbinned pixels; need stage -0.088 -1.047 if reset
+--------------------------
+-44.93 degrees
+Tilt-induced shift is  34.02, -29.33 unbinned pixels, unfiltered CCC is 0.0356
+The average drift between shots was   -1.4,    0.1 unbinned pixels, 0.21 nm/sec
+Measured defocus = -3.05 microns
+Image shift 0.769 0.469 IS units   1556.8 -142.9 unbinned pixels; need stage -0.092 -1.222 if reset
+--------------------------
+-47.93 degrees
+Tilt-induced shift is  34.14, -29.45 unbinned pixels, unfiltered CCC is 0.0327
+The average drift between shots was   -1.3,    0.2 unbinned pixels, 0.21 nm/sec
+Measured defocus = -3.07 microns
+Image shift 0.855 0.514 IS units   1725.4 -146.9 unbinned pixels; need stage -0.095 -1.431 if reset
+--------------------------
+-50.92 degrees
+Tilt-induced shift is  34.21, -29.71 unbinned pixels, unfiltered CCC is 0.0303
+The average drift between shots was   -1.1,    0.2 unbinned pixels, 0.17 nm/sec
+Measured defocus = -3.08 microns
+Image shift 0.942 0.558 IS units   1894.8 -150.1 unbinned pixels; need stage -0.099 -1.670 if reset
+--------------------------
+-53.92 degrees
+Tilt-induced shift is  34.41, -29.81 unbinned pixels, unfiltered CCC is 0.0300
+The average drift between shots was   -1.1,    0.2 unbinned pixels, 0.18 nm/sec
+Measured defocus = -3.10 microns
+Image shift 1.031 0.605 IS units   2069.9 -154.4 unbinned pixels; need stage -0.102 -1.953 if reset
+--------------------------
+-56.91 degrees
+Tilt-induced shift is  34.43, -30.08 unbinned pixels, unfiltered CCC is 0.0275
+The average drift between shots was   -1.1,    0.4 unbinned pixels, 0.19 nm/sec
+Measured defocus = -3.11 microns
+Image shift 1.118 0.650 IS units   2240.8 -158.7 unbinned pixels; need stage -0.106 -2.281 if reset
+--------------------------
+-59.91 degrees
+Tilt-induced shift is  34.56, -30.38 unbinned pixels, unfiltered CCC is 0.0258
+The average drift between shots was   -1.0,    0.4 unbinned pixels, 0.18 nm/sec
+Measured defocus = -3.13 microns
+Image shift 1.205 0.695 IS units   2411.9 -162.8 unbinned pixels; need stage -0.110 -2.673 if reset
+--------------------------
+-0.00 degrees
+Tilt-induced shift is  32.68, -28.45 unbinned pixels, unfiltered CCC is 0.0017
+The average drift between shots was    1.4,   -0.0 unbinned pixels, 0.23 nm/sec
+Measured defocus = -2.95 microns
+--------------------------
+2.99 degrees
+Tilt-induced shift is  32.71, -28.26 unbinned pixels, unfiltered CCC is 0.0028
+The average drift between shots was    1.6,    0.1 unbinned pixels, 0.26 nm/sec
+Measured defocus = -2.94 microns
+Image shift -0.028 -0.013 IS units   -53.3 -0.0 unbinned pixels; need stage 0.000 0.030 if reset
+--------------------------
+5.99 degrees
+Tilt-induced shift is  32.51, -28.06 unbinned pixels, unfiltered CCC is 0.0018
+The average drift between shots was    1.7,    0.0 unbinned pixels, 0.26 nm/sec
+Measured defocus = -2.92 microns
+Image shift -0.048 -0.024 IS units   -93.3 0.5 unbinned pixels; need stage 0.001 0.052 if reset
+--------------------------
+8.99 degrees
+Tilt-induced shift is  32.29, -27.90 unbinned pixels, unfiltered CCC is 0.0026
+The average drift between shots was    1.6,    0.2 unbinned pixels, 0.26 nm/sec
+Measured defocus = -2.90 microns
+Image shift -0.063 -0.032 IS units   -123.4 1.2 unbinned pixels; need stage 0.002 0.069 if reset
+--------------------------
+11.98 degrees
+Tilt-induced shift is  31.87, -27.72 unbinned pixels, unfiltered CCC is 0.0011
+The average drift between shots was    2.3,    0.0 unbinned pixels, 0.34 nm/sec
+Measured defocus = -2.87 microns
+Image shift -0.079 -0.039 IS units   -153.6 1.2 unbinned pixels; need stage 0.002 0.087 if reset
+--------------------------
+14.98 degrees
+Tilt-induced shift is  31.61, -27.41 unbinned pixels, unfiltered CCC is 0.0020
+The average drift between shots was    2.4,    0.2 unbinned pixels, 0.38 nm/sec
+Measured defocus = -2.84 microns
+Image shift -0.092 -0.046 IS units   -179.1 0.6 unbinned pixels; need stage 0.002 0.103 if reset
+--------------------------
+17.98 degrees
+Tilt-induced shift is  31.49, -27.32 unbinned pixels, unfiltered CCC is 0.0085
+The average drift between shots was    2.3,    0.1 unbinned pixels, 0.37 nm/sec
+Measured defocus = -2.83 microns
+Image shift -0.100 -0.050 IS units   -194.0 1.0 unbinned pixels; need stage 0.002 0.113 if reset
+--------------------------
+20.98 degrees
+Tilt-induced shift is  31.21, -27.24 unbinned pixels, unfiltered CCC is 0.0033
+The average drift between shots was    2.5,    0.1 unbinned pixels, 0.39 nm/sec
+Measured defocus = -2.82 microns
+Image shift -0.105 -0.051 IS units   -202.8 -1.4 unbinned pixels; need stage 0.001 0.121 if reset
+--------------------------
+23.97 degrees
+Tilt-induced shift is  31.01, -27.17 unbinned pixels, unfiltered CCC is 0.0004
+The average drift between shots was    2.4,    0.2 unbinned pixels, 0.38 nm/sec
+Measured defocus = -2.80 microns
+Image shift -0.111 -0.052 IS units   -212.7 -3.5 unbinned pixels; need stage -0.000 0.129 if reset
+--------------------------
+26.97 degrees
+Tilt-induced shift is  30.88, -27.13 unbinned pixels, unfiltered CCC is 0.0013
+The average drift between shots was    2.3,    0.1 unbinned pixels, 0.37 nm/sec
+Measured defocus = -2.79 microns
+Image shift -0.117 -0.053 IS units   -223.1 -5.8 unbinned pixels; need stage -0.002 0.139 if reset
+--------------------------
+29.97 degrees
+Tilt-induced shift is  30.69, -26.91 unbinned pixels, unfiltered CCC is 0.0022
+The average drift between shots was    2.5,    0.2 unbinned pixels, 0.40 nm/sec
+Measured defocus = -2.77 microns
+Image shift -0.127 -0.057 IS units   -243.2 -7.7 unbinned pixels; need stage -0.003 0.156 if reset
+--------------------------
+32.97 degrees
+Tilt-induced shift is  30.60, -26.91 unbinned pixels, unfiltered CCC is 0.0042
+The average drift between shots was    2.1,    0.1 unbinned pixels, 0.34 nm/sec
+Measured defocus = -2.77 microns
+Image shift -0.138 -0.060 IS units   -262.8 -11.4 unbinned pixels; need stage -0.004 0.174 if reset
+--------------------------
+35.97 degrees
+Tilt-induced shift is  30.58, -26.88 unbinned pixels, unfiltered CCC is 0.0085
+The average drift between shots was    2.0,    0.1 unbinned pixels, 0.32 nm/sec
+Measured defocus = -2.77 microns
+Image shift -0.145 -0.061 IS units   -274.4 -15.4 unbinned pixels; need stage -0.007 0.188 if reset
+--------------------------
+38.96 degrees
+Tilt-induced shift is  30.60, -26.92 unbinned pixels, unfiltered CCC is 0.0103
+The average drift between shots was    1.9,    0.1 unbinned pixels, 0.30 nm/sec
+Measured defocus = -2.77 microns
+Image shift -0.153 -0.063 IS units   -288.0 -19.3 unbinned pixels; need stage -0.009 0.206 if reset
+--------------------------
+41.96 degrees
+Tilt-induced shift is  30.61, -27.03 unbinned pixels, unfiltered CCC is 0.0145
+The average drift between shots was    1.7,    0.0 unbinned pixels, 0.26 nm/sec
+Measured defocus = -2.78 microns
+Image shift -0.161 -0.063 IS units   -301.3 -24.7 unbinned pixels; need stage -0.012 0.225 if reset
+--------------------------
+44.96 degrees
+Tilt-induced shift is  30.48, -26.83 unbinned pixels, unfiltered CCC is 0.0193
+The average drift between shots was    1.6,    0.1 unbinned pixels, 0.26 nm/sec
+Measured defocus = -2.76 microns
+Image shift -0.175 -0.066 IS units   -325.6 -30.4 unbinned pixels; need stage -0.015 0.256 if reset
+--------------------------
+47.96 degrees
+Tilt-induced shift is  30.58, -26.94 unbinned pixels, unfiltered CCC is 0.0278
+The average drift between shots was    1.3,    0.1 unbinned pixels, 0.21 nm/sec
+Measured defocus = -2.77 microns
+Image shift -0.194 -0.071 IS units   -358.7 -36.8 unbinned pixels; need stage -0.018 0.298 if reset
+--------------------------
+50.95 degrees
+Tilt-induced shift is  30.70, -27.04 unbinned pixels, unfiltered CCC is 0.0331
+The average drift between shots was    1.3,    0.1 unbinned pixels, 0.20 nm/sec
+Measured defocus = -2.78 microns
+Image shift -0.213 -0.076 IS units   -391.8 -44.0 unbinned pixels; need stage -0.022 0.346 if reset
+--------------------------
+53.95 degrees
+Tilt-induced shift is  31.03, -27.32 unbinned pixels, unfiltered CCC is 0.0348
+The average drift between shots was    0.6,    0.2 unbinned pixels, 0.09 nm/sec
+Measured defocus = -2.81 microns
+Image shift -0.229 -0.080 IS units   -420.3 -50.3 unbinned pixels; need stage -0.025 0.397 if reset
+--------------------------
+56.95 degrees
+Tilt-induced shift is  31.27, -27.52 unbinned pixels, unfiltered CCC is 0.0379
+The average drift between shots was    0.5,    0.2 unbinned pixels, 0.09 nm/sec
+Measured defocus = -2.83 microns
+Image shift -0.250 -0.085 IS units   -457.9 -58.7 unbinned pixels; need stage -0.030 0.466 if reset
+--------------------------
+59.94 degrees
+Tilt-induced shift is  31.58, -27.71 unbinned pixels, unfiltered CCC is 0.0376
+The average drift between shots was    0.1,    0.2 unbinned pixels, 0.04 nm/sec
+Measured defocus = -2.86 microns
+Image shift -0.275 -0.090 IS units   -500.9 -68.5 unbinned pixels; need stage -0.035 0.556 if reset
+<<<< bi_zp2 >>>>
+checked = 1
+=============== starting get_IS_shifts_and_Z ===============
+Stage 158.01 -137.92 167.49
+--------------------------
+0.01 degrees
+Tilt-induced shift is  26.99, -23.16 unbinned pixels, unfiltered CCC is 0.0368
+The average drift between shots was   -2.1,   -0.3 unbinned pixels, 0.33 nm/sec
+Measured defocus = -2.42 microns
+--------------------------
+-2.99 degrees
+Tilt-induced shift is  27.20, -23.10 unbinned pixels, unfiltered CCC is 0.0303
+The average drift between shots was   -2.3,   -0.3 unbinned pixels, 0.37 nm/sec
+Measured defocus = -2.42 microns
+Image shift 0.060 0.029 IS units   116.5 0.5 unbinned pixels; need stage -0.001 -0.065 if reset
+--------------------------
+-5.99 degrees
+Tilt-induced shift is  27.49, -23.26 unbinned pixels, unfiltered CCC is 0.0363
+The average drift between shots was   -2.4,   -0.5 unbinned pixels, 0.39 nm/sec
+Measured defocus = -2.45 microns
+Image shift 0.118 0.059 IS units   230.2 -1.5 unbinned pixels; need stage -0.003 -0.129 if reset
+--------------------------
+-8.98 degrees
+Tilt-induced shift is  27.67, -23.41 unbinned pixels, unfiltered CCC is 0.0416
+The average drift between shots was   -2.3,   -0.4 unbinned pixels, 0.36 nm/sec
+Measured defocus = -2.46 microns
+Image shift 0.175 0.089 IS units   341.1 -4.5 unbinned pixels; need stage -0.005 -0.192 if reset
+--------------------------
+-11.98 degrees
+Tilt-induced shift is  28.10, -23.62 unbinned pixels, unfiltered CCC is 0.0448
+The average drift between shots was   -2.6,   -0.5 unbinned pixels, 0.42 nm/sec
+Measured defocus = -2.49 microns
+Image shift 0.240 0.122 IS units   467.9 -7.3 unbinned pixels; need stage -0.008 -0.266 if reset
+--------------------------
+-14.97 degrees
+Tilt-induced shift is  28.24, -23.73 unbinned pixels, unfiltered CCC is 0.0450
+The average drift between shots was   -2.4,   -0.4 unbinned pixels, 0.38 nm/sec
+Measured defocus = -2.51 microns
+Image shift 0.298 0.152 IS units   581.4 -9.8 unbinned pixels; need stage -0.010 -0.334 if reset
+--------------------------
+-17.97 degrees
+Tilt-induced shift is  28.54, -23.87 unbinned pixels, unfiltered CCC is 0.0457
+The average drift between shots was   -2.3,   -0.5 unbinned pixels, 0.37 nm/sec
+Measured defocus = -2.53 microns
+Image shift 0.370 0.192 IS units   724.9 -16.1 unbinned pixels; need stage -0.014 -0.423 if reset
+--------------------------
+-20.97 degrees
+Tilt-induced shift is  28.59, -24.01 unbinned pixels, unfiltered CCC is 0.0500
+The average drift between shots was   -2.3,   -0.5 unbinned pixels, 0.36 nm/sec
+Measured defocus = -2.54 microns
+Image shift 0.440 0.228 IS units   861.6 -19.8 unbinned pixels; need stage -0.018 -0.513 if reset
+--------------------------
+-23.96 degrees
+Tilt-induced shift is  28.64, -24.16 unbinned pixels, unfiltered CCC is 0.0482
+The average drift between shots was   -2.2,   -0.5 unbinned pixels, 0.36 nm/sec
+Measured defocus = -2.55 microns
+Image shift 0.520 0.272 IS units   1020.3 -26.0 unbinned pixels; need stage -0.022 -0.620 if reset
+--------------------------
+-26.96 degrees
+Tilt-induced shift is  28.64, -24.28 unbinned pixels, unfiltered CCC is 0.0475
+The average drift between shots was   -1.8,   -0.3 unbinned pixels, 0.28 nm/sec
+Measured defocus = -2.55 microns
+Image shift 0.607 0.323 IS units   1194.7 -40.8 unbinned pixels; need stage -0.032 -0.745 if reset
+--------------------------
+-29.95 degrees
+Tilt-induced shift is  29.01, -24.56 unbinned pixels, unfiltered CCC is 0.0476
+The average drift between shots was   -1.8,   -0.3 unbinned pixels, 0.28 nm/sec
+Measured defocus = -2.58 microns
+Image shift 0.693 0.382 IS units   1374.7 -66.2 unbinned pixels; need stage -0.047 -0.882 if reset
+--------------------------
+-32.94 degrees
+Tilt-induced shift is  29.36, -24.92 unbinned pixels, unfiltered CCC is 0.0471
+The average drift between shots was   -1.5,   -0.2 unbinned pixels, 0.24 nm/sec
+Measured defocus = -2.62 microns
+Image shift 0.765 0.442 IS units   1531.4 -104.3 unbinned pixels; need stage -0.070 -1.014 if reset
+--------------------------
+-35.94 degrees
+Tilt-induced shift is  29.49, -25.28 unbinned pixels, unfiltered CCC is 0.0449
+The average drift between shots was   -1.6,   -0.0 unbinned pixels, 0.25 nm/sec
+Measured defocus = -2.64 microns
+Image shift 0.829 0.486 IS units   1664.1 -124.6 unbinned pixels; need stage -0.082 -1.142 if reset
+--------------------------
+-38.93 degrees
+Tilt-induced shift is  29.29, -25.36 unbinned pixels, unfiltered CCC is 0.0446
+The average drift between shots was   -1.4,    0.1 unbinned pixels, 0.22 nm/sec
+Measured defocus = -2.63 microns
+Image shift 0.908 0.530 IS units   1821.9 -132.2 unbinned pixels; need stage -0.088 -1.301 if reset
+--------------------------
+-41.93 degrees
+Tilt-induced shift is  29.61, -25.51 unbinned pixels, unfiltered CCC is 0.0453
+The average drift between shots was   -1.3,    0.1 unbinned pixels, 0.21 nm/sec
+Measured defocus = -2.66 microns
+Image shift 0.996 0.576 IS units   1994.3 -137.2 unbinned pixels; need stage -0.092 -1.490 if reset
+--------------------------
+-44.92 degrees
+Tilt-induced shift is  29.87, -25.88 unbinned pixels, unfiltered CCC is 0.0415
+The average drift between shots was   -1.4,    0.3 unbinned pixels, 0.22 nm/sec
+Measured defocus = -2.69 microns
+Image shift 1.089 0.625 IS units   2176.9 -141.9 unbinned pixels; need stage -0.096 -1.708 if reset
+--------------------------
+-47.92 degrees
+Tilt-induced shift is  30.26, -26.48 unbinned pixels, unfiltered CCC is 0.0372
+The average drift between shots was   -1.2,    0.3 unbinned pixels, 0.20 nm/sec
+Measured defocus = -2.73 microns
+Image shift 1.188 0.676 IS units   2371.1 -146.0 unbinned pixels; need stage -0.100 -1.966 if reset
+--------------------------
+-50.92 degrees
+Tilt-induced shift is  30.54, -26.84 unbinned pixels, unfiltered CCC is 0.0417
+The average drift between shots was   -1.2,    0.1 unbinned pixels, 0.19 nm/sec
+Measured defocus = -2.76 microns
+Image shift 1.291 0.730 IS units   2572.8 -150.7 unbinned pixels; need stage -0.104 -2.268 if reset
+--------------------------
+-53.91 degrees
+Tilt-induced shift is  30.97, -27.40 unbinned pixels, unfiltered CCC is 0.0490
+The average drift between shots was   -1.0,    0.1 unbinned pixels, 0.15 nm/sec
+Measured defocus = -2.81 microns
+Image shift 1.389 0.781 IS units   2764.8 -155.7 unbinned pixels; need stage -0.108 -2.608 if reset
+--------------------------
+-56.91 degrees
+Tilt-induced shift is  31.31, -27.69 unbinned pixels, unfiltered CCC is 0.0664
+The average drift between shots was   -0.9,    0.2 unbinned pixels, 0.15 nm/sec
+Measured defocus = -2.84 microns
+Image shift 1.488 0.833 IS units   2959.1 -161.2 unbinned pixels; need stage -0.113 -3.012 if reset
+--------------------------
+-59.91 degrees
+Tilt-induced shift is  31.78, -28.05 unbinned pixels, unfiltered CCC is 0.0892
+The average drift between shots was   -0.8,    0.1 unbinned pixels, 0.13 nm/sec
+Measured defocus = -2.88 microns
+Image shift 1.585 0.883 IS units   3148.9 -165.7 unbinned pixels; need stage -0.117 -3.490 if reset
+--------------------------
+-0.00 degrees
+Tilt-induced shift is  26.27, -23.39 unbinned pixels, unfiltered CCC is 0.0356
+The average drift between shots was    1.6,   -0.2 unbinned pixels, 0.25 nm/sec
+Measured defocus = -2.39 microns
+--------------------------
+2.99 degrees
+Tilt-induced shift is  26.44, -23.24 unbinned pixels, unfiltered CCC is 0.0349
+The average drift between shots was    1.6,    0.1 unbinned pixels, 0.26 nm/sec
+Measured defocus = -2.39 microns
+Image shift -0.050 -0.025 IS units   -97.1 1.1 unbinned pixels; need stage 0.001 0.054 if reset
+--------------------------
+5.99 degrees
+Tilt-induced shift is  26.16, -23.02 unbinned pixels, unfiltered CCC is 0.0394
+The average drift between shots was    1.8,    0.2 unbinned pixels, 0.29 nm/sec
+Measured defocus = -2.37 microns
+Image shift -0.092 -0.046 IS units   -178.9 2.3 unbinned pixels; need stage 0.003 0.100 if reset
+--------------------------
+8.99 degrees
+Tilt-induced shift is  26.05, -22.77 unbinned pixels, unfiltered CCC is 0.0422
+The average drift between shots was    1.8,    0.1 unbinned pixels, 0.28 nm/sec
+Measured defocus = -2.35 microns
+Image shift -0.129 -0.066 IS units   -251.4 4.2 unbinned pixels; need stage 0.004 0.141 if reset
+--------------------------
+11.98 degrees
+Tilt-induced shift is  25.64, -22.55 unbinned pixels, unfiltered CCC is 0.0454
+The average drift between shots was    2.2,    0.1 unbinned pixels, 0.34 nm/sec
+Measured defocus = -2.32 microns
+Image shift -0.166 -0.084 IS units   -323.5 4.0 unbinned pixels; need stage 0.005 0.184 if reset
+--------------------------
+14.98 degrees
+Tilt-induced shift is  25.59, -22.44 unbinned pixels, unfiltered CCC is 0.0457
+The average drift between shots was    2.2,    0.3 unbinned pixels, 0.34 nm/sec
+Measured defocus = -2.31 microns
+Image shift -0.198 -0.100 IS units   -384.9 4.7 unbinned pixels; need stage 0.005 0.221 if reset
+--------------------------
+17.98 degrees
+Tilt-induced shift is  25.49, -22.31 unbinned pixels, unfiltered CCC is 0.0489
+The average drift between shots was    2.3,    0.1 unbinned pixels, 0.35 nm/sec
+Measured defocus = -2.30 microns
+Image shift -0.228 -0.115 IS units   -443.8 5.4 unbinned pixels; need stage 0.006 0.259 if reset
+--------------------------
+20.98 degrees
+Tilt-induced shift is  25.40, -22.32 unbinned pixels, unfiltered CCC is 0.0500
+The average drift between shots was    2.3,    0.3 unbinned pixels, 0.38 nm/sec
+Measured defocus = -2.30 microns
+Image shift -0.252 -0.127 IS units   -490.7 4.9 unbinned pixels; need stage 0.006 0.292 if reset
+--------------------------
+23.97 degrees
+Tilt-induced shift is  25.42, -22.26 unbinned pixels, unfiltered CCC is 0.0489
+The average drift between shots was    2.5,    0.1 unbinned pixels, 0.40 nm/sec
+Measured defocus = -2.30 microns
+Image shift -0.278 -0.138 IS units   -540.9 2.8 unbinned pixels; need stage 0.006 0.329 if reset
+--------------------------
+26.97 degrees
+Tilt-induced shift is  25.16, -22.20 unbinned pixels, unfiltered CCC is 0.0507
+The average drift between shots was    2.3,    0.2 unbinned pixels, 0.37 nm/sec
+Measured defocus = -2.28 microns
+Image shift -0.305 -0.151 IS units   -591.8 2.0 unbinned pixels; need stage 0.006 0.369 if reset
+--------------------------
+29.97 degrees
+Tilt-induced shift is  25.21, -22.36 unbinned pixels, unfiltered CCC is 0.0538
+The average drift between shots was    2.4,    0.2 unbinned pixels, 0.39 nm/sec
+Measured defocus = -2.29 microns
+Image shift -0.334 -0.164 IS units   -647.3 1.3 unbinned pixels; need stage 0.006 0.415 if reset
+--------------------------
+32.97 degrees
+Tilt-induced shift is  25.38, -22.19 unbinned pixels, unfiltered CCC is 0.0492
+The average drift between shots was    2.2,    0.1 unbinned pixels, 0.35 nm/sec
+Measured defocus = -2.29 microns
+Image shift -0.363 -0.177 IS units   -702.2 -1.6 unbinned pixels; need stage 0.004 0.465 if reset
+--------------------------
+35.97 degrees
+Tilt-induced shift is  25.46, -22.36 unbinned pixels, unfiltered CCC is 0.0473
+The average drift between shots was    1.9,    0.1 unbinned pixels, 0.30 nm/sec
+Measured defocus = -2.30 microns
+Image shift -0.389 -0.187 IS units   -751.2 -5.0 unbinned pixels; need stage 0.003 0.516 if reset
+--------------------------
+38.96 degrees
+Tilt-induced shift is  25.60, -22.75 unbinned pixels, unfiltered CCC is 0.0475
+The average drift between shots was    1.9,    0.1 unbinned pixels, 0.30 nm/sec
+Measured defocus = -2.33 microns
+Image shift -0.414 -0.197 IS units   -798.3 -8.9 unbinned pixels; need stage 0.001 0.570 if reset
+--------------------------
+41.96 degrees
+Tilt-induced shift is  25.83, -22.85 unbinned pixels, unfiltered CCC is 0.0471
+The average drift between shots was    1.8,    0.1 unbinned pixels, 0.28 nm/sec
+Measured defocus = -2.34 microns
+Image shift -0.440 -0.207 IS units   -846.8 -13.7 unbinned pixels; need stage -0.001 0.633 if reset
+--------------------------
+44.96 degrees
+Tilt-induced shift is  25.84, -23.01 unbinned pixels, unfiltered CCC is 0.0434
+The average drift between shots was    1.7,    0.1 unbinned pixels, 0.28 nm/sec
+Measured defocus = -2.35 microns
+Image shift -0.470 -0.218 IS units   -902.1 -18.9 unbinned pixels; need stage -0.004 0.708 if reset
+--------------------------
+47.96 degrees
+Tilt-induced shift is  26.16, -23.13 unbinned pixels, unfiltered CCC is 0.0452
+The average drift between shots was    1.4,    0.1 unbinned pixels, 0.22 nm/sec
+Measured defocus = -2.37 microns
+Image shift -0.502 -0.230 IS units   -961.0 -25.0 unbinned pixels; need stage -0.007 0.797 if reset
+--------------------------
+50.96 degrees
+Tilt-induced shift is  26.43, -23.43 unbinned pixels, unfiltered CCC is 0.0435
+The average drift between shots was    1.1,    0.1 unbinned pixels, 0.18 nm/sec
+Measured defocus = -2.40 microns
+Image shift -0.537 -0.243 IS units   -1026.0 -30.8 unbinned pixels; need stage -0.010 0.905 if reset
+--------------------------
+53.95 degrees
+Tilt-induced shift is  26.92, -23.94 unbinned pixels, unfiltered CCC is 0.0435
+The average drift between shots was    0.7,    0.2 unbinned pixels, 0.11 nm/sec
+Measured defocus = -2.45 microns
+Image shift -0.567 -0.253 IS units   -1080.2 -38.1 unbinned pixels; need stage -0.013 1.020 if reset
+--------------------------
+56.95 degrees
+Tilt-induced shift is  27.54, -24.24 unbinned pixels, unfiltered CCC is 0.0394
+The average drift between shots was    0.4,    0.3 unbinned pixels, 0.08 nm/sec
+Measured defocus = -2.49 microns
+Image shift -0.599 -0.264 IS units   -1139.6 -45.9 unbinned pixels; need stage -0.017 1.161 if reset
+--------------------------
+59.95 degrees
+Tilt-induced shift is  27.97, -24.68 unbinned pixels, unfiltered CCC is 0.0417
+The average drift between shots was    0.2,    0.3 unbinned pixels, 0.05 nm/sec
+Measured defocus = -2.53 microns
+Image shift -0.635 -0.275 IS units   -1204.7 -56.0 unbinned pixels; need stage -0.023 1.336 if reset
+Valves are now CLOSED
