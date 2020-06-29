@@ -3,7 +3,7 @@ Echo ========== FastTomo ==========
 /*
 * Author: Albert Xu <albert.t.xu@gmail.com>
 * Date Created: May 22, 2020
-* Last Modified: May 24, 2020
+* Last Modified: Jun 27, 2020
 */
 
 scheme = 1
@@ -27,6 +27,7 @@ endAngleDS = 60
 stepSizeDS = 3
 groupSizeDS = 3                                  # number of tilts before switching sides, 1 = original Wim Hagen scheme
 trackingShot = T
+doExtraTrackingShot = 0                # 0 = off, 1 = on; track first non-zero tilts, e.g. at +/- 3
 
 angleSwitchToBidirectional = 35          # switch to bidirectional scheme (set to -1 to disable)
 exposureTimeIncreaseFactor = 1.5     # after switching to bidirectional
@@ -337,6 +338,14 @@ Function TS_dose_symmetric 3 0
             $trackingShot
             AlignTo $negativeTrackingBuf
          Endif
+         If $doExtraTrackingShot == 1 AND ($i == 2 OR $i == 2 + $groupSize)
+            $trackingShot
+            If $angles[$i] < 0
+               AlignTo $negativeTrackingBuf
+            ElseIf $angles[$i] > 0
+               AlignTo $positiveTrackingBuf
+            Endif
+         Endif
       Endif
 
       # predict Z
@@ -347,15 +356,19 @@ Function TS_dose_symmetric 3 0
          Echo predicted_Z_change: $predicted_Z_change
          Echo predicted_defocus (microscope panel): $predicted_defocus
       Endif
-      # set image shift and defocus before tilting to save time
+
       GoToLowDoseArea $shot
       SetDefocus $predicted_defocus
-
       $shot
       Save
       If $i == 1
          Copy A $positiveRecordBuf
          Copy A $negativeRecordBuf
+         If $doExtraTrackingShot == 1
+            $trackingShot
+            Copy A $positiveTrackingBuf
+            Copy A $negativeTrackingBuf
+         Endif
          Continue
       Endif
       If $angle > 0
