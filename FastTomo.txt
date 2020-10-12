@@ -3,7 +3,7 @@ Echo ========== FastTomo ==========
 /*
 * Author: Albert Xu <albert.t.xu@gmail.com>
 * Date Created: May 22, 2020
-* Last Modified: Jun 27, 2020
+* Last Modified: Oct 11, 2020
 */
 
 scheme = 1
@@ -14,6 +14,8 @@ scheme = 1
 runOnNavItem = 0    # set to 1 to run on highlighted navigator point, and when using Acquire at Items
 Debug = 0            # verbose output for debugging
 shot = R               # low dose beam to use for saving data
+usePrevCalib = 1    # skip calibration and use most recent parameters if they exist
+tolerance = 0.4     # redo a shot if the current frame is off target (0.5 = more than 50% off screen)
 
 ### bi-directional settings
 startAngleBi = 0
@@ -47,13 +49,15 @@ multiStepTilt_StepSize = 25
 
 ########## no editing below ##########
 
-# calibration variables
-phase = 0
-b1 = 0
-nonconstant_term_offset = 0
+IsVariableDefined phase
+prevCalibExists = $repVal1
 
 If $Debug == 0
    SuppressReports
+Endif
+
+If $angleSwitchToBidirectional >= $endAngleDS
+   angleSwitchToBidirectional = -1
 Endif
 
 #### main script start ####
@@ -76,10 +80,15 @@ Autofocus
 ReportDefocus
 reference_defocus = $repVal1
 
-ResetClock
-CallFunction TS_calibrate_Z
-ReportClock calib_time
-Echo calibration time: $calib_time
+calib_time = 0
+If $usePrevCalib == 0 OR $prevCalibExists == 0
+   ResetClock
+   CallFunction TS_calibrate_Z
+   ReportClock calib_time
+   Echo calibration time: $calib_time
+Else
+   Echo Skipping Z calibration, using existing parameters
+Endif
 
 ResetClock
 
@@ -158,13 +167,13 @@ Function TS_calibrate_Z 0 0
       cos_angles[$i] = COS $defocus_angles[$i]
    EndLoop
    LinearFitToVars sin_angles cos_angles defocus_values
-   phase = ATAN2 $repVal3 $repVal2
+   phase := ATAN2 $repVal3 $repVal2
    cos_phase = COS $phase
-   b1 = $repVal2 / $cos_phase
+   b1 := $repVal2 / $cos_phase
    # to calculate the y-intercept at zero degree tilt, non-constant term at
    #   zero degrees must be subtracted along with constant term
    sin_phase = SIN $phase
-   nonconstant_term_offset = $b1 * $sin_phase
+   nonconstant_term_offset := $b1 * $sin_phase
    If $Debug == 1
       Echo LinearFitToVars coefficients: $repVal2 $repVal3 $repVal4
       Echo sin curve amplitude: $b1
@@ -262,7 +271,29 @@ Function TS_unidirectional 3 0
          Copy A P
          Continue
       Endif
+
+      ImageProperties
+      imgWidth = $repVal1
+      imgHeight = $repVal2
+      minImgDim = MIN $imgWidth $imgHeight
+      imgBinning = $repVal3
       AlignTo P
+      ReportAlignShift
+      errX = $repVal1 / $imgBinning
+      errY = $repVal2 / $imgBinning
+      errorInPixels = $errX * $errX + $errY * $errY
+      errorInPixels = SQRT $errorInPixels
+      pixelErrTolerance = $tolerance * $minImgDim
+      If $Debug == 1
+         Echo errX, errY, errInPixels = $errX $errY $errorInPixels
+         Echo pixelErrTolerance = $pixelErrTolerance
+      Endif
+      If $errorInPixels > $pixelErrTolerance
+         Echo Error above tolerance, retaking shot
+         $shot
+         Save
+      Endif
+
       If $Debug == 1
          ReportImageShift
          Echo StageXY shifts: $repVal5 $repVal6
@@ -371,6 +402,12 @@ Function TS_dose_symmetric 3 0
          Endif
          Continue
       Endif
+
+      ImageProperties
+      imgWidth = $repVal1
+      imgHeight = $repVal2
+      minImgDim = MIN $imgWidth $imgHeight
+      imgBinning = $repVal3
       If $angle > 0
          AlignTo $positiveRecordBuf
          Copy A $positiveRecordBuf
@@ -378,6 +415,22 @@ Function TS_dose_symmetric 3 0
          AlignTo $negativeRecordBuf
          Copy A $negativeRecordBuf
       Endif
+      ReportAlignShift
+      errX = $repVal1 / $imgBinning
+      errY = $repVal2 / $imgBinning
+      errorInPixels = $errX * $errX + $errY * $errY
+      errorInPixels = SQRT $errorInPixels
+      pixelErrTolerance = $tolerance * $minImgDim
+      If $Debug == 1
+         Echo errX, errY, errInPixels = $errX $errY $errorInPixels
+         Echo pixelErrTolerance = $pixelErrTolerance
+      Endif
+      If $errorInPixels > $pixelErrTolerance
+         Echo Error above tolerance, retaking shot
+         $shot
+         Save
+      Endif
+
       If $Debug == 1
          ReportImageShift
          Echo StageXY shifts: $repVal5 $repVal6
