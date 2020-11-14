@@ -3,7 +3,7 @@ Echo ========== FastTomo ==========
 /*
 * Author: Albert Xu <albert.t.xu@gmail.com>
 * Date Created: May 22, 2020
-* Last Modified: Oct 11, 2020
+* Last Modified: Nov 14, 2020
 */
 
 scheme = 1
@@ -16,6 +16,7 @@ Debug = 0            # verbose output for debugging
 shot = R               # low dose beam to use for saving data
 usePrevCalib = 1    # skip calibration and use most recent parameters if they exist
 tolerance = 0.4     # redo a shot if the current frame is off target (0.5 = more than 50% off screen)
+eucentricity_option = 3    # 1 = rough, 2 = fine, 3 = rough & fine, 4 = calls the script named Z
 
 ### bi-directional settings
 startAngleBi = 0
@@ -70,7 +71,11 @@ Endif
 Copy A S
 
 # get eucentricity
-Eucentricity 2
+If $eucentricity_option == 4
+   Call Z
+Else
+   Eucentricity $eucentricity_option
+Endif
 
 ResetImageShift
 V

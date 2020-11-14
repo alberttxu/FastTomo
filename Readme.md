@@ -1,6 +1,6 @@
 # FastTomo
 
-FastTomo is a SerialEM script for faster tilt series collection. It achieves speedups by minimizing the use of focusing and tracking shots, and does tracking using correlation between successive Record images of the tilt series data itself. Z compensation is done by pre-calibration before every tilt series.
+FastTomo is a SerialEM script for collecting tilt series. It saves time by minimizing focus and tracking shots, and instead directly aligns to each image. Z movement is calibrated each time before starting.
 
 Supports unidirectional, bidirectional, and dose-symmetric schemes.
 
@@ -30,6 +30,11 @@ This script can be used in 2 main ways.
     - Saves about 70 sec per tilt series
 - tolerance - retakes a shot if the current frame is off target by a fraction of the screen
     - E.g. - 0.5 means the target is off by at least 50% of the shorter image dimension
+- eucentricity_option - eucentricity routine
+    1. rough
+    2. fine
+    3. rough & fine
+    4. calls the script named Z
 - multiStepTilt_StepSize (probably do not need to edit)
     - Step size for multistep TiltTo function. Some stages cannot tilt by very large angles at once (e.g. -60 to +60). Therefore a multi-step TiltTo function is used in the Dose-Symmetric scheme. The step size can be set to a big value (like 200) to disable multi-step, which saves a few seconds when switching sides.
 
