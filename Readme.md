@@ -4,6 +4,8 @@ FastTomo is a SerialEM script for collecting tilt series. It saves time by minim
 
 Supports unidirectional, bidirectional, and dose-symmetric schemes.
 
+bioRxiv paper: https://www.biorxiv.org/content/10.1101/2021.03.16.435675v1
+
 
 # Prerequisites
 
@@ -21,20 +23,23 @@ This script can be used in 2 main ways.
 
 ## Parameters
 - scheme - tilting scheme to use
-    - 0 = bidirectional, 1 = dose-symmetric, 2 = unidirectional
+    - 0 = bidirectional
+    - 1 = dose-symmetric
+    - 2 = unidirectional
 - runOnNavItem - if set to 1, does an initial realign to the selected navigator item
 - Debug - if set to 1, gives verbose output and does not suppress reports
 - shot - beam to use for tilt series data
-- usePrevCalib - skip calibration and use most recent parameters if they exist
+- usePrevCalib - if set to 1, skip calibration and use most recent parameters if they exist
     - Calibration parameters are stored as persistent variables. You can periodically clear all persistent variables to do calibrations once in a while.
     - Saves about 70 sec per tilt series
+    - In general it is recommended to be set to 0
 - tolerance - retakes a shot if the current frame is off target by a fraction of the screen
     - E.g. - 0.5 means the target is off by at least 50% of the shorter image dimension
 - eucentricity_option - eucentricity routine
-    1. rough
-    2. fine
-    3. rough & fine
-    4. calls the script named Z
+    - 1 = rough
+    - 2 = fine
+    - 3 = rough & fine
+    - 4 = calls the script named Z
 - multiStepTilt_StepSize (probably do not need to edit)
     - Step size for multistep TiltTo function. Some stages cannot tilt by very large angles at once (e.g. -60 to +60). Therefore a multi-step TiltTo function is used in the Dose-Symmetric scheme. The step size can be set to a big value (like 200) to disable multi-step, which saves a few seconds when switching sides.
 
@@ -47,17 +52,20 @@ This script can be used in 2 main ways.
 
 ## Dose-Symmetric Parameters
 The dose-symmetric scheme in this implementation stays on the same side for the next pair of groups. For example, for 1 deg step and a group size of 1, the scheme would be 0, 1, -1, -2, 2, 3, -3, -4, ...
+- startAngleDS - starting angle (usually 0, can be useful for lamella)
 - endAngleDS - max tilt (should be positive)
 - stepSizeDS - step size
 - groupSizeDS - number of tilt steps per group
 - trackingShot - beam to use for tracking
     - You can use V for a larger field of view
 - doExtraTrackingShot - do tracking for smallest non-zero tilts, e.g. +/- 3 deg
+    - does not apply if startAngleDS is non-zero
     - 0 = off, 1 = on
     - For some stages there is a jump at the beginnning of the tilt series between 0 degrees and a small tilt angle. This option will take extra tracking shots for the smallest positive and negative angles.
 
 This implementation also supports switching to bidirectional scheme for higher tilts, and will also increase the exposure time for these higher tilts. End angle and step size will still be specified by endAngleDS and stepSizeDS.
 - angleSwitchToBidirectional - switches to bidirectional scheme after this angle (-1 to disable)
+    - does not apply if startAngleDS is non-zero
 - exposureTimeIncreaseFactor - multiplies the current exposure time by this factor
 
 ## Unidirectional Parameters

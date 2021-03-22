@@ -3,7 +3,7 @@ Echo ========== FastTomo ==========
 /*
 * Author: Albert Xu <albert.t.xu@gmail.com>
 * Date Created: May 22, 2020
-* Last Modified: Nov 14, 2020
+* Last Modified: March 20, 2021
 */
 
 scheme = 1
@@ -14,7 +14,7 @@ scheme = 1
 runOnNavItem = 0    # set to 1 to run on highlighted navigator point, and when using Acquire at Items
 Debug = 0            # verbose output for debugging
 shot = R               # low dose beam to use for saving data
-usePrevCalib = 1    # skip calibration and use most recent parameters if they exist
+usePrevCalib = 0    # skip calibration and use most recent parameters if they exist
 tolerance = 0.4     # redo a shot if the current frame is off target (0.5 = more than 50% off screen)
 eucentricity_option = 3    # 1 = rough, 2 = fine, 3 = rough & fine, 4 = calls the script named Z
 
@@ -26,13 +26,14 @@ stepSizeBi = 3
 ###
 
 ### dose-symmetric settings
+startAngleDS = 0
 endAngleDS = 60
 stepSizeDS = 3
 groupSizeDS = 3                                  # number of tilts before switching sides, 1 = original Wim Hagen scheme
-trackingShot = T
-doExtraTrackingShot = 0                # 0 = off, 1 = on; track first non-zero tilts, e.g. at +/- 3
+trackingShot = T                    # can also be set to V
+doExtraTrackingShot = 0                # 0 = off, 1 = on; track first non-zero tilts, e.g. at +/- 3; does not apply when startAngleDS is non-zero
 
-angleSwitchToBidirectional = 35          # switch to bidirectional scheme (set to -1 to disable)
+angleSwitchToBidirectional = -1          # switch to bidirectional scheme (set to -1 to disable); does not apply when startAngleDS is non-zero
 exposureTimeIncreaseFactor = 1.5     # after switching to bidirectional
 ###
 
@@ -59,6 +60,11 @@ Endif
 
 If $angleSwitchToBidirectional >= $endAngleDS
    angleSwitchToBidirectional = -1
+Endif
+
+If $startAngleDS != 0 AND $angleSwitchToBidirectional > 0
+   Echo Cannot switch dose-symmetric scheme to bidirectional if starting angle is nonzero. Exiting
+   Exit
 Endif
 
 #### main script start ####
@@ -105,13 +111,13 @@ If $scheme == 0
    CallFunction TS_bidirectional $startAngleBi $firstSideEnd $secondSideEnd $stepSizeBi
 ElseIf $scheme == 1
    # record and tracking buffers for both sides
-   positiveRecordBuf = P
-   negativeRecordBuf = Q
-   positiveTrackingBuf = R
-   negativeTrackingBuf = S
+   rightRecordBuf = P
+   leftRecordBuf = Q
+   rightTrackingBuf = R
+   leftTrackingBuf = S
 
    If $angleSwitchToBidirectional > 0
-      CallFunction TS_dose_symmetric $angleSwitchToBidirectional $stepSizeDS $groupSizeDS
+      CallFunction TS_dose_symmetric 0 $angleSwitchToBidirectional $stepSizeDS $groupSizeDS
       ImageProperties A
       newExposureTime = $repVal4 * $exposureTimeIncreaseFactor
       SetExposure $shot $newExposureTime
@@ -121,18 +127,18 @@ ElseIf $scheme == 1
          CallFunction TS_unidirectional $startAngleAfterSwitch $endAngleDS $stepSizeDS
          CallFunction TiltToMultiStep -$startAngleAfterSwitch
          $trackingShot
-         AlignTo $positiveTrackingBuf
+         AlignTo $rightTrackingBuf
          CallFunction TS_unidirectional -$startAngleAfterSwitch -$endAngleDS $stepSizeDS
       Else
          CallFunction TS_unidirectional -$startAngleAfterSwitch -$endAngleDS $stepSizeDS
          CallFunction TiltToMultiStep $startAngleAfterSwitch
          $trackingShot
-         AlignTo $negativeTrackingBuf
+         AlignTo $leftTrackingBuf
          CallFunction TS_unidirectional $startAngleAfterSwitch $endAngleDS $stepSizeDS
       Endif
       RestoreCameraSet $shot
    Else
-      CallFunction TS_dose_symmetric $endAngleDS $stepSizeDS $groupSizeDS
+      CallFunction TS_dose_symmetric $startAngleDS $endAngleDS $stepSizeDS $groupSizeDS
    Endif
 ElseIf $scheme == 2
    WalkUpTo $startAngleUni
@@ -310,46 +316,62 @@ EndFunction
 
 
 ###############################################
-Function TS_dose_symmetric 3 0
+Function TS_dose_symmetric 4 0
    Echo ------ starting dose symmetric TS ------
-   endAngle = $argVal1
-   stepSize = $argVal2
-   groupSize = $argVal3
+   startAngle = $argVal1
+   endAngle = $argVal2
+   stepSize = $argVal3
+   groupSize = $argVal4
 
    # generate list of angles
-   angles = { 0 }
+   angles = { $startAngle }
    Loop 99 i
       i_minus_one = $i - 1
-      angle = $stepSize + $i_minus_one * $stepSize * $groupSize
-      If $angle > $endAngle
+      d_theta = $stepSize + $i_minus_one * $stepSize * $groupSize
+      angleR = $startAngle + $d_theta
+      angleL = $startAngle - $d_theta
+      If $angleR > $endAngle OR $angleL < -1 * $endAngle
          break
       Endif
-      positiveGroup = { $angle }
-      negativeGroup = { -$angle }
+      rightSide = { $angleR }
+      leftSide = { $angleL }
       gsMinusOne = $groupSize - 1
       Loop $gsMinusOne j
-         nextAngle = $angle + $j * $stepSize
-         If $nextAngle > $endAngle
+         nextAngleR = $angleR + $j * $stepSize
+         nextAngleL = $angleL - $j * $stepSize
+         If $nextAngleR > $endAngle OR $nextAngleL < -1 * $endAngle
             break
          Endif
-         positiveGroup = { $positiveGroup $nextAngle }
-         negativeGroup = { $negativeGroup -$nextAngle }
+         rightSide = { $rightSide $nextAngleR }
+         leftSide = { $leftSide $nextAngleL }
       EndLoop
       i_is_odd = MODULO $i 2
       If $i_is_odd == 1
-         angles = { $angles $positiveGroup }
-         angles = { $angles $negativeGroup }
+         angles = { $angles $rightSide }
+         angles = { $angles $leftSide }
       Else
-         angles = { $angles $negativeGroup }
-         angles = { $angles $positiveGroup }
+         angles = { $angles $leftSide }
+         angles = { $angles $rightSide }
       Endif
    EndLoop
    If $Debug == 1
       Echo Dose symmetric angles: $angles
    Endif
+   # calculate angle of the final tracking shot, which is unnecessary and so will not be done
+   Loop $#angles i
+      a = $angles[$#angles-$i+1] - $startAngle
+      b = $angles[$#angles-$i] - $startAngle
+      If $a * $b < 0
+         angleLastTrackingShot = $angles[$#angles-$i]
+         If $Debug == 1
+            Echo angleLastTrackingShot = $angleLastTrackingShot
+         Endif
+         break
+      Endif
+   EndLoop
 
-   positiveFirstGroupDone = 0
-   negativeFirstGroupDone = 0
+   firstRightGroupDone = 0
+   firstLeftGroupDone = 0
 
    Loop $#angles i
       angle = $angles[$i]
@@ -361,25 +383,25 @@ Function TS_dose_symmetric 3 0
 
       # if coming from opposite side, align to tracking shot
       If $i > 1
-         If $angles[$i] > 0 AND $angles[$i-1] < 0 AND $positiveFirstGroupDone == 1
+         If $angles[$i] > $startAngle AND $angles[$i-1] < $startAngle AND $firstRightGroupDone == 1
             If $Debug == 1
                Echo Aligning to positive side tracking shot
             Endif
             $trackingShot
-            AlignTo $positiveTrackingBuf
-         ElseIf $angles[$i] < 0 AND $angles[$i-1] > 0 AND $negativeFirstGroupDone == 1
+            AlignTo $rightTrackingBuf
+         ElseIf $angles[$i] < $startAngle AND $angles[$i-1] > $startAngle AND $firstLeftGroupDone == 1
             If $Debug == 1
                Echo Aligning to negative side tracking shot
             Endif
             $trackingShot
-            AlignTo $negativeTrackingBuf
+            AlignTo $leftTrackingBuf
          Endif
-         If $doExtraTrackingShot == 1 AND ($i == 2 OR $i == 2 + $groupSize)
+         If $doExtraTrackingShot == 1 AND ($i == 2 OR $i == 2 + $groupSize) AND $startAngle == 0
             $trackingShot
-            If $angles[$i] < 0
-               AlignTo $negativeTrackingBuf
-            ElseIf $angles[$i] > 0
-               AlignTo $positiveTrackingBuf
+            If $angles[$i] < $startAngle
+               AlignTo $leftTrackingBuf
+            ElseIf $angles[$i] > $startAngle
+               AlignTo $rightTrackingBuf
             Endif
          Endif
       Endif
@@ -398,12 +420,12 @@ Function TS_dose_symmetric 3 0
       $shot
       Save
       If $i == 1
-         Copy A $positiveRecordBuf
-         Copy A $negativeRecordBuf
-         If $doExtraTrackingShot == 1
+         Copy A $rightRecordBuf
+         Copy A $leftRecordBuf
+         If $doExtraTrackingShot == 1 AND $startAngle == 0
             $trackingShot
-            Copy A $positiveTrackingBuf
-            Copy A $negativeTrackingBuf
+            Copy A $rightTrackingBuf
+            Copy A $leftTrackingBuf
          Endif
          Continue
       Endif
@@ -413,12 +435,12 @@ Function TS_dose_symmetric 3 0
       imgHeight = $repVal2
       minImgDim = MIN $imgWidth $imgHeight
       imgBinning = $repVal3
-      If $angle > 0
-         AlignTo $positiveRecordBuf
-         Copy A $positiveRecordBuf
+      If $angle > $startAngle
+         AlignTo $rightRecordBuf
+         Copy A $rightRecordBuf
       Else
-         AlignTo $negativeRecordBuf
-         Copy A $negativeRecordBuf
+         AlignTo $leftRecordBuf
+         Copy A $leftRecordBuf
       Endif
       ReportAlignShift
       errX = $repVal1 / $imgBinning
@@ -441,21 +463,21 @@ Function TS_dose_symmetric 3 0
          Echo StageXY shifts: $repVal5 $repVal6
       Endif
 
-      If $i > 1 AND $i < $#angles
-         If $angles[$i] > 0 AND $angles[$i+1] < 0
+      If $i > 1 AND $i < $#angles AND $angles[$i] != $angleLastTrackingShot
+         If $angles[$i] > $startAngle AND $angles[$i+1] < $startAngle
             If $Debug == 1
-               Echo Next tilt will switch to negative side, saving a tracking shot
+               Echo Next tilt will switch to left side, saving a tracking shot
             Endif
             $trackingShot
-            Copy A $positiveTrackingBuf
-            positiveFirstGroupDone = 1
-         ElseIf $angles[$i] < 0 AND $angles[$i+1] > 0
+            Copy A $rightTrackingBuf
+            firstRightGroupDone = 1
+         ElseIf $angles[$i] < $startAngle AND $angles[$i+1] > $startAngle
             If $Debug == 1
-               Echo Next tilt will switch to positive side, saving a tracking shot
+               Echo Next tilt will switch to right side, saving a tracking shot
             Endif
             $trackingShot
-            Copy A $negativeTrackingBuf
-            negativeFirstGroupDone = 1
+            Copy A $leftTrackingBuf
+            firstLeftGroupDone = 1
          Endif
       Endif
    EndLoop

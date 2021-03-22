@@ -1,0 +1,10 @@
+Mar 20, 2021 - added an option for a non-zero starting angle in the dose-symmetric scheme
+             - also removed the last tracking shot in the dose-symmetric scheme, since it is unnecessary
+
+Nov 14, 2020 - added options for initial eucentricity
+
+Oct 11, 2020 - added an option to retake shots if the alignment error is too large
+
+Jun 29, 2020 - added an option to do an extra tracking shot in the dose-symmetric scheme
+
+May 24, 2020 - first commit
