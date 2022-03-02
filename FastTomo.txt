@@ -3,7 +3,7 @@ Echo ========== FastTomo ==========
 /*
 * Author: Albert Xu <albert.t.xu@gmail.com>
 * Date Created: May 22, 2020
-* Last Modified: March 20, 2021
+* Last Modified: March 2, 2022
 */
 
 scheme = 1
@@ -396,7 +396,7 @@ Function TS_dose_symmetric 4 0
             $trackingShot
             AlignTo $leftTrackingBuf
          Endif
-         If $doExtraTrackingShot == 1 AND ($i == 2 OR $i == 2 + $groupSize) AND $startAngle == 0
+         If $doExtraTrackingShot == 1 AND ($i == 2 OR $i == 2 + $groupSize)
             $trackingShot
             If $angles[$i] < $startAngle
                AlignTo $leftTrackingBuf
