@@ -58,9 +58,9 @@ The dose-symmetric scheme in this implementation stays on the same side for the 
 - groupSizeDS - number of tilt steps per group
 - trackingShot - beam to use for tracking
     - You can use V for a larger field of view
-- doExtraTrackingShot - do tracking for smallest non-zero tilts, e.g. +/- 3 deg
+- doExtraTrackingShot - do tracking for initial steps, e.g. +/- 3 deg
     - 0 = off, 1 = on
-    - For some stages there is a jump at the beginnning of the tilt series between 0 degrees and a small tilt angle. This option will take extra tracking shots for the smallest positive and negative angles.
+    - For some stages there is a larger jump at the beginnning of the tilt series. This option will take extra tracking shots for the first step on both sides.
 
 This implementation also supports switching to bidirectional scheme for higher tilts, and will also increase the exposure time for these higher tilts. End angle and step size will still be specified by endAngleDS and stepSizeDS.
 - angleSwitchToBidirectional - switches to bidirectional scheme after this angle (-1 to disable)
