@@ -11,12 +11,12 @@ scheme = 1
 # 1 = dose-symmetric
 # 2 = unidirectional
 
-runOnNavItem = 0    # set to 1 to run on highlighted navigator point, and when using Acquire at Items
-Debug = 0            # verbose output for debugging
-shot = R               # low dose beam to use for saving data
-usePrevCalib = 0    # skip calibration and use most recent parameters if they exist
-tolerance = 0.4     # redo a shot if the current frame is off target (0.5 = more than 50% off screen)
-eucentricity_option = 3    # 1 = rough, 2 = fine, 3 = rough & fine, 4 = calls the script named Z
+runOnNavItem = 0           # set to 1 to run on highlighted navigator point, and when using Acquire at Items
+Debug = 0                  # verbose output for debugging
+shot = R                   # low dose beam to use for saving data
+usePrevCalib = 0           # skip calibration and use most recent parameters if they exist
+tolerance = 0.4            # redo a shot if the current frame is off target (0.5 = more than 50% off screen)
+eucentricity_option = 3    # 1 = rough, 2 = fine, 3 = rough & fine, 4 = calls the script named Z, -1 = Eucentricity by Focus
 
 ### bi-directional settings
 startAngleBi = 0
@@ -29,12 +29,12 @@ stepSizeBi = 3
 startAngleDS = 0
 endAngleDS = 60
 stepSizeDS = 3
-groupSizeDS = 3                                  # number of tilts before switching sides, 1 = original Wim Hagen scheme
+groupSizeDS = 3                     # number of tilts before switching sides, 1 = original Wim Hagen scheme
 trackingShot = T                    # can also be set to V
-doExtraTrackingShot = 0                # 0 = off, 1 = on; track 2nd shot on each side, e.g. at +/- 3;
+doExtraTrackingShot = 0             # 0 = off, 1 = on; track 2nd shot on each side, e.g. at +/- 3;
 
-angleSwitchToBidirectional = -1          # switch to bidirectional scheme (set to -1 to disable); does not apply when startAngleDS is non-zero
-exposureTimeIncreaseFactor = 1.5     # after switching to bidirectional
+angleSwitchToBidirectional = -1     # switch to bidirectional scheme (set to -1 to disable); does not apply when startAngleDS is non-zero
+exposureTimeIncreaseFactor = 1.5    # after switching to bidirectional
 ###
 
 ### unidirectional settings
