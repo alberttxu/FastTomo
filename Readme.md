@@ -59,7 +59,6 @@ The dose-symmetric scheme in this implementation stays on the same side for the 
 - trackingShot - beam to use for tracking
     - You can use V for a larger field of view
 - doExtraTrackingShot - do tracking for smallest non-zero tilts, e.g. +/- 3 deg
-    - does not apply if startAngleDS is non-zero
     - 0 = off, 1 = on
     - For some stages there is a jump at the beginnning of the tilt series between 0 degrees and a small tilt angle. This option will take extra tracking shots for the smallest positive and negative angles.
 
