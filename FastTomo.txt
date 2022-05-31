@@ -3,7 +3,7 @@ Echo ========== FastTomo ==========
 /*
 * Author: Albert Xu <albert.t.xu@gmail.com>
 * Date Created: May 22, 2020
-* Last Modified: March 2, 2022
+* Last Modified: May 31, 2022
 */
 
 scheme = 1
@@ -31,7 +31,7 @@ endAngleDS = 60
 stepSizeDS = 3
 groupSizeDS = 3                                  # number of tilts before switching sides, 1 = original Wim Hagen scheme
 trackingShot = T                    # can also be set to V
-doExtraTrackingShot = 0                # 0 = off, 1 = on; track first non-zero tilts, e.g. at +/- 3; does not apply when startAngleDS is non-zero
+doExtraTrackingShot = 0                # 0 = off, 1 = on; track 2nd shot on each side, e.g. at +/- 3;
 
 angleSwitchToBidirectional = -1          # switch to bidirectional scheme (set to -1 to disable); does not apply when startAngleDS is non-zero
 exposureTimeIncreaseFactor = 1.5     # after switching to bidirectional
@@ -422,7 +422,7 @@ Function TS_dose_symmetric 4 0
       If $i == 1
          Copy A $rightRecordBuf
          Copy A $leftRecordBuf
-         If $doExtraTrackingShot == 1 AND $startAngle == 0
+         If $doExtraTrackingShot == 1
             $trackingShot
             Copy A $rightTrackingBuf
             Copy A $leftTrackingBuf
