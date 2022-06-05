@@ -170,6 +170,12 @@ Function TS_calibrate_Z 0 0
       defocus_values[$i] = $repVal1
    EndLoop
 
+   # model: y = b1*sin(theta+phase) + b0
+   #          = b1*sin(phase)cos(theta) + b1*cos(phase)sin(theta) + b0
+   #          = repVal3    * cos(theta) + repVal2    * sin(theta) + repVal1
+   #
+   # we discard b0 because it is the focus at the calibration area, not the aquisition area
+
    # do sindusoid fit for defocus curve
    sin_angles = { 0 0 0 0 0 }
    cos_angles = { 0 0 0 0 0 }
@@ -181,10 +187,9 @@ Function TS_calibrate_Z 0 0
    phase := ATAN2 $repVal3 $repVal2
    cos_phase = COS $phase
    b1 := $repVal2 / $cos_phase
-   # to calculate the y-intercept at zero degree tilt, non-constant term at
-   #   zero degrees must be subtracted along with constant term
+   # the affine term, b1*sin(phase), should be subtracted from the model to get the deviation from 0 degrees
    sin_phase = SIN $phase
-   nonconstant_term_offset := $b1 * $sin_phase
+   affine_term := $b1 * $sin_phase
    If $Debug == 1
       Echo LinearFitToVars coefficients: $repVal2 $repVal3 $repVal4
       Echo sin curve amplitude: $b1
@@ -265,7 +270,7 @@ Function TS_unidirectional 3 0
 
       # predict Z
       sin_term = SIN $angle + $phase
-      predicted_Z_change = $b1 * $sin_term - $nonconstant_term_offset
+      predicted_Z_change = $b1 * $sin_term - $affine_term
       predicted_defocus = $reference_defocus - $predicted_Z_change
       If $debug == 1
          Echo predicted_Z_change: $predicted_Z_change
@@ -408,7 +413,7 @@ Function TS_dose_symmetric 4 0
 
       # predict Z
       sin_term = SIN $angle + $phase
-      predicted_Z_change = $b1 * $sin_term - $nonconstant_term_offset
+      predicted_Z_change = $b1 * $sin_term - $affine_term
       predicted_defocus = $reference_defocus - $predicted_Z_change
       If $debug == 1
          Echo predicted_Z_change: $predicted_Z_change
